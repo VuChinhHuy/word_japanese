@@ -1,3 +1,5 @@
+import { Iword } from "../interface/Iword";
+
 export const alphabet = [
 	{
 		name: "a",
@@ -310,7 +312,7 @@ export const alphabet = [
 	},
 ];
 
-const lessonOne = [
+const lessonOne : Array<Iword> = [
 	{
 		name: "Tôi",
 		character: {
@@ -537,7 +539,7 @@ const lessonOne = [
 	},
 ];
 
-const lessonTwo = [
+const lessonTwo :Array<Iword> = [
 	{
 		name: "Sách",
 		character: {
@@ -884,7 +886,7 @@ const lessonTwo = [
 	},
 ];
 
-const lessonThree = [
+const lessonThree :Array<Iword>= [
 	{
 		name: "Ở đây, chỗ này",
 		character: {
@@ -1199,7 +1201,7 @@ const lessonThree = [
 	},
 ];
 
-const lessonFour = [
+const lessonFour :Array<Iword>= [
 	{
 		name: "dậy, thức dậy",
 		character: {
@@ -1682,7 +1684,7 @@ const lessonFour = [
 	},
 ];
 
-const lessonFive = [
+const lessonFive :Array<Iword>= [
 	{
 		name: "đi",
 		character: {
@@ -2173,7 +2175,7 @@ const lessonFive = [
 	},
 ];
 
-const lessonSix = [
+const lessonSix :Array<Iword>= [
 	{
 		name: "ăn",
 		character: {
@@ -2616,7 +2618,7 @@ const lessonSix = [
 	},
 ];
 
-const lessonSeven = [
+const lessonSeven :Array<Iword>= [
 	{
 		name: "cắt",
 		character: {
@@ -2987,7 +2989,7 @@ const lessonSeven = [
 	},
 ];
 
-const lessonEight = [
+const lessonEight :Array<Iword>= [
 	{
 		name: "đẹp trai",
 		character: {
@@ -3470,7 +3472,7 @@ const lessonEight = [
 	},
 ];
 
-const lessonNine = [
+const lessonNine :Array<Iword>= [
 	{
 		name: "hiểu, nắm được",
 		character: {
@@ -3889,7 +3891,7 @@ const lessonNine = [
 	},
 ];
 
-const lessonTen = [
+const lessonTen :Array<Iword>= [ 
 	{
 		name: "có (tồn tại, dùng cho đồ vật)",
 		character: {
@@ -4284,7 +4286,7 @@ const lessonTen = [
 	},
 ];
 
-const lessonEleven = [
+const lessonEleven :Array<Iword>= [
 	{
 		name: "có [con]",
 		character: {
@@ -4775,7 +4777,7 @@ const lessonEleven = [
 	},
 ];
 
-const lessonTwelve = [
+const lessonTwelve :Array<Iword> = [
 	{
 		name: "giản đơn",
 		character: {
@@ -5204,7 +5206,7 @@ const lessonTwelve = [
 	],
 ];
 
-const lessonThirteen = [
+const lessonThirteen :Array<Iword> = [
 	{
 		name: "chơi",
 		character: {
@@ -5471,7 +5473,7 @@ const lessonThirteen = [
 	},
 ];
 
-const lessonFourteen = [
+const lessonFourteen :Array<Iword> = [
 	{
 		name: "bật (điện, máy điều hòa)",
 		character: {
@@ -5842,7 +5844,7 @@ const lessonFourteen = [
 	},
 ];
 
-const lessonFifteen = [
+const lessonFifteen :Array<Iword> = [
 	{
 		name: "đặt, để",
 		character: {
@@ -6037,7 +6039,7 @@ const lessonFifteen = [
 	},
 ];
 
-const lessonSixteen = [
+const lessonSixteen :Array<Iword> = [
 	{
 		name: "đi, lên [tàu]",
 		character: {
@@ -6504,7 +6506,7 @@ const lessonSixteen = [
 	},
 ];
 
-const lessonSeventeen = [
+const lessonSeventeen:Array<Iword> = [
 	{
 		name: "nhớ",
 		character: {
@@ -6787,7 +6789,7 @@ const lessonSeventeen = [
 	},
 ];
 
-const lessonEighteen = [
+const lessonEighteen :Array<Iword>= [
 	{
 		name: "có thể",
 		character: {
@@ -7030,7 +7032,7 @@ const lessonEighteen = [
 	},
 ];
 
-const lessonNineTeen = [
+const lessonNineTeen :Array<Iword> = [
 	{
 		name: "leo [núi]",
 		character: {
@@ -7233,7 +7235,7 @@ const lessonNineTeen = [
 	},
 ];
 
-const lessonTwenty = [
+const lessonTwenty :Array<Iword>= [
 	{
 		name: "cần [thị thực (visa)]",
 		character: {
@@ -7412,7 +7414,7 @@ const lessonTwenty = [
 	},
 ];
 
-const lessonTwentyOne = [
+const lessonTwentyOne:Array<Iword> = [
 	{
 		name: "nghĩ",
 		character: {
@@ -7823,7 +7825,7 @@ const lessonTwentyOne = [
 	},
 ];
 
-const lessonTwentyTwo = [
+const lessonTwentyTwo :Array<Iword>= [
 	{
 		name: "mặc [áo sơ mi, v.v.]",
 		character: {
@@ -8074,7 +8076,7 @@ const lessonTwentyTwo = [
 	},
 ];
 
-const lessonTwentyThree = [
+const lessonTwentyThree:Array<Iword> = [
 	{
 		name: "hỏi [giáo viên]",
 		character: {
@@ -8301,7 +8303,7 @@ const lessonTwentyThree = [
 	},
 ];
 
-const lessonTwentyFour = [
+const lessonTwentyFour :Array<Iword>= [
 	{
 		name: "cho, tặng (tôi)",
 		character: {
@@ -8448,7 +8450,7 @@ const lessonTwentyFour = [
 	},
 ];
 
-const lessonTwentyFive = [
+const lessonTwentyFive:Array<Iword> = [
 	{
 		name: "nghĩ, suy nghĩ",
 		character: {
@@ -8587,7 +8589,7 @@ const lessonTwentyFive = [
 	},
 ];
 
-export const LessonCollection = new Map([
+export const LessonCollection = new Map<string,Array<Iword>>([
 	["lesson_1", lessonOne],
 	["lesson_2", lessonTwo],
 	["lesson_3", lessonThree],

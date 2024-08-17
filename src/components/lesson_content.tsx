@@ -7,7 +7,7 @@ export function LessonContent() {
   const { selectedLesson } = useLesson((state) => ({
     selectedLesson: state.selectedLesson,
   }))
-  const [lessonWord, setLessonWord] = useState<Array<Iword> | Iword>([]);
+  const [lessonWord, setLessonWord] = useState<Array<Iword>>([]);
   const [indexWord, setIndexWord] = useState(0);
 
   useEffect(()=>{
