@@ -2,6 +2,7 @@ import { CogIcon, MoonIcon, SunIcon, ChevronDownIcon } from '@heroicons/react/24
 import { useSetting } from '../store/setting_store';
 import { useLesson } from '../store/setting_lesson';
 import DrawerSetting from '../setting/drawer_setting';
+import BackgroundDialog from '../components/background_dialog'
 import { useState } from 'react';
 import clsx from 'clsx';
 import { LessonList } from '../constants/data_word';
@@ -18,15 +19,18 @@ export default function Header() {
     const [opLesson, setOpLesson] = useState(false);
 
     return (<>
+        {opLesson && <BackgroundDialog/>}
         <div className="sticky top-0 z-40 w-full h-14 backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06]  supports-backdrop-blur:bg-white/60 bg-transparent">
             <div className="py-3 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 px-4">
                 <div className="relative flex items-center justify-between">
                     <div className="mr-3 flex-none overflow-hidden md:w-auto font-[Kamikaze] text-2xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% inline-block text-transparent bg-clip-text">
                         Japanese
                     </div>
-
+    
                     <div className="mx-auto ">
-                        <button onClick={() => setOpLesson(!opLesson)} type="button" className='text-xs w-48  justify-between leading-5 font-semibold bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
+                        <button onClick={() => setOpLesson(!opLesson)} type="button" className={clsx(
+                            opLesson && 'z-50'
+                            ,'text-xs w-48  justify-between leading-5 font-semibold bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5')}>
                             <p className='text-ellipsis overflow-hidden truncate'>{selectedLesson ? LessonList.get(selectedLesson) : 'Chọn bài'}</p>
                             <span >
                                 <ChevronDownIcon className='size-4' />
@@ -61,6 +65,6 @@ export default function Header() {
                 </div>
             </div>
         </div>
-        <DrawerSetting open={isSetting} onClose={() => setIsSetting(!isSetting)} />
+        {/* <DrawerSetting open={isSetting} onClose={() => setIsSetting(!isSetting)} /> */}
     </>)
 }   
