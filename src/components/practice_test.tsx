@@ -1,3 +1,4 @@
+import { ArrowUturnLeftIcon } from '@heroicons/react/24/solid'
 import { useEffect, useState } from "react";
 import { useLesson } from "../store/setting_lesson";
 import { useSetting } from "../store/setting_store";
@@ -5,8 +6,9 @@ import { Iword } from "../interface/Iword";
 import { LessonCollection } from "../constants/data_word";
 
 export default function PracticeTest() {
-  const { selectedLesson } = useLesson((state) => ({
+  const { selectedLesson,setIsTest } = useLesson((state) => ({
     selectedLesson: state.selectedLesson,
+    setIsTest: state.setIsTest
   }))
   const { kanji, beforeVi } = useSetting((state) => ({
     kanji: state.kanji,
@@ -27,24 +29,35 @@ export default function PracticeTest() {
     generateWord()
   }, [lessonWord])
   useEffect(() => {
-    const jp = Math.floor(Math.random() * 10) % 2 == 0
-    setIsJp(jp)
+    if(!currentWord) return
+    let jp = Math.floor(Math.random() * 10) % 2 == 0
+    if(!beforeVi) setIsJp(jp)
+    else{
+      setIsJp(false)
+      jp = false
+    }
     let i = 0
     let answer: Iword[] = []
-    while (i < 3) {
+    const correct = Math.floor(Math.random()*3)
+    while (i < 4) {
       const wordRandom = lessonWord[Math.floor(Math.random() * lessonWord.length)]
-      if (jp)
-        if (wordRandom && !answer.includes(wordRandom) && JSON.stringify(currentWord) !== JSON.stringify(wordRandom)) {
-          answer.push(wordRandom);
-          i++
-        }
+      if(i == correct){
+        answer.push(currentWord)
+        i++
+      }
+      if (wordRandom && !answer.includes(wordRandom) && JSON.stringify(currentWord) !== JSON.stringify(wordRandom)) {
+        answer.push(wordRandom);
+        i++
+      }
     }
     if (jp) {
       setAnswer(answer.map(an => (an.name)))
     } else {
       setAnswer(answer.map(an => an.character.hiragana ?? an.character.katakana ?? ''))
     }
-  }, [currentWord])
+    
+  }, [currentWord, setAnswer,setIsJp])
+
 
   function generateWord() {
     let list: Iword[] = []
@@ -59,19 +72,36 @@ export default function PracticeTest() {
     setTests(list)
     setCurrentWord(list.pop())
   }
+  function chooseAnswer (answer: string){
+    const correct = isJp ? currentWord?.name :( currentWord?.character.hiragana ?? currentWord?.character.katakana)
+    if(correct === answer){
+      setCurrentWord(tests.pop())
+    }
+  }
 
   return <div className="h-full w-full  flex justify-center items-center">
-    <div className="flex flex-col h-3/4 w-full md:w-1/2 mx-2 md:mx-0 justify-around items-center">
-      <div className="w-full h-3/5 flex justify-center items-center">
+    
+    <div className="flex flex-col h-full md:h-3/4 w-full lg:w-2/3 xl:w-1/2 mx-2 md:mx-0 justify-around items-center">
+    <div className='flex flex-row w-full justify-start items-start'>
+    <button onClick={() =>{setIsTest(false)}} type="button" className='h-12 w-12 justify-between leading-5 font-semibold bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
+            <ArrowUturnLeftIcon className='size-9' />
+          </button>
+    </div>
+      <div className="w-full h-1/2 md:h-3/5 flex justify-center items-center">
         <div className="md:text-[42px] text-[32px]  text-teal-950 dark:text-teal-200">
-          {isJp ? <p className=" font-[Kamikaze]">{currentWord?.character.hiragana ?? currentWord?.character.katakana}</p> :
+          {isJp ? <>
+            <p className=" font-[Kamikaze]">{currentWord?.character.hiragana ?? currentWord?.character.katakana}</p> 
+            
+          {    kanji && <p className=" font-[Kamikaze]">{currentWord?.character.kanji ?'( ' + currentWord?.character.kanji + ' )': ''}</p> }
+          </>
+          :
             <p className=" font-semibold">{currentWord?.name}</p>}
         </div>
       </div>
-      <div className="w-full h-2/5 ">
-        <div className="grid grid-rows-2 grid-flow-col gap-4 h-full w-full">
+      <div className="w-full h-1/2 my-5 md:my-0 ">
+        <div className="grid md:grid-rows-2 md:grid-flow-col gap-4 h-full w-full">
           {answers.map((answer, index) => (
-            <button key={index} className="rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-sm leading-6 font-semibold bg-teal-900/20   dark:bg-slate-400/10  dark:highlight-white/5 text-gray-500 dark:text-gray-950">
+            <button onClick={()=> chooseAnswer(answer)} key={index} className="p-1 rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-sm leading-6 font-semibold bg-teal-900/20   dark:bg-slate-400/10  dark:highlight-white/5 text-gray-500 dark:text-gray-50">
               {answer}
             </button>
           ))}

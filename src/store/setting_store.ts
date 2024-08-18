@@ -1,4 +1,5 @@
-import { create } from "zustand";
+import { shallow } from 'zustand/shallow'
+import { createWithEqualityFn } from 'zustand/traditional'
 
 interface SettingState {
 	modeTheme: "light" | "dark";
@@ -13,7 +14,7 @@ interface SettingState {
 	setIsLikeList: (like: boolean) => void;
 	setIsLearnedList: (learned: boolean) => void;
 }
-export const useSetting = create<SettingState>((set, get) => ({
+export const useSetting = createWithEqualityFn<SettingState>((set, get) => ({
 	modeTheme: "light",
 	kanji: true,
 	beforeVi: true,
@@ -68,4 +69,4 @@ export const useSetting = create<SettingState>((set, get) => ({
 		}
 	},
 	
-}));
+}),shallow);

@@ -7,8 +7,9 @@ import { useSetting } from '../store/setting_store'
 import clsx from 'clsx'
 import BackgroundDialog from './background_dialog'
 export function LessonContent() {
-  const { selectedLesson } = useLesson((state) => ({
+  const { selectedLesson, setIsTest } = useLesson((state) => ({
     selectedLesson: state.selectedLesson,
+    setIsTest: state.setIsTest
   }))
   const { kanji, beforeVi } = useSetting((state) => ({
     kanji: state.kanji,
@@ -37,7 +38,7 @@ export function LessonContent() {
     }
   }
   return <>
-    <div className="h-5/6 lg:w-1/2 px-2 w-full flex flex-col gap-1">
+    <div className="h-5/6 lg:w-2/3 xl:w-1/2 px-2 w-full flex flex-col gap-1">
       <div className='flex flex-row items-cencter justify-around'>
         <div className='flex flex-col items-center text-teal-950 dark:text-teal-200'>
           <h2 className='text-xl'>{LessonList.get(selectedLesson)} có {lessonWord.length ?? 0} từ </h2>
@@ -59,6 +60,7 @@ export function LessonContent() {
                 Luyện tập
               </div>
               <div className={clsx('snap-center flex items-center justify-between px-1 py-1 cursor-pointer')} onClick={() => {
+                setIsTest(true)
               }}>
                 <p className={clsx(' bg-slate-500/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200', 'text-sm font-semibold w-full px-2 py-1 rounded-lg hover:bg-slate-400/20 dark:hover:bg-slate-300/10')}>Nhiều câu trả lời</p>
               </div>
@@ -78,7 +80,7 @@ export function LessonContent() {
             <ChevronLeftIcon className='size-9' />
           </button>
         </div>
-        <div onClick={() => setIsVi(!isVi)} className='flex-col justify-around h-full w-full md:w-96 bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-xl py-1 px-3 sm:px-1 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
+        <div onClick={() => setIsVi(!isVi)} className='flex-col justify-around h-full w-full xl:w-96 bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-xl py-1 px-3 sm:px-1 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
           {isVi ? (<div>
             <div className='m-1 md:m-6'>
               <p className='font-[Kamikaze] md:text-[42px] text-[32px]' >{lessonWord[indexWord]?.character.hiragana ?? lessonWord[indexWord]?.character.katakana}</p>

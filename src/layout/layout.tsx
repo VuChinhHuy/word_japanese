@@ -9,14 +9,14 @@ interface ILayout {
 }
 export default function Layout(props: ILayout) {
   const { children } = props;
-  const { selectedLesson } = useLesson((state) => ({
+  const { selectedLesson,isTest } = useLesson((state) => ({
     selectedLesson: state.selectedLesson,
+    isTest : state.isTest
   }))
   return <>
     <Header />
     <div className="h-full w-full flex justify-center items-center">
-      {selectedLesson ? <LessonContent /> : <NoContent />}
-      {/* <PracticeTest/> */}
+      {isTest ? <PracticeTest/> : selectedLesson ? <LessonContent /> : <NoContent />}
     </div>
     {children}
   </>
