@@ -126,7 +126,7 @@ export const alphabet = [
 			hiragana: "い",
 			katakana: "イ",
 		},
-		
+
 	},
 	{
 		name: "u",
@@ -312,12 +312,12 @@ export const alphabet = [
 	},
 ];
 
-const lessonOne : Array<Iword> = [
+const lessonOne: Array<Iword> = [
 	{
 		name: "Tôi",
 		character: {
 			hiragana: "わたし",
-			katakana: "",
+			katakana: null,
 			kanji: "私",
 		},
 	},
@@ -325,7 +325,7 @@ const lessonOne : Array<Iword> = [
 		name: "Chúng tôi",
 		character: {
 			hiragana: "わたしたち",
-			katakana: "",
+			katakana: null,
 			kanji: "私たち",
 		},
 	},
@@ -333,15 +333,15 @@ const lessonOne : Array<Iword> = [
 		name: "Bạn",
 		character: {
 			hiragana: "あなた",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Người kia",
 		character: {
 			hiragana: "あのひと",
-			katakana: "",
+			katakana: null,
 			kanji: "あの人",
 		},
 	},
@@ -349,7 +349,7 @@ const lessonOne : Array<Iword> = [
 		name: "Người kia (kính ngữ)",
 		character: {
 			hiragana: "あのかた",
-			katakana: "",
+			katakana: null,
 			kanji: "あの方",
 		},
 	},
@@ -357,7 +357,7 @@ const lessonOne : Array<Iword> = [
 		name: "Các anh, các chị, các ông, các bà (kính ngữ)",
 		character: {
 			hiragana: "みなさん",
-			katakana: "",
+			katakana: null,
 			kanji: "皆さん",
 		},
 	},
@@ -365,15 +365,15 @@ const lessonOne : Array<Iword> = [
 		name: "Anh, chị, ông, bà (thêm vào sau tên người để thể hiện tính thân mật)",
 		character: {
 			hiragana: "～さん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Bé (thêm vào sau tên trẻ em nam)",
 		character: {
 			hiragana: "～くん",
-			katakana: "",
+			katakana: null,
 			kanji: "～君",
 		},
 	},
@@ -381,7 +381,7 @@ const lessonOne : Array<Iword> = [
 		name: "Người (nước nào)",
 		character: {
 			hiragana: "～じん",
-			katakana: "",
+			katakana: null,
 			kanji: "～人",
 		},
 	},
@@ -389,7 +389,7 @@ const lessonOne : Array<Iword> = [
 		name: "Thầy, cô (giáo viên)",
 		character: {
 			hiragana: "せんせい",
-			katakana: "",
+			katakana: null,
 			kanji: "先生",
 		},
 	},
@@ -397,7 +397,7 @@ const lessonOne : Array<Iword> = [
 		name: "Giáo viên",
 		character: {
 			hiragana: "きょうし",
-			katakana: "",
+			katakana: null,
 			kanji: "教師",
 		},
 	},
@@ -405,7 +405,7 @@ const lessonOne : Array<Iword> = [
 		name: "Học sinh, sinh viên",
 		character: {
 			hiragana: "がくせい",
-			katakana: "",
+			katakana: null,
 			kanji: "学生",
 		},
 	},
@@ -413,7 +413,7 @@ const lessonOne : Array<Iword> = [
 		name: "Nhân viên công ty",
 		character: {
 			hiragana: "かいしゃいん",
-			katakana: "",
+			katakana: null,
 			kanji: "会社員",
 		},
 	},
@@ -421,7 +421,7 @@ const lessonOne : Array<Iword> = [
 		name: "Nhân viên ngân hàng",
 		character: {
 			hiragana: "ぎんこういん",
-			katakana: "",
+			katakana: null,
 			kanji: "銀行員",
 		},
 	},
@@ -429,7 +429,7 @@ const lessonOne : Array<Iword> = [
 		name: "Bác sĩ",
 		character: {
 			hiragana: "いしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "医者",
 		},
 	},
@@ -437,7 +437,7 @@ const lessonOne : Array<Iword> = [
 		name: "Nhà nghiên cứu",
 		character: {
 			hiragana: "けんきゅうしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "研究者",
 		},
 	},
@@ -446,14 +446,14 @@ const lessonOne : Array<Iword> = [
 		character: {
 			hiragana: "エンジニア",
 			katakana: "エンジニア",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Đại học",
 		character: {
 			hiragana: "だいがく",
-			katakana: "",
+			katakana: null,
 			kanji: "大学",
 		},
 	},
@@ -461,7 +461,7 @@ const lessonOne : Array<Iword> = [
 		name: "Bệnh viện",
 		character: {
 			hiragana: "びょういん",
-			katakana: "",
+			katakana: null,
 			kanji: "病院",
 		},
 	},
@@ -469,7 +469,7 @@ const lessonOne : Array<Iword> = [
 		name: "Ai",
 		character: {
 			hiragana: "だれ",
-			katakana: "",
+			katakana: null,
 			kanji: "誰",
 		},
 	},
@@ -477,15 +477,15 @@ const lessonOne : Array<Iword> = [
 		name: "Ai (kính ngữ)",
 		character: {
 			hiragana: "どなた",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Mấy tuổi, bao nhiêu tuổi",
 		character: {
 			hiragana: "なんさい",
-			katakana: "",
+			katakana: null,
 			kanji: "何歳",
 		},
 	},
@@ -493,31 +493,31 @@ const lessonOne : Array<Iword> = [
 		name: "Mấy tuổi, bao nhiêu tuổi (kính ngữ)",
 		character: {
 			hiragana: "おいくつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Vâng, đúng vậy",
 		character: {
 			hiragana: "はい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Không",
 		character: {
 			hiragana: "いいえ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin chào (lần đầu gặp)",
 		character: {
 			hiragana: "はじめまして",
-			katakana: "",
+			katakana: null,
 			kanji: "初めまして",
 		},
 	},
@@ -525,7 +525,7 @@ const lessonOne : Array<Iword> = [
 		name: "Rất hân hạnh được gặp bạn",
 		character: {
 			hiragana: "どうぞよろしくおねがいします",
-			katakana: "",
+			katakana: null,
 			kanji: "どうぞよろしくお願いします",
 		},
 	},
@@ -533,18 +533,18 @@ const lessonOne : Array<Iword> = [
 		name: "Người đến từ ",
 		character: {
 			hiragana: "～からきました",
-			katakana: "",
+			katakana: null,
 			kanji: "～から来ました",
 		},
 	},
 ];
 
-const lessonTwo :Array<Iword> = [
+const lessonTwo: Array<Iword> = [
 	{
 		name: "Sách",
 		character: {
 			hiragana: "ほん",
-			katakana: "",
+			katakana: null,
 			kanji: "本",
 		},
 	},
@@ -552,7 +552,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Từ điển",
 		character: {
 			hiragana: "じしょ",
-			katakana: "",
+			katakana: null,
 			kanji: "辞書",
 		},
 	},
@@ -560,7 +560,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Tạp chí",
 		character: {
 			hiragana: "ざっし",
-			katakana: "",
+			katakana: null,
 			kanji: "雑誌",
 		},
 	},
@@ -568,23 +568,23 @@ const lessonTwo :Array<Iword> = [
 		name: "Báo",
 		character: {
 			hiragana: "しんぶん",
-			katakana: "",
+			katakana: null,
 			kanji: "新聞",
 		},
 	},
 	{
 		name: "Vở",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ノート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Sổ tay",
 		character: {
 			hiragana: "てちょう",
-			katakana: "",
+			katakana: null,
 			kanji: "手帳",
 		},
 	},
@@ -592,47 +592,47 @@ const lessonTwo :Array<Iword> = [
 		name: "Danh thiếp",
 		character: {
 			hiragana: "めいし",
-			katakana: "",
+			katakana: null,
 			kanji: "名刺",
 		},
 	},
 	{
 		name: "Thẻ",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "カード",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Bút chì",
 		character: {
 			hiragana: "えんぴつ",
-			katakana: "",
+			katakana: null,
 			kanji: "鉛筆",
 		},
 	},
 	{
 		name: "Bút bi",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ボールペン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Bút máy",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "シャープペンシル",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Chìa khóa",
 		character: {
 			hiragana: "かぎ",
-			katakana: "",
+			katakana: null,
 			kanji: "鍵",
 		},
 	},
@@ -640,7 +640,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Đồng hồ",
 		character: {
 			hiragana: "とけい",
-			katakana: "",
+			katakana: null,
 			kanji: "時計",
 		},
 	},
@@ -648,7 +648,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Ô (dù)",
 		character: {
 			hiragana: "かさ",
-			katakana: "",
+			katakana: null,
 			kanji: "傘",
 		},
 	},
@@ -656,55 +656,55 @@ const lessonTwo :Array<Iword> = [
 		name: "Cặp sách",
 		character: {
 			hiragana: "かばん",
-			katakana: "",
+			katakana: null,
 			kanji: "鞄",
 		},
 	},
 	{
 		name: "Băng [cát-xét]",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "テープ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Máy ghi âm",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "テープレコーダー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Tivi",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "テレビ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Radio",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ラジオ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Máy tính",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コンピューター",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Ô tô, xe hơi",
 		character: {
 			hiragana: "じどうしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "自動車",
 		},
 	},
@@ -712,7 +712,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Bàn",
 		character: {
 			hiragana: "つくえ",
-			katakana: "",
+			katakana: null,
 			kanji: "机",
 		},
 	},
@@ -720,31 +720,31 @@ const lessonTwo :Array<Iword> = [
 		name: "Ghế",
 		character: {
 			hiragana: "いす",
-			katakana: "",
+			katakana: null,
 			kanji: "椅子",
 		},
 	},
 	{
 		name: "Sô cô la",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "チョコレート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Cà phê",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コーヒー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Kỷ niệm",
 		character: {
 			hiragana: "おみやげ",
-			katakana: "",
+			katakana: null,
 			kanji: "お土産",
 		},
 	},
@@ -752,7 +752,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Tiếng Nhật",
 		character: {
 			hiragana: "にほんご",
-			katakana: "",
+			katakana: null,
 			kanji: "日本語",
 		},
 	},
@@ -760,7 +760,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Tiếng ",
 		character: {
 			hiragana: "～ご",
-			katakana: "",
+			katakana: null,
 			kanji: "～語",
 		},
 	},
@@ -768,7 +768,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Cái gì, gì",
 		character: {
 			hiragana: "なん",
-			katakana: "",
+			katakana: null,
 			kanji: "何",
 		},
 	},
@@ -776,23 +776,23 @@ const lessonTwo :Array<Iword> = [
 		name: "Thế à, vậy à",
 		character: {
 			hiragana: "そう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "À, ờ (ngập ngừng)",
 		character: {
 			hiragana: "あのう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Chỉ là chút lòng thành",
 		character: {
 			hiragana: "ほんのきもちです",
-			katakana: "",
+			katakana: null,
 			kanji: "ほんの気持ちです",
 		},
 	},
@@ -800,47 +800,47 @@ const lessonTwo :Array<Iword> = [
 		name: "Xin cảm ơn",
 		character: {
 			hiragana: "どうもありがとうございます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin tặng bạn",
 		character: {
 			hiragana: "どうぞ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Thế à? / vậy à? (bày tỏ sự ngạc nhiên)",
 		character: {
 			hiragana: "そうですか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ồ!",
 		character: {
 			hiragana: "あっ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Cảm ơn rất nhiều",
 		character: {
 			hiragana: "どうもありがとうございます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Đây là chút quà mọn",
 		character: {
 			hiragana: "ほんのきもちです",
-			katakana: "",
+			katakana: null,
 			kanji: "ほんの気持ちです",
 		},
 	},
@@ -848,7 +848,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Mời vào",
 		character: {
 			hiragana: "どうぞおあがりください",
-			katakana: "",
+			katakana: null,
 			kanji: "どうぞお上がりください",
 		},
 	},
@@ -856,15 +856,15 @@ const lessonTwo :Array<Iword> = [
 		name: "Mời bạn dùng []",
 		character: {
 			hiragana: "～はいかがですか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin mời",
 		character: {
 			hiragana: "いただきます",
-			katakana: "",
+			katakana: null,
 			kanji: "頂きます",
 		},
 	},
@@ -872,7 +872,7 @@ const lessonTwo :Array<Iword> = [
 		name: "Xin mời vào",
 		character: {
 			hiragana: "どうぞおはいりください",
-			katakana: "",
+			katakana: null,
 			kanji: "どうぞお入りください",
 		},
 	},
@@ -880,82 +880,82 @@ const lessonTwo :Array<Iword> = [
 		name: "Cảm ơn bạn",
 		character: {
 			hiragana: "どうも",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 ];
 
-const lessonThree :Array<Iword>= [
+const lessonThree: Array<Iword> = [
 	{
 		name: "Ở đây, chỗ này",
 		character: {
 			hiragana: "ここ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ở đó, chỗ đó",
 		character: {
 			hiragana: "そこ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ở kia, chỗ kia",
 		character: {
 			hiragana: "あそこ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ở đâu",
 		character: {
 			hiragana: "どこ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Phía này, chỗ này",
 		character: {
 			hiragana: "こちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Phía đó, chỗ đó",
 		character: {
 			hiragana: "そちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Phía kia, chỗ kia",
 		character: {
 			hiragana: "あちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Phía nào, chỗ nào",
 		character: {
 			hiragana: "どちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Lớp học, phòng học",
 		character: {
 			hiragana: "きょうしつ",
-			katakana: "",
+			katakana: null,
 			kanji: "教室",
 		},
 	},
@@ -963,7 +963,7 @@ const lessonThree :Array<Iword>= [
 		name: "Nhà ăn",
 		character: {
 			hiragana: "しょくどう",
-			katakana: "",
+			katakana: null,
 			kanji: "食堂",
 		},
 	},
@@ -971,7 +971,7 @@ const lessonThree :Array<Iword>= [
 		name: "Văn phòng",
 		character: {
 			hiragana: "じむしょ",
-			katakana: "",
+			katakana: null,
 			kanji: "事務所",
 		},
 	},
@@ -979,7 +979,7 @@ const lessonThree :Array<Iword>= [
 		name: "Phòng họp, phòng hội nghị",
 		character: {
 			hiragana: "かいぎしつ",
-			katakana: "",
+			katakana: null,
 			kanji: "会議室",
 		},
 	},
@@ -987,63 +987,63 @@ const lessonThree :Array<Iword>= [
 		name: "Bộ phận tiếp tân, phòng thường trực",
 		character: {
 			hiragana: "うけつけ",
-			katakana: "",
+			katakana: null,
 			kanji: "受付",
 		},
 	},
 	{
 		name: "Hành lang, đại sảnh",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ロビー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Phòng",
 		character: {
 			hiragana: "へや",
-			katakana: "",
+			katakana: null,
 			kanji: "部屋",
 		},
 	},
 	{
 		name: "Nhà vệ sinh, phòng vệ sinh, toa-lét",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "トイレ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Cầu thang",
 		character: {
 			hiragana: "かいだん",
-			katakana: "",
+			katakana: null,
 			kanji: "階段",
 		},
 	},
 	{
 		name: "Thang máy",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "エレベーター",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Thang cuốn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "エスカレーター",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Nước ",
 		character: {
 			hiragana: "～くに",
-			katakana: "",
+			katakana: null,
 			kanji: "～国",
 		},
 	},
@@ -1051,7 +1051,7 @@ const lessonThree :Array<Iword>= [
 		name: "Công ty",
 		character: {
 			hiragana: "かいしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "会社",
 		},
 	},
@@ -1059,7 +1059,7 @@ const lessonThree :Array<Iword>= [
 		name: "Nhà",
 		character: {
 			hiragana: "うち",
-			katakana: "",
+			katakana: null,
 			kanji: "家",
 		},
 	},
@@ -1067,7 +1067,7 @@ const lessonThree :Array<Iword>= [
 		name: "Điện thoại",
 		character: {
 			hiragana: "でんわ",
-			katakana: "",
+			katakana: null,
 			kanji: "電話",
 		},
 	},
@@ -1075,39 +1075,39 @@ const lessonThree :Array<Iword>= [
 		name: "Giầy",
 		character: {
 			hiragana: "くつ",
-			katakana: "",
+			katakana: null,
 			kanji: "靴",
 		},
 	},
 	{
 		name: "Cà vạt",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ネクタイ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Rượu vang",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ワイン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Thuốc lá",
 		character: {
 			hiragana: "たばこ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Quầy (trong cửa hàng, siêu thị)",
 		character: {
 			hiragana: "うりば",
-			katakana: "",
+			katakana: null,
 			kanji: "売り場",
 		},
 	},
@@ -1115,7 +1115,7 @@ const lessonThree :Array<Iword>= [
 		name: "Tầng hầm, dưới mặt đất",
 		character: {
 			hiragana: "ちか",
-			katakana: "",
+			katakana: null,
 			kanji: "地下",
 		},
 	},
@@ -1123,7 +1123,7 @@ const lessonThree :Array<Iword>= [
 		name: "Tầng ",
 		character: {
 			hiragana: "～かい",
-			katakana: "",
+			katakana: null,
 			kanji: "～階",
 		},
 	},
@@ -1131,7 +1131,7 @@ const lessonThree :Array<Iword>= [
 		name: "Mấy tầng",
 		character: {
 			hiragana: "なんがい",
-			katakana: "",
+			katakana: null,
 			kanji: "何階",
 		},
 	},
@@ -1139,7 +1139,7 @@ const lessonThree :Array<Iword>= [
 		name: "Yên",
 		character: {
 			hiragana: "えん",
-			katakana: "",
+			katakana: null,
 			kanji: "円",
 		},
 	},
@@ -1147,15 +1147,15 @@ const lessonThree :Array<Iword>= [
 		name: "Bao nhiêu tiền",
 		character: {
 			hiragana: "いくら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Trăm",
 		character: {
 			hiragana: "ひゃく",
-			katakana: "",
+			katakana: null,
 			kanji: "百",
 		},
 	},
@@ -1163,7 +1163,7 @@ const lessonThree :Array<Iword>= [
 		name: "Nghìn",
 		character: {
 			hiragana: "せん",
-			katakana: "",
+			katakana: null,
 			kanji: "千",
 		},
 	},
@@ -1171,7 +1171,7 @@ const lessonThree :Array<Iword>= [
 		name: "Mười nghìn, vạn",
 		character: {
 			hiragana: "まん",
-			katakana: "",
+			katakana: null,
 			kanji: "万",
 		},
 	},
@@ -1179,15 +1179,15 @@ const lessonThree :Array<Iword>= [
 		name: "Xin chào quý khách / Chào mừng quý khách",
 		character: {
 			hiragana: "いらっしゃいませ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Cho tôi xem []",
 		character: {
 			hiragana: "「～を」みせてください",
-			katakana: "",
+			katakana: null,
 			kanji: "「～を」見せてください",
 		},
 	},
@@ -1195,18 +1195,18 @@ const lessonThree :Array<Iword>= [
 		name: "Cho tôi []",
 		character: {
 			hiragana: "「～を」ください",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 ];
 
-const lessonFour :Array<Iword>= [
+const lessonFour: Array<Iword> = [
 	{
 		name: "dậy, thức dậy",
 		character: {
 			hiragana: "おきます",
-			katakana: "",
+			katakana: null,
 			kanji: "起きます",
 		},
 	},
@@ -1214,7 +1214,7 @@ const lessonFour :Array<Iword>= [
 		name: "ngủ, đi ngủ",
 		character: {
 			hiragana: "ねます",
-			katakana: "",
+			katakana: null,
 			kanji: "寝ます",
 		},
 	},
@@ -1222,7 +1222,7 @@ const lessonFour :Array<Iword>= [
 		name: "làm việc",
 		character: {
 			hiragana: "はたらきます",
-			katakana: "",
+			katakana: null,
 			kanji: "働きます",
 		},
 	},
@@ -1230,7 +1230,7 @@ const lessonFour :Array<Iword>= [
 		name: "nghỉ, nghỉ ngơi",
 		character: {
 			hiragana: "やすみます",
-			katakana: "",
+			katakana: null,
 			kanji: "休みます",
 		},
 	},
@@ -1238,7 +1238,7 @@ const lessonFour :Array<Iword>= [
 		name: "học",
 		character: {
 			hiragana: "べんきょうします",
-			katakana: "",
+			katakana: null,
 			kanji: "勉強します",
 		},
 	},
@@ -1246,7 +1246,7 @@ const lessonFour :Array<Iword>= [
 		name: "hết, kết thúc, xong",
 		character: {
 			hiragana: "おわります",
-			katakana: "",
+			katakana: null,
 			kanji: "終わります",
 		},
 	},
@@ -1255,14 +1255,14 @@ const lessonFour :Array<Iword>= [
 		character: {
 			hiragana: "デパート",
 			katakana: "デパート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "ngân hàng",
 		character: {
 			hiragana: "ぎんこう",
-			katakana: "",
+			katakana: null,
 			kanji: "銀行",
 		},
 	},
@@ -1270,7 +1270,7 @@ const lessonFour :Array<Iword>= [
 		name: "bưu điện",
 		character: {
 			hiragana: "ゆうびんきょく",
-			katakana: "",
+			katakana: null,
 			kanji: "郵便局",
 		},
 	},
@@ -1278,7 +1278,7 @@ const lessonFour :Array<Iword>= [
 		name: "thư viện",
 		character: {
 			hiragana: "としょかん",
-			katakana: "",
+			katakana: null,
 			kanji: "図書館",
 		},
 	},
@@ -1286,7 +1286,7 @@ const lessonFour :Array<Iword>= [
 		name: "bảo tàng mỹ thuật",
 		character: {
 			hiragana: "びじゅつかん",
-			katakana: "",
+			katakana: null,
 			kanji: "美術館",
 		},
 	},
@@ -1294,7 +1294,7 @@ const lessonFour :Array<Iword>= [
 		name: "bây giờ",
 		character: {
 			hiragana: "いま",
-			katakana: "",
+			katakana: null,
 			kanji: "今",
 		},
 	},
@@ -1302,7 +1302,7 @@ const lessonFour :Array<Iword>= [
 		name: "-giờ",
 		character: {
 			hiragana: "―じ",
-			katakana: "",
+			katakana: null,
 			kanji: "－時",
 		},
 	},
@@ -1310,7 +1310,7 @@ const lessonFour :Array<Iword>= [
 		name: "- phút",
 		character: {
 			hiragana: "―ふん（－ぷん）",
-			katakana: "",
+			katakana: null,
 			kanji: "―分",
 		},
 	},
@@ -1318,7 +1318,7 @@ const lessonFour :Array<Iword>= [
 		name: "rưỡi, nửa",
 		character: {
 			hiragana: "はん",
-			katakana: "",
+			katakana: null,
 			kanji: "半",
 		},
 	},
@@ -1326,7 +1326,7 @@ const lessonFour :Array<Iword>= [
 		name: "mấy giờ",
 		character: {
 			hiragana: "なんじ",
-			katakana: "",
+			katakana: null,
 			kanji: "何時",
 		},
 	},
@@ -1334,7 +1334,7 @@ const lessonFour :Array<Iword>= [
 		name: "mấy phút",
 		character: {
 			hiragana: "なんぷん",
-			katakana: "",
+			katakana: null,
 			kanji: "何分",
 		},
 	},
@@ -1342,7 +1342,7 @@ const lessonFour :Array<Iword>= [
 		name: "sáng, trước 12 giờ trưa",
 		character: {
 			hiragana: "ごぜん",
-			katakana: "",
+			katakana: null,
 			kanji: "午前",
 		},
 	},
@@ -1350,7 +1350,7 @@ const lessonFour :Array<Iword>= [
 		name: "chiều, sau 12 giờ trưa",
 		character: {
 			hiragana: "ごご",
-			katakana: "",
+			katakana: null,
 			kanji: "午後",
 		},
 	},
@@ -1358,7 +1358,7 @@ const lessonFour :Array<Iword>= [
 		name: "buổi sáng, sáng",
 		character: {
 			hiragana: "あさ",
-			katakana: "",
+			katakana: null,
 			kanji: "朝",
 		},
 	},
@@ -1366,7 +1366,7 @@ const lessonFour :Array<Iword>= [
 		name: "buổi trưa, trưa",
 		character: {
 			hiragana: "ひる",
-			katakana: "",
+			katakana: null,
 			kanji: "昼",
 		},
 	},
@@ -1374,7 +1374,7 @@ const lessonFour :Array<Iword>= [
 		name: "buổi tối, tối",
 		character: {
 			hiragana: "ばん（よる）",
-			katakana: "",
+			katakana: null,
 			kanji: "晩(夜)",
 		},
 	},
@@ -1382,55 +1382,55 @@ const lessonFour :Array<Iword>= [
 		name: "hôm kia",
 		character: {
 			hiragana: "おととい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "hôm qua",
 		character: {
 			hiragana: "きのう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "hôm nay",
 		character: {
 			hiragana: "きょう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ngày mai",
 		character: {
 			hiragana: "あした",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ngày kia",
 		character: {
 			hiragana: "あさって",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sáng nay",
 		character: {
 			hiragana: "けさ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tối nay",
 		character: {
 			hiragana: "こんばん",
-			katakana: "",
+			katakana: null,
 			kanji: "今晩",
 		},
 	},
@@ -1438,7 +1438,7 @@ const lessonFour :Array<Iword>= [
 		name: "nghỉ, nghỉ phép, ngày nghỉ",
 		character: {
 			hiragana: "やすみ",
-			katakana: "",
+			katakana: null,
 			kanji: "休み",
 		},
 	},
@@ -1446,7 +1446,7 @@ const lessonFour :Array<Iword>= [
 		name: "nghỉ trưa",
 		character: {
 			hiragana: "ひるやすみ",
-			katakana: "",
+			katakana: null,
 			kanji: "昼休み",
 		},
 	},
@@ -1454,7 +1454,7 @@ const lessonFour :Array<Iword>= [
 		name: "thi, kỳ thi, kiểm tra",
 		character: {
 			hiragana: "しけん",
-			katakana: "",
+			katakana: null,
 			kanji: "試験",
 		},
 	},
@@ -1462,7 +1462,7 @@ const lessonFour :Array<Iword>= [
 		name: "cuộc họp, hội nghị (～を　します： tổ chức cuộc họp, hội nghị)",
 		character: {
 			hiragana: "かいぎ",
-			katakana: "",
+			katakana: null,
 			kanji: "会議",
 		},
 	},
@@ -1470,7 +1470,7 @@ const lessonFour :Array<Iword>= [
 		name: "phim, điện ảnh",
 		character: {
 			hiragana: "えいが",
-			katakana: "",
+			katakana: null,
 			kanji: "映画",
 		},
 	},
@@ -1478,7 +1478,7 @@ const lessonFour :Array<Iword>= [
 		name: "hàng sáng, mỗi sáng",
 		character: {
 			hiragana: "まいあさ",
-			katakana: "",
+			katakana: null,
 			kanji: "毎朝",
 		},
 	},
@@ -1486,7 +1486,7 @@ const lessonFour :Array<Iword>= [
 		name: "hàng tối, mỗi tối",
 		character: {
 			hiragana: "まいばん",
-			katakana: "",
+			katakana: null,
 			kanji: "毎晩",
 		},
 	},
@@ -1494,7 +1494,7 @@ const lessonFour :Array<Iword>= [
 		name: "hàng ngày, mỗi ngày",
 		character: {
 			hiragana: "まいにち",
-			katakana: "",
+			katakana: null,
 			kanji: "毎日",
 		},
 	},
@@ -1502,7 +1502,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ hai",
 		character: {
 			hiragana: "げつようび",
-			katakana: "",
+			katakana: null,
 			kanji: "月曜日",
 		},
 	},
@@ -1510,7 +1510,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ ba",
 		character: {
 			hiragana: "かようび",
-			katakana: "",
+			katakana: null,
 			kanji: "火曜日",
 		},
 	},
@@ -1518,7 +1518,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ tư",
 		character: {
 			hiragana: "すいようび",
-			katakana: "",
+			katakana: null,
 			kanji: "水曜日",
 		},
 	},
@@ -1526,7 +1526,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ năm",
 		character: {
 			hiragana: "もくようび",
-			katakana: "",
+			katakana: null,
 			kanji: "木曜日",
 		},
 	},
@@ -1534,7 +1534,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ sáu",
 		character: {
 			hiragana: "きんようび",
-			katakana: "",
+			katakana: null,
 			kanji: "金曜日",
 		},
 	},
@@ -1542,7 +1542,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ bảy",
 		character: {
 			hiragana: "どようび",
-			katakana: "",
+			katakana: null,
 			kanji: "土曜日",
 		},
 	},
@@ -1550,7 +1550,7 @@ const lessonFour :Array<Iword>= [
 		name: "chủ nhật",
 		character: {
 			hiragana: "にちようび",
-			katakana: "",
+			katakana: null,
 			kanji: "日曜日",
 		},
 	},
@@ -1558,7 +1558,7 @@ const lessonFour :Array<Iword>= [
 		name: "thứ mấy",
 		character: {
 			hiragana: "なんようび",
-			katakana: "",
+			katakana: null,
 			kanji: "何曜日",
 		},
 	},
@@ -1566,31 +1566,31 @@ const lessonFour :Array<Iword>= [
 		name: " từ",
 		character: {
 			hiragana: "～から",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: " đến",
 		character: {
 			hiragana: "～まで",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: " và (dùng để nối hai danh từ)",
 		character: {
 			hiragana: "～と",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị vất vả quá.",
 		character: {
 			hiragana: "たいへんですね",
-			katakana: "",
+			katakana: null,
 			kanji: "大変",
 		},
 	},
@@ -1598,7 +1598,7 @@ const lessonFour :Array<Iword>= [
 		name: "số (số điện thoại, số phòng)",
 		character: {
 			hiragana: "ばんごう",
-			katakana: "",
+			katakana: null,
 			kanji: "番号",
 		},
 	},
@@ -1606,7 +1606,7 @@ const lessonFour :Array<Iword>= [
 		name: "số bao nhiêu, số mấy",
 		character: {
 			hiragana: "なんばん",
-			katakana: "",
+			katakana: null,
 			kanji: "何番",
 		},
 	},
@@ -1614,55 +1614,55 @@ const lessonFour :Array<Iword>= [
 		name: "ông/bà, phía ông/ phía bà",
 		character: {
 			hiragana: "そちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "New York",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ニューヨーク",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Bắc Kinh",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ペキン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Los Angeles",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ロサンゼルス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Luân Đôn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ロンドン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tên giả định của một nhà hàng Nhật",
 		character: {
 			hiragana: "あすか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ngân hàng Apple (giả định)",
 		character: {
 			hiragana: "ぎんこう",
-			katakana: "",
+			katakana: null,
 			kanji: "アップル銀行",
 		},
 	},
@@ -1670,7 +1670,7 @@ const lessonFour :Array<Iword>= [
 		name: "thư viện Midori (giả định)",
 		character: {
 			hiragana: "みどりとしょかん",
-			katakana: "",
+			katakana: null,
 			kanji: "みどり図書館",
 		},
 	},
@@ -1678,18 +1678,18 @@ const lessonFour :Array<Iword>= [
 		name: "bảo tàng mỹ thuật Yamato (giả định)",
 		character: {
 			hiragana: "やまとびじゅつかん",
-			katakana: "",
+			katakana: null,
 			kanji: "やまと美術館",
 		},
 	},
 ];
 
-const lessonFive :Array<Iword>= [
+const lessonFive: Array<Iword> = [
 	{
 		name: "đi",
 		character: {
 			hiragana: "いきます",
-			katakana: "",
+			katakana: null,
 			kanji: "行きます",
 		},
 	},
@@ -1697,7 +1697,7 @@ const lessonFive :Array<Iword>= [
 		name: "đến",
 		character: {
 			hiragana: "きます",
-			katakana: "",
+			katakana: null,
 			kanji: "来ます",
 		},
 	},
@@ -1705,7 +1705,7 @@ const lessonFive :Array<Iword>= [
 		name: "về",
 		character: {
 			hiragana: "かえります",
-			katakana: "",
+			katakana: null,
 			kanji: "帰ります",
 		},
 	},
@@ -1713,7 +1713,7 @@ const lessonFive :Array<Iword>= [
 		name: "trường học",
 		character: {
 			hiragana: "がっこう",
-			katakana: "",
+			katakana: null,
 			kanji: "学校",
 		},
 	},
@@ -1722,14 +1722,14 @@ const lessonFive :Array<Iword>= [
 		character: {
 			hiragana: "スーパー",
 			katakana: "スーパー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "ga, nhà ga",
 		character: {
 			hiragana: "えき",
-			katakana: "",
+			katakana: null,
 			kanji: "駅",
 		},
 	},
@@ -1737,7 +1737,7 @@ const lessonFive :Array<Iword>= [
 		name: "máy bay",
 		character: {
 			hiragana: "ひこうき",
-			katakana: "",
+			katakana: null,
 			kanji: "飛行機",
 		},
 	},
@@ -1745,7 +1745,7 @@ const lessonFive :Array<Iword>= [
 		name: "thuyền, tàu thủy",
 		character: {
 			hiragana: "ふね",
-			katakana: "",
+			katakana: null,
 			kanji: "船",
 		},
 	},
@@ -1753,7 +1753,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu điện",
 		character: {
 			hiragana: "でんしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "電車",
 		},
 	},
@@ -1761,7 +1761,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu điện ngầm",
 		character: {
 			hiragana: "ちかてつ",
-			katakana: "",
+			katakana: null,
 			kanji: "地下鉄",
 		},
 	},
@@ -1769,7 +1769,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
 		character: {
 			hiragana: "しんかんせん",
-			katakana: "",
+			katakana: null,
 			kanji: "新幹線",
 		},
 	},
@@ -1778,7 +1778,7 @@ const lessonFive :Array<Iword>= [
 		character: {
 			hiragana: "バス",
 			katakana: "バス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
@@ -1786,14 +1786,14 @@ const lessonFive :Array<Iword>= [
 		character: {
 			hiragana: "タクシー",
 			katakana: "タクシー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "xe đạp",
 		character: {
 			hiragana: "じてんしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "自転車",
 		},
 	},
@@ -1801,7 +1801,7 @@ const lessonFive :Array<Iword>= [
 		name: "đi bộ",
 		character: {
 			hiragana: "あるいて",
-			katakana: "",
+			katakana: null,
 			kanji: "歩いて",
 		},
 	},
@@ -1809,7 +1809,7 @@ const lessonFive :Array<Iword>= [
 		name: "người",
 		character: {
 			hiragana: "ひと",
-			katakana: "",
+			katakana: null,
 			kanji: "人",
 		},
 	},
@@ -1817,7 +1817,7 @@ const lessonFive :Array<Iword>= [
 		name: "bạn, bạn bè",
 		character: {
 			hiragana: "ともだち",
-			katakana: "",
+			katakana: null,
 			kanji: "友達",
 		},
 	},
@@ -1825,7 +1825,7 @@ const lessonFive :Array<Iword>= [
 		name: "anh ấy, bạn trai",
 		character: {
 			hiragana: "かれ",
-			katakana: "",
+			katakana: null,
 			kanji: "彼",
 		},
 	},
@@ -1833,7 +1833,7 @@ const lessonFive :Array<Iword>= [
 		name: "chị ấy, bạn gái",
 		character: {
 			hiragana: "かのじょ",
-			katakana: "",
+			katakana: null,
 			kanji: "彼女",
 		},
 	},
@@ -1841,7 +1841,7 @@ const lessonFive :Array<Iword>= [
 		name: "gia đình",
 		character: {
 			hiragana: "かぞく",
-			katakana: "",
+			katakana: null,
 			kanji: "家族",
 		},
 	},
@@ -1849,7 +1849,7 @@ const lessonFive :Array<Iword>= [
 		name: "một mình",
 		character: {
 			hiragana: "ひとりで",
-			katakana: "",
+			katakana: null,
 			kanji: "一人で",
 		},
 	},
@@ -1857,7 +1857,7 @@ const lessonFive :Array<Iword>= [
 		name: "tuần trước",
 		character: {
 			hiragana: "せんしゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "先週",
 		},
 	},
@@ -1865,7 +1865,7 @@ const lessonFive :Array<Iword>= [
 		name: "tuần này",
 		character: {
 			hiragana: "こんしゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "今週",
 		},
 	},
@@ -1873,7 +1873,7 @@ const lessonFive :Array<Iword>= [
 		name: "tuần sau",
 		character: {
 			hiragana: "らいしゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "来週",
 		},
 	},
@@ -1881,7 +1881,7 @@ const lessonFive :Array<Iword>= [
 		name: "tháng trước",
 		character: {
 			hiragana: "せんげつ",
-			katakana: "",
+			katakana: null,
 			kanji: "先月",
 		},
 	},
@@ -1889,7 +1889,7 @@ const lessonFive :Array<Iword>= [
 		name: "tháng này",
 		character: {
 			hiragana: "こんげつ",
-			katakana: "",
+			katakana: null,
 			kanji: "今月",
 		},
 	},
@@ -1897,7 +1897,7 @@ const lessonFive :Array<Iword>= [
 		name: "tháng sau",
 		character: {
 			hiragana: "らいげつ",
-			katakana: "",
+			katakana: null,
 			kanji: "来月",
 		},
 	},
@@ -1905,7 +1905,7 @@ const lessonFive :Array<Iword>= [
 		name: "năm ngoái",
 		character: {
 			hiragana: "きょねん",
-			katakana: "",
+			katakana: null,
 			kanji: "去年",
 		},
 	},
@@ -1913,15 +1913,15 @@ const lessonFive :Array<Iword>= [
 		name: "năm nay",
 		character: {
 			hiragana: "ことし",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "năm sau",
 		character: {
 			hiragana: "らいねん",
-			katakana: "",
+			katakana: null,
 			kanji: "来年",
 		},
 	},
@@ -1929,7 +1929,7 @@ const lessonFive :Array<Iword>= [
 		name: "năm -",
 		character: {
 			hiragana: "ーねん",
-			katakana: "",
+			katakana: null,
 			kanji: "ー年",
 		},
 	},
@@ -1937,7 +1937,7 @@ const lessonFive :Array<Iword>= [
 		name: "mấy năm",
 		character: {
 			hiragana: "なんねん",
-			katakana: "",
+			katakana: null,
 			kanji: "何年",
 		},
 	},
@@ -1945,7 +1945,7 @@ const lessonFive :Array<Iword>= [
 		name: "tháng -",
 		character: {
 			hiragana: "ーがつ",
-			katakana: "",
+			katakana: null,
 			kanji: "ー月",
 		},
 	},
@@ -1953,7 +1953,7 @@ const lessonFive :Array<Iword>= [
 		name: "tháng mấy",
 		character: {
 			hiragana: "なんがつ",
-			katakana: "",
+			katakana: null,
 			kanji: "何月",
 		},
 	},
@@ -1961,7 +1961,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 1",
 		character: {
 			hiragana: "ついたち",
-			katakana: "",
+			katakana: null,
 			kanji: "１日",
 		},
 	},
@@ -1969,7 +1969,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 2, 2 ngày",
 		character: {
 			hiragana: "ふつか",
-			katakana: "",
+			katakana: null,
 			kanji: "２日",
 		},
 	},
@@ -1977,7 +1977,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 3, 3 ngày",
 		character: {
 			hiragana: "みっか",
-			katakana: "",
+			katakana: null,
 			kanji: "３日",
 		},
 	},
@@ -1985,7 +1985,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 4, 4 ngày",
 		character: {
 			hiragana: "よっか",
-			katakana: "",
+			katakana: null,
 			kanji: "４日",
 		},
 	},
@@ -1993,7 +1993,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 5, 5 ngày",
 		character: {
 			hiragana: "いつか",
-			katakana: "",
+			katakana: null,
 			kanji: "５日",
 		},
 	},
@@ -2001,7 +2001,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 6, 6 ngày",
 		character: {
 			hiragana: "むいか",
-			katakana: "",
+			katakana: null,
 			kanji: "６日",
 		},
 	},
@@ -2009,7 +2009,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 7, 7 ngày",
 		character: {
 			hiragana: "なのか",
-			katakana: "",
+			katakana: null,
 			kanji: "７日",
 		},
 	},
@@ -2017,7 +2017,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 8, 8 ngày",
 		character: {
 			hiragana: "ようか",
-			katakana: "",
+			katakana: null,
 			kanji: "８日",
 		},
 	},
@@ -2025,7 +2025,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 9, 9 ngày",
 		character: {
 			hiragana: "ここのか",
-			katakana: "",
+			katakana: null,
 			kanji: "９日",
 		},
 	},
@@ -2033,7 +2033,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mồng 10, 10 ngày",
 		character: {
 			hiragana: "とおか",
-			katakana: "",
+			katakana: null,
 			kanji: "１０日",
 		},
 	},
@@ -2041,7 +2041,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày 14, 14 ngày",
 		character: {
 			hiragana: "じゅうよっか",
-			katakana: "",
+			katakana: null,
 			kanji: "１４日",
 		},
 	},
@@ -2049,7 +2049,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày 20, 20 ngày",
 		character: {
 			hiragana: "はつか",
-			katakana: "",
+			katakana: null,
 			kanji: "２０日",
 		},
 	},
@@ -2057,7 +2057,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày 24, 24 ngày",
 		character: {
 			hiragana: "にじゅうよっか",
-			katakana: "",
+			katakana: null,
 			kanji: "２４日",
 		},
 	},
@@ -2065,7 +2065,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày -, - ngày",
 		character: {
 			hiragana: "―にち",
-			katakana: "",
+			katakana: null,
 			kanji: "―日",
 		},
 	},
@@ -2073,7 +2073,7 @@ const lessonFive :Array<Iword>= [
 		name: "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
 		character: {
 			hiragana: "なんにち",
-			katakana: "",
+			katakana: null,
 			kanji: "何日",
 		},
 	},
@@ -2081,15 +2081,15 @@ const lessonFive :Array<Iword>= [
 		name: "bao giờ, khi nào",
 		character: {
 			hiragana: "いつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sinh nhật",
 		character: {
 			hiragana: "たんじょうび",
-			katakana: "",
+			katakana: null,
 			kanji: "誕生日",
 		},
 	},
@@ -2097,31 +2097,31 @@ const lessonFive :Array<Iword>= [
 		name: "Ừ, nhỉ.",
 		character: {
 			hiragana: "そうですね。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin cám ơn anh/chị rất nhiều.",
 		character: {
 			hiragana: "どうもありがとうございました。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Không có gì.",
 		character: {
 			hiragana: "どういたしまして",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sân ga số -",
 		character: {
 			hiragana: "―ばんせん",
-			katakana: "",
+			katakana: null,
 			kanji: "番線",
 		},
 	},
@@ -2129,7 +2129,7 @@ const lessonFive :Array<Iword>= [
 		name: "tiếp theo",
 		character: {
 			hiragana: "つぎの",
-			katakana: "",
+			katakana: null,
 			kanji: "次の",
 		},
 	},
@@ -2137,7 +2137,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu thường (dừng cả ở các ga lẻ)",
 		character: {
 			hiragana: "ふつう",
-			katakana: "",
+			katakana: null,
 			kanji: "普通",
 		},
 	},
@@ -2145,7 +2145,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu tốc hành",
 		character: {
 			hiragana: "きゅうこう",
-			katakana: "",
+			katakana: null,
 			kanji: "急行",
 		},
 	},
@@ -2153,7 +2153,7 @@ const lessonFive :Array<Iword>= [
 		name: "tàu tốc hành đặc biệt",
 		character: {
 			hiragana: "とっきゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "特急",
 		},
 	},
@@ -2161,7 +2161,7 @@ const lessonFive :Array<Iword>= [
 		name: "tên một khu phố ở Osaka",
 		character: {
 			hiragana: "こうしえん",
-			katakana: "",
+			katakana: null,
 			kanji: "甲子園",
 		},
 	},
@@ -2169,18 +2169,18 @@ const lessonFive :Array<Iword>= [
 		name: "Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka",
 		character: {
 			hiragana: "おおさかじょう",
-			katakana: "",
+			katakana: null,
 			kanji: "大阪城",
 		},
 	},
 ];
 
-const lessonSix :Array<Iword>= [
+const lessonSix: Array<Iword> = [
 	{
 		name: "ăn",
 		character: {
 			hiragana: "たべます",
-			katakana: "",
+			katakana: null,
 			kanji: "食べます",
 		},
 	},
@@ -2188,7 +2188,7 @@ const lessonSix :Array<Iword>= [
 		name: "uống",
 		character: {
 			hiragana: "のみます",
-			katakana: "",
+			katakana: null,
 			kanji: "飲みます",
 		},
 	},
@@ -2196,7 +2196,7 @@ const lessonSix :Array<Iword>= [
 		name: "hút [thuốc lá]",
 		character: {
 			hiragana: "すいます",
-			katakana: "",
+			katakana: null,
 			kanji: "吸います",
 		},
 	},
@@ -2204,7 +2204,7 @@ const lessonSix :Array<Iword>= [
 		name: "xem, nhìn, trông",
 		character: {
 			hiragana: "みます",
-			katakana: "",
+			katakana: null,
 			kanji: "見ます",
 		},
 	},
@@ -2212,7 +2212,7 @@ const lessonSix :Array<Iword>= [
 		name: "nghe",
 		character: {
 			hiragana: "ききます",
-			katakana: "",
+			katakana: null,
 			kanji: "聞きます",
 		},
 	},
@@ -2220,7 +2220,7 @@ const lessonSix :Array<Iword>= [
 		name: "đọc",
 		character: {
 			hiragana: "よみます",
-			katakana: "",
+			katakana: null,
 			kanji: "読みます",
 		},
 	},
@@ -2228,7 +2228,7 @@ const lessonSix :Array<Iword>= [
 		name: "viết, vẽ",
 		character: {
 			hiragana: "かきます",
-			katakana: "",
+			katakana: null,
 			kanji: "書きます",
 		},
 	},
@@ -2236,7 +2236,7 @@ const lessonSix :Array<Iword>= [
 		name: "mua",
 		character: {
 			hiragana: "かいます",
-			katakana: "",
+			katakana: null,
 			kanji: "買います",
 		},
 	},
@@ -2244,7 +2244,7 @@ const lessonSix :Array<Iword>= [
 		name: "chụp [ảnh]",
 		character: {
 			hiragana: "とります",
-			katakana: "",
+			katakana: null,
 			kanji: "撮ります",
 		},
 	},
@@ -2252,15 +2252,15 @@ const lessonSix :Array<Iword>= [
 		name: "làm",
 		character: {
 			hiragana: "します",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "gặp [bạn]",
 		character: {
 			hiragana: "あいます",
-			katakana: "",
+			katakana: null,
 			kanji: "会います",
 		},
 	},
@@ -2268,15 +2268,15 @@ const lessonSix :Array<Iword>= [
 		name: "cơm, bữa ăn",
 		character: {
 			hiragana: "ごはん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cơm sáng",
 		character: {
 			hiragana: "あさごはん",
-			katakana: "",
+			katakana: null,
 			kanji: "朝ごはん",
 		},
 	},
@@ -2284,7 +2284,7 @@ const lessonSix :Array<Iword>= [
 		name: "cơm trưa",
 		character: {
 			hiragana: "ひるごはん",
-			katakana: "",
+			katakana: null,
 			kanji: "昼ごはん",
 		},
 	},
@@ -2292,7 +2292,7 @@ const lessonSix :Array<Iword>= [
 		name: "cơm tối",
 		character: {
 			hiragana: "ばんごはん",
-			katakana: "",
+			katakana: null,
 			kanji: "晩ごはん",
 		},
 	},
@@ -2300,15 +2300,15 @@ const lessonSix :Array<Iword>= [
 		name: "bánh mì",
 		character: {
 			hiragana: "パン",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "trứng",
 		character: {
 			hiragana: "たまご",
-			katakana: "",
+			katakana: null,
 			kanji: "卵",
 		},
 	},
@@ -2316,7 +2316,7 @@ const lessonSix :Array<Iword>= [
 		name: "thịt",
 		character: {
 			hiragana: "にく",
-			katakana: "",
+			katakana: null,
 			kanji: "肉",
 		},
 	},
@@ -2324,7 +2324,7 @@ const lessonSix :Array<Iword>= [
 		name: "cá",
 		character: {
 			hiragana: "さかな",
-			katakana: "",
+			katakana: null,
 			kanji: "魚",
 		},
 	},
@@ -2332,7 +2332,7 @@ const lessonSix :Array<Iword>= [
 		name: "rau",
 		character: {
 			hiragana: "やさい",
-			katakana: "",
+			katakana: null,
 			kanji: "野菜",
 		},
 	},
@@ -2340,7 +2340,7 @@ const lessonSix :Array<Iword>= [
 		name: "hoa quả, trái cây",
 		character: {
 			hiragana: "くだもの",
-			katakana: "",
+			katakana: null,
 			kanji: "果物",
 		},
 	},
@@ -2348,7 +2348,7 @@ const lessonSix :Array<Iword>= [
 		name: "nước",
 		character: {
 			hiragana: "みず",
-			katakana: "",
+			katakana: null,
 			kanji: "水",
 		},
 	},
@@ -2356,7 +2356,7 @@ const lessonSix :Array<Iword>= [
 		name: "trà (nói chung)",
 		character: {
 			hiragana: "おちゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "お茶",
 		},
 	},
@@ -2364,7 +2364,7 @@ const lessonSix :Array<Iword>= [
 		name: "trà đen",
 		character: {
 			hiragana: "こうちゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "紅茶",
 		},
 	},
@@ -2372,31 +2372,31 @@ const lessonSix :Array<Iword>= [
 		name: "sữa bò (sữa)",
 		character: {
 			hiragana: "ぎゅうにゅう(ミルク)",
-			katakana: "",
+			katakana: null,
 			kanji: "牛乳",
 		},
 	},
 	{
 		name: "nước hoa quả",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ジュース",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bia",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ビール",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "rượu, rượu sake",
 		character: {
 			hiragana: "[お]さけ",
-			katakana: "",
+			katakana: null,
 			kanji: "[お]酒",
 		},
 	},
@@ -2404,47 +2404,47 @@ const lessonSix :Array<Iword>= [
 		name: "thuốc lá",
 		character: {
 			hiragana: "たばこ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thư",
 		character: {
 			hiragana: "てがみ",
-			katakana: "",
+			katakana: null,
 			kanji: "手紙",
 		},
 	},
 	{
 		name: "báo cáo",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "レポート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "ảnh",
 		character: {
 			hiragana: "しゃしん",
-			katakana: "",
+			katakana: null,
 			kanji: "写真",
 		},
 	},
 	{
 		name: "video, băng video, đầu video",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ビデオ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cửa hàng, tiệm",
 		character: {
 			hiragana: "みせ",
-			katakana: "",
+			katakana: null,
 			kanji: "店",
 		},
 	},
@@ -2452,7 +2452,7 @@ const lessonSix :Array<Iword>= [
 		name: "vườn",
 		character: {
 			hiragana: "にわ",
-			katakana: "",
+			katakana: null,
 			kanji: "庭",
 		},
 	},
@@ -2460,31 +2460,31 @@ const lessonSix :Array<Iword>= [
 		name: "bài tập về nhà (～をします: làm bài tập)",
 		character: {
 			hiragana: "しゅくだい",
-			katakana: "",
+			katakana: null,
 			kanji: "宿題",
 		},
 	},
 	{
 		name: "quần vợt (～をします: đánh quần vợt)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "テニス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bóng đá (～をします: chơi bóng đá)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "サッカー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)",
 		character: {
 			hiragana: "[お]はなみ",
-			katakana: "",
+			katakana: null,
 			kanji: "[お]花見",
 		},
 	},
@@ -2492,7 +2492,7 @@ const lessonSix :Array<Iword>= [
 		name: "cái gì, gì",
 		character: {
 			hiragana: "なに",
-			katakana: "",
+			katakana: null,
 			kanji: "何",
 		},
 	},
@@ -2500,31 +2500,31 @@ const lessonSix :Array<Iword>= [
 		name: "cùng, cùng nhau",
 		character: {
 			hiragana: "いっしょに",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "một chút",
 		character: {
 			hiragana: "ちょっと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "luôn luôn, lúc nào cũng",
 		character: {
 			hiragana: "いつも",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thỉnh thoảng",
 		character: {
 			hiragana: "ときどき",
-			katakana: "",
+			katakana: null,
 			kanji: "時々",
 		},
 	},
@@ -2532,39 +2532,39 @@ const lessonSix :Array<Iword>= [
 		name: "sau đó, tiếp theo",
 		character: {
 			hiragana: "それから",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "vâng, được (cách nói thân mật của 「はい」)",
 		character: {
 			hiragana: "ええ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Được đấy nhỉ./ hay quá.",
 		character: {
 			hiragana: "いいですね。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi hiểu rồi/ vâng ạ.",
 		character: {
 			hiragana: "わかりました。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Có gì đấy ạ?/ cái gì vậy?",
 		character: {
 			hiragana: "なんですか。",
-			katakana: "",
+			katakana: null,
 			kanji: "何",
 		},
 	},
@@ -2572,23 +2572,23 @@ const lessonSix :Array<Iword>= [
 		name: "Hẹn gặp lại [ngày mai].",
 		character: {
 			hiragana: "じゃ、また[あした]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Mexico",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "メキシコ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bách hóa Osaka (giả định)",
 		character: {
 			hiragana: "おおさかデパート",
-			katakana: "",
+			katakana: null,
 			kanji: "大阪デパート",
 		},
 	},
@@ -2596,15 +2596,15 @@ const lessonSix :Array<Iword>= [
 		name: "tên nhà hàng (giả định)",
 		character: {
 			hiragana: "つるや",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên siêu thị (giả định)",
 		character: {
 			hiragana: "フランスや",
-			katakana: "",
+			katakana: null,
 			kanji: "フランス屋",
 		},
 	},
@@ -2612,18 +2612,18 @@ const lessonSix :Array<Iword>= [
 		name: "tên siêu thị (giả định)",
 		character: {
 			hiragana: "まいにちや",
-			katakana: "",
+			katakana: null,
 			kanji: "毎日屋",
 		},
 	},
 ];
 
-const lessonSeven :Array<Iword>= [
+const lessonSeven: Array<Iword> = [
 	{
 		name: "cắt",
 		character: {
 			hiragana: "きります",
-			katakana: "",
+			katakana: null,
 			kanji: "切ります",
 		},
 	},
@@ -2631,7 +2631,7 @@ const lessonSeven :Array<Iword>= [
 		name: "gửi",
 		character: {
 			hiragana: "おくります",
-			katakana: "",
+			katakana: null,
 			kanji: "送ります",
 		},
 	},
@@ -2639,23 +2639,23 @@ const lessonSeven :Array<Iword>= [
 		name: "cho, tặng",
 		character: {
 			hiragana: "あげます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhận",
 		character: {
 			hiragana: "もらいます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cho mượn, cho vay",
 		character: {
 			hiragana: "かします",
-			katakana: "",
+			katakana: null,
 			kanji: "貸します",
 		},
 	},
@@ -2663,7 +2663,7 @@ const lessonSeven :Array<Iword>= [
 		name: "mượn, vay",
 		character: {
 			hiragana: "かります",
-			katakana: "",
+			katakana: null,
 			kanji: "借ります",
 		},
 	},
@@ -2671,7 +2671,7 @@ const lessonSeven :Array<Iword>= [
 		name: "dạy",
 		character: {
 			hiragana: "おしえます",
-			katakana: "",
+			katakana: null,
 			kanji: "教えます",
 		},
 	},
@@ -2679,7 +2679,7 @@ const lessonSeven :Array<Iword>= [
 		name: "học, tập",
 		character: {
 			hiragana: "ならいます",
-			katakana: "",
+			katakana: null,
 			kanji: "習います",
 		},
 	},
@@ -2687,7 +2687,7 @@ const lessonSeven :Array<Iword>= [
 		name: "gọi [điện thoại]",
 		character: {
 			hiragana: "かけます[でんわを～]",
-			katakana: "",
+			katakana: null,
 			kanji: "かけます[電話を～]",
 		},
 	},
@@ -2695,7 +2695,7 @@ const lessonSeven :Array<Iword>= [
 		name: "tay",
 		character: {
 			hiragana: "て",
-			katakana: "",
+			katakana: null,
 			kanji: "手",
 		},
 	},
@@ -2703,111 +2703,111 @@ const lessonSeven :Array<Iword>= [
 		name: "đũa",
 		character: {
 			hiragana: "はし",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thìa",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スプーン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "dao",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ナイフ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "nĩa",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "フォーク",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "kéo",
 		character: {
 			hiragana: "はさみ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "máy vi tính cá nhân",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "パソコン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "điện thoại di động",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ケータイ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "thư điện tử, email",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "メール",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "thiệp mừng năm mới",
 		character: {
 			hiragana: "ねんがじょう",
-			katakana: "",
+			katakana: null,
 			kanji: "年賀状",
 		},
 	},
 	{
 		name: "cái đục lỗ",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "パンチ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cái dập ghim",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ホッチキス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "băng dính",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "セロテープ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cái tẩy",
 		character: {
 			hiragana: "けしゴム",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "giấy",
 		character: {
 			hiragana: "かみ",
-			katakana: "",
+			katakana: null,
 			kanji: "紙",
 		},
 	},
@@ -2815,31 +2815,31 @@ const lessonSeven :Array<Iword>= [
 		name: "hoa",
 		character: {
 			hiragana: "はな",
-			katakana: "",
+			katakana: null,
 			kanji: "花",
 		},
 	},
 	{
 		name: "áo sơ mi",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "シャツ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "quà tặng, tặng phẩm",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "プレゼント",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "đồ đạc, hành lý",
 		character: {
 			hiragana: "にもつ",
-			katakana: "",
+			katakana: null,
 			kanji: "荷物",
 		},
 	},
@@ -2847,7 +2847,7 @@ const lessonSeven :Array<Iword>= [
 		name: "tiền",
 		character: {
 			hiragana: "おかね",
-			katakana: "",
+			katakana: null,
 			kanji: "お金",
 		},
 	},
@@ -2855,23 +2855,23 @@ const lessonSeven :Array<Iword>= [
 		name: "vé",
 		character: {
 			hiragana: "きっぷ",
-			katakana: "",
+			katakana: null,
 			kanji: "切符",
 		},
 	},
 	{
 		name: "Giáng sinh",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "クリスマス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bố (dùng khi nói về bố mình)",
 		character: {
 			hiragana: "ちち",
-			katakana: "",
+			katakana: null,
 			kanji: "父",
 		},
 	},
@@ -2879,7 +2879,7 @@ const lessonSeven :Array<Iword>= [
 		name: "mẹ (dùng khi nói về mẹ mình)",
 		character: {
 			hiragana: "はは",
-			katakana: "",
+			katakana: null,
 			kanji: "母",
 		},
 	},
@@ -2887,7 +2887,7 @@ const lessonSeven :Array<Iword>= [
 		name: "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
 		character: {
 			hiragana: "おとうさん",
-			katakana: "",
+			katakana: null,
 			kanji: "お父さん",
 		},
 	},
@@ -2895,7 +2895,7 @@ const lessonSeven :Array<Iword>= [
 		name: "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
 		character: {
 			hiragana: "おかあさん",
-			katakana: "",
+			katakana: null,
 			kanji: "お母さん",
 		},
 	},
@@ -2903,114 +2903,114 @@ const lessonSeven :Array<Iword>= [
 		name: "đã, rồi",
 		character: {
 			hiragana: "もう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chưa",
 		character: {
 			hiragana: "まだ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "từ bây giờ, sau đây",
 		character: {
 			hiragana: "これから",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "[] hay nhỉ./ đẹp nhỉ.",
 		character: {
 			hiragana: "[～、]すてきですね。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Chào mừng anh/chị đã đến chơi.",
 		character: {
 			hiragana: "いらっしゃい。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Mời anh/chị vào.",
 		character: {
 			hiragana: "どうぞ　おあがりください。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin thất lễ",
 		character: {
 			hiragana: "しつれいします。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị dùng [] có được không?",
 		character: {
 			hiragana: "[～は]いかがですか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin nhận . (cách nói dùng trước khi ăn hoặc uống)",
 		character: {
 			hiragana: "いただきます。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Xin cám ơn anh/chị đã đãi tôi bữa ăn ngon (cách nói dùng sau khi ăn xong)",
 		character: {
 			hiragana: "ごちそうさま［でした］",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tây Ban Nha",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スペイン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonEight :Array<Iword>= [
+const lessonEight: Array<Iword> = [
 	{
 		name: "đẹp trai",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ハンサム",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "đẹp, sạch",
 		character: {
 			hiragana: "きれい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "yên tĩnh",
 		character: {
 			hiragana: "しずか",
-			katakana: "",
+			katakana: null,
 			kanji: "静か",
 		},
 	},
@@ -3018,15 +3018,15 @@ const lessonEight :Array<Iword>= [
 		name: "náo nhiệt",
 		character: {
 			hiragana: "にぎやか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nổi tiếng",
 		character: {
 			hiragana: "ゆうめい",
-			katakana: "",
+			katakana: null,
 			kanji: "有名",
 		},
 	},
@@ -3034,7 +3034,7 @@ const lessonEight :Array<Iword>= [
 		name: "tốt bụng, thân thiện",
 		character: {
 			hiragana: "しんせつ",
-			katakana: "",
+			katakana: null,
 			kanji: "親切",
 		},
 	},
@@ -3042,7 +3042,7 @@ const lessonEight :Array<Iword>= [
 		name: "khỏe",
 		character: {
 			hiragana: "げんき",
-			katakana: "",
+			katakana: null,
 			kanji: "元気",
 		},
 	},
@@ -3050,7 +3050,7 @@ const lessonEight :Array<Iword>= [
 		name: "rảnh rỗi",
 		character: {
 			hiragana: "ひま",
-			katakana: "",
+			katakana: null,
 			kanji: "暇",
 		},
 	},
@@ -3058,7 +3058,7 @@ const lessonEight :Array<Iword>= [
 		name: "tiện lợi",
 		character: {
 			hiragana: "べんり",
-			katakana: "",
+			katakana: null,
 			kanji: "便利",
 		},
 	},
@@ -3066,15 +3066,15 @@ const lessonEight :Array<Iword>= [
 		name: "đẹp, hay",
 		character: {
 			hiragana: "すてき",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "lớn, to",
 		character: {
 			hiragana: "おおきい",
-			katakana: "",
+			katakana: null,
 			kanji: "大きい",
 		},
 	},
@@ -3082,7 +3082,7 @@ const lessonEight :Array<Iword>= [
 		name: "bé, nhỏ",
 		character: {
 			hiragana: "ちいさい",
-			katakana: "",
+			katakana: null,
 			kanji: "小さい",
 		},
 	},
@@ -3090,7 +3090,7 @@ const lessonEight :Array<Iword>= [
 		name: "mới",
 		character: {
 			hiragana: "あたらしい",
-			katakana: "",
+			katakana: null,
 			kanji: "新しい",
 		},
 	},
@@ -3098,7 +3098,7 @@ const lessonEight :Array<Iword>= [
 		name: "cũ",
 		character: {
 			hiragana: "ふるい",
-			katakana: "",
+			katakana: null,
 			kanji: "古い",
 		},
 	},
@@ -3106,15 +3106,15 @@ const lessonEight :Array<Iword>= [
 		name: "tốt",
 		character: {
 			hiragana: "いい, よい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "xấu",
 		character: {
 			hiragana: "わるい",
-			katakana: "",
+			katakana: null,
 			kanji: "悪い",
 		},
 	},
@@ -3122,7 +3122,7 @@ const lessonEight :Array<Iword>= [
 		name: "nóng",
 		character: {
 			hiragana: "あつい",
-			katakana: "",
+			katakana: null,
 			kanji: "暑い, 熱い",
 		},
 	},
@@ -3130,7 +3130,7 @@ const lessonEight :Array<Iword>= [
 		name: "lạnh, rét (dùng cho thời tiết)",
 		character: {
 			hiragana: "さむい",
-			katakana: "",
+			katakana: null,
 			kanji: "寒い",
 		},
 	},
@@ -3138,7 +3138,7 @@ const lessonEight :Array<Iword>= [
 		name: "lạnh, buốt (dùng cho cảm giác)",
 		character: {
 			hiragana: "つめたい",
-			katakana: "",
+			katakana: null,
 			kanji: "冷たい",
 		},
 	},
@@ -3146,7 +3146,7 @@ const lessonEight :Array<Iword>= [
 		name: "khó",
 		character: {
 			hiragana: "むずかしい",
-			katakana: "",
+			katakana: null,
 			kanji: "難しい",
 		},
 	},
@@ -3154,7 +3154,7 @@ const lessonEight :Array<Iword>= [
 		name: "dễ",
 		character: {
 			hiragana: "やさしい",
-			katakana: "",
+			katakana: null,
 			kanji: "易しい",
 		},
 	},
@@ -3162,7 +3162,7 @@ const lessonEight :Array<Iword>= [
 		name: "đắt, cao",
 		character: {
 			hiragana: "たかい",
-			katakana: "",
+			katakana: null,
 			kanji: "高い",
 		},
 	},
@@ -3170,7 +3170,7 @@ const lessonEight :Array<Iword>= [
 		name: "rẻ",
 		character: {
 			hiragana: "やすい",
-			katakana: "",
+			katakana: null,
 			kanji: "安い",
 		},
 	},
@@ -3178,7 +3178,7 @@ const lessonEight :Array<Iword>= [
 		name: "thấp",
 		character: {
 			hiragana: "ひくい",
-			katakana: "",
+			katakana: null,
 			kanji: "低い",
 		},
 	},
@@ -3186,23 +3186,23 @@ const lessonEight :Array<Iword>= [
 		name: "thú vị, hay",
 		character: {
 			hiragana: "おもしろい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ngon",
 		character: {
 			hiragana: "おいしい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bận",
 		character: {
 			hiragana: "いそがしい",
-			katakana: "",
+			katakana: null,
 			kanji: "忙しい",
 		},
 	},
@@ -3210,7 +3210,7 @@ const lessonEight :Array<Iword>= [
 		name: "vui",
 		character: {
 			hiragana: "たのしい",
-			katakana: "",
+			katakana: null,
 			kanji: "楽しい",
 		},
 	},
@@ -3218,7 +3218,7 @@ const lessonEight :Array<Iword>= [
 		name: "trắng",
 		character: {
 			hiragana: "しろい",
-			katakana: "",
+			katakana: null,
 			kanji: "白い",
 		},
 	},
@@ -3226,7 +3226,7 @@ const lessonEight :Array<Iword>= [
 		name: "đen",
 		character: {
 			hiragana: "くろい",
-			katakana: "",
+			katakana: null,
 			kanji: "黒い",
 		},
 	},
@@ -3234,7 +3234,7 @@ const lessonEight :Array<Iword>= [
 		name: "đỏ",
 		character: {
 			hiragana: "あかい",
-			katakana: "",
+			katakana: null,
 			kanji: "赤い",
 		},
 	},
@@ -3242,7 +3242,7 @@ const lessonEight :Array<Iword>= [
 		name: "xanh da trời",
 		character: {
 			hiragana: "あおい",
-			katakana: "",
+			katakana: null,
 			kanji: "青い",
 		},
 	},
@@ -3250,7 +3250,7 @@ const lessonEight :Array<Iword>= [
 		name: "anh đào (hoa, cây)",
 		character: {
 			hiragana: "さくら",
-			katakana: "",
+			katakana: null,
 			kanji: "桜",
 		},
 	},
@@ -3258,7 +3258,7 @@ const lessonEight :Array<Iword>= [
 		name: "núi",
 		character: {
 			hiragana: "やま",
-			katakana: "",
+			katakana: null,
 			kanji: "山",
 		},
 	},
@@ -3266,7 +3266,7 @@ const lessonEight :Array<Iword>= [
 		name: "thị trấn, thị xã, thành phố",
 		character: {
 			hiragana: "まち",
-			katakana: "",
+			katakana: null,
 			kanji: "町",
 		},
 	},
@@ -3274,7 +3274,7 @@ const lessonEight :Array<Iword>= [
 		name: "đồ ăn",
 		character: {
 			hiragana: "たべもの",
-			katakana: "",
+			katakana: null,
 			kanji: "食べ物",
 		},
 	},
@@ -3282,7 +3282,7 @@ const lessonEight :Array<Iword>= [
 		name: "nơi, chỗ",
 		character: {
 			hiragana: "ところ",
-			katakana: "",
+			katakana: null,
 			kanji: "所",
 		},
 	},
@@ -3290,23 +3290,23 @@ const lessonEight :Array<Iword>= [
 		name: "kí túc xá",
 		character: {
 			hiragana: "りょう",
-			katakana: "",
+			katakana: null,
 			kanji: "寮",
 		},
 	},
 	{
 		name: "nhà hàng",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "レストラン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cuộc sống, sinh hoạt",
 		character: {
 			hiragana: "せいかつ",
-			katakana: "",
+			katakana: null,
 			kanji: "生活",
 		},
 	},
@@ -3314,7 +3314,7 @@ const lessonEight :Array<Iword>= [
 		name: "công việc (～をします：làm việc)",
 		character: {
 			hiragana: "しごと",
-			katakana: "",
+			katakana: null,
 			kanji: "仕事",
 		},
 	},
@@ -3322,55 +3322,55 @@ const lessonEight :Array<Iword>= [
 		name: "thế nào",
 		character: {
 			hiragana: "どう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: " như thế nào",
 		character: {
 			hiragana: "どんな～",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "rất, lắm",
 		character: {
 			hiragana: "とても",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "không  lắm",
 		character: {
 			hiragana: "あまり",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "và, thêm nữa (dùng để nối 2 câu)",
 		character: {
 			hiragana: "そして",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: " , nhưng ",
 		character: {
 			hiragana: "～が、～",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị có khỏe không?",
 		character: {
 			hiragana: "おげんきですか",
-			katakana: "",
+			katakana: null,
 			kanji: "お元気ですか",
 		},
 	},
@@ -3378,15 +3378,15 @@ const lessonEight :Array<Iword>= [
 		name: "Thế à. Như vậy nhỉ",
 		character: {
 			hiragana: "そうですね",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "một chén/ly nữa được không ạ?",
 		character: {
 			hiragana: "もういっぱいいかがですか",
-			katakana: "",
+			katakana: null,
 			kanji: "もう一杯いかがですか",
 		},
 	},
@@ -3394,23 +3394,23 @@ const lessonEight :Array<Iword>= [
 		name: "Không, đủ rồi ạ.",
 		character: {
 			hiragana: "いいえけっこうです",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Đã  rồi nhỉ./ Đã  rồi, đúng không ạ?",
 		character: {
 			hiragana: "もう～です[ね]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Sắp đến lúc tôi phải xin phép rồi./ Đã đến lúc tôi phải về.",
 		character: {
 			hiragana: "そろそろしつれいします",
-			katakana: "",
+			katakana: null,
 			kanji: "そろそろ失礼します",
 		},
 	},
@@ -3418,7 +3418,7 @@ const lessonEight :Array<Iword>= [
 		name: "Không có gì./ Không sao cả.",
 		character: {
 			hiragana: "いいえ",
-			katakana: "",
+			katakana: null,
 			kanji: "いいえ",
 		},
 	},
@@ -3426,15 +3426,15 @@ const lessonEight :Array<Iword>= [
 		name: "Lần sau anh/ chị lại đến chơi nhé.",
 		character: {
 			hiragana: "またいらっしゃってください",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Thượng Hải",
 		character: {
 			hiragana: "しゃんはい",
-			katakana: "",
+			katakana: null,
 			kanji: "上海",
 		},
 	},
@@ -3442,7 +3442,7 @@ const lessonEight :Array<Iword>= [
 		name: "Chùa Kinkaku-ji (chùa vàng)",
 		character: {
 			hiragana: "きんかくじ",
-			katakana: "",
+			katakana: null,
 			kanji: "金閣寺",
 		},
 	},
@@ -3450,7 +3450,7 @@ const lessonEight :Array<Iword>= [
 		name: "Công viên Nara",
 		character: {
 			hiragana: "ならこうえん",
-			katakana: "",
+			katakana: null,
 			kanji: "奈良公園",
 		},
 	},
@@ -3458,7 +3458,7 @@ const lessonEight :Array<Iword>= [
 		name: "Núi Phú Sĩ (ngọn núi cao nhất Nhật Bản)",
 		character: {
 			hiragana: "ふじさん",
-			katakana: "",
+			katakana: null,
 			kanji: "富士山",
 		},
 	},
@@ -3466,34 +3466,34 @@ const lessonEight :Array<Iword>= [
 		name: "bảy chàng võ sĩ Samurai (tên phim)",
 		character: {
 			hiragana: "しちにんのさむらい",
-			katakana: "",
+			katakana: null,
 			kanji: "七人の侍",
 		},
 	},
 ];
 
-const lessonNine :Array<Iword>= [
+const lessonNine: Array<Iword> = [
 	{
 		name: "hiểu, nắm được",
 		character: {
 			hiragana: "わかります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "có (sở hữu)",
 		character: {
 			hiragana: "あります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thích",
 		character: {
 			hiragana: "すき",
-			katakana: "",
+			katakana: null,
 			kanji: "好き",
 		},
 	},
@@ -3501,7 +3501,7 @@ const lessonNine :Array<Iword>= [
 		name: "ghét, không thích",
 		character: {
 			hiragana: "きらい",
-			katakana: "",
+			katakana: null,
 			kanji: "嫌い",
 		},
 	},
@@ -3509,7 +3509,7 @@ const lessonNine :Array<Iword>= [
 		name: "giỏi, khéo",
 		character: {
 			hiragana: "じょうず",
-			katakana: "",
+			katakana: null,
 			kanji: "上手",
 		},
 	},
@@ -3517,7 +3517,7 @@ const lessonNine :Array<Iword>= [
 		name: "kém",
 		character: {
 			hiragana: "へた",
-			katakana: "",
+			katakana: null,
 			kanji: "下手",
 		},
 	},
@@ -3525,7 +3525,7 @@ const lessonNine :Array<Iword>= [
 		name: "đồ uống",
 		character: {
 			hiragana: "のみもの",
-			katakana: "",
+			katakana: null,
 			kanji: "飲み物",
 		},
 	},
@@ -3533,39 +3533,39 @@ const lessonNine :Array<Iword>= [
 		name: "món ăn, việc nấu ăn",
 		character: {
 			hiragana: "りょうり",
-			katakana: "",
+			katakana: null,
 			kanji: "料理",
 		},
 	},
 	{
 		name: "thể thao (～をします：chơi thể thao)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スポーツ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bóng chày (～をします：chơi bóng chày)",
 		character: {
 			hiragana: "やきゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "野球",
 		},
 	},
 	{
 		name: "nhảy, khiêu vũ(～をします：nhảy, khiêu vũ)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ダンス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "du lịch, chuyến du lịch",
 		character: {
 			hiragana: "りょこう",
-			katakana: "",
+			katakana: null,
 			kanji: "旅行",
 		},
 	},
@@ -3573,7 +3573,7 @@ const lessonNine :Array<Iword>= [
 		name: "âm nhạc",
 		character: {
 			hiragana: "おんがく",
-			katakana: "",
+			katakana: null,
 			kanji: "音楽",
 		},
 	},
@@ -3581,47 +3581,47 @@ const lessonNine :Array<Iword>= [
 		name: "bài hát",
 		character: {
 			hiragana: "うた",
-			katakana: "",
+			katakana: null,
 			kanji: "歌",
 		},
 	},
 	{
 		name: "nhạc cổ điển",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "クラシック",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "nhạc jazz",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ジャズ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "buổi hòa nhạc",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コンサート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "karaoke",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "カラオケ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Kabuki (một loại ca kịch truyền thống của Nhật)",
 		character: {
 			hiragana: "かぶき",
-			katakana: "",
+			katakana: null,
 			kanji: "歌舞伎",
 		},
 	},
@@ -3629,7 +3629,7 @@ const lessonNine :Array<Iword>= [
 		name: "tranh, hội họa",
 		character: {
 			hiragana: "え",
-			katakana: "",
+			katakana: null,
 			kanji: "絵",
 		},
 	},
@@ -3637,7 +3637,7 @@ const lessonNine :Array<Iword>= [
 		name: "chữ",
 		character: {
 			hiragana: "じ",
-			katakana: "",
+			katakana: null,
 			kanji: "字",
 		},
 	},
@@ -3645,7 +3645,7 @@ const lessonNine :Array<Iword>= [
 		name: "chữ hán",
 		character: {
 			hiragana: "かんじ",
-			katakana: "",
+			katakana: null,
 			kanji: "漢字",
 		},
 	},
@@ -3653,23 +3653,23 @@ const lessonNine :Array<Iword>= [
 		name: "chữ Hiragana",
 		character: {
 			hiragana: "ひらがな",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Chữ Katakana",
 		character: {
 			hiragana: "かたかな",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chữ La Mã",
 		character: {
 			hiragana: "ローマじ",
-			katakana: "",
+			katakana: null,
 			kanji: "ローマ字",
 		},
 	},
@@ -3677,23 +3677,23 @@ const lessonNine :Array<Iword>= [
 		name: "tiền lẻ",
 		character: {
 			hiragana: "こまかいおかね",
-			katakana: "",
+			katakana: null,
 			kanji: "細かいお金",
 		},
 	},
 	{
 		name: "vé (xem hòa nhạc, xem phim)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "チケット",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "thời gian",
 		character: {
 			hiragana: "じかん",
-			katakana: "",
+			katakana: null,
 			kanji: "時間",
 		},
 	},
@@ -3701,7 +3701,7 @@ const lessonNine :Array<Iword>= [
 		name: "việc bận, công chuyện",
 		character: {
 			hiragana: "ようじ",
-			katakana: "",
+			katakana: null,
 			kanji: "用事",
 		},
 	},
@@ -3709,23 +3709,23 @@ const lessonNine :Array<Iword>= [
 		name: "cuộc hẹn, lời hứa",
 		character: {
 			hiragana: "やくそく",
-			katakana: "",
+			katakana: null,
 			kanji: "約束",
 		},
 	},
 	{
 		name: "việc làm thêm",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アルバイト",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "chồng (dùng khi nói về chồng người khác)",
 		character: {
 			hiragana: "ごしゅじん",
-			katakana: "",
+			katakana: null,
 			kanji: "ご主人",
 		},
 	},
@@ -3733,7 +3733,7 @@ const lessonNine :Array<Iword>= [
 		name: "chồng (dùng khi nói về chồng mình)",
 		character: {
 			hiragana: "おっと/しゅじん",
-			katakana: "",
+			katakana: null,
 			kanji: "夫 /主人",
 		},
 	},
@@ -3741,7 +3741,7 @@ const lessonNine :Array<Iword>= [
 		name: "vợ (dùng khi nói về vợ người khác)",
 		character: {
 			hiragana: "おくさん",
-			katakana: "",
+			katakana: null,
 			kanji: "奥さん",
 		},
 	},
@@ -3749,7 +3749,7 @@ const lessonNine :Array<Iword>= [
 		name: "vợ (dùng khi nói về vợ mình)",
 		character: {
 			hiragana: "つま/かない",
-			katakana: "",
+			katakana: null,
 			kanji: "妻/家内",
 		},
 	},
@@ -3757,7 +3757,7 @@ const lessonNine :Array<Iword>= [
 		name: "con cái",
 		character: {
 			hiragana: "こども",
-			katakana: "",
+			katakana: null,
 			kanji: "子ども",
 		},
 	},
@@ -3765,31 +3765,31 @@ const lessonNine :Array<Iword>= [
 		name: "tốt, rõ (chỉ mức độ)",
 		character: {
 			hiragana: "よく",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "đại khái, đại thể",
 		character: {
 			hiragana: "だいたい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhiều",
 		character: {
 			hiragana: "たくさん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ít, một ít",
 		character: {
 			hiragana: "すこし",
-			katakana: "",
+			katakana: null,
 			kanji: "少し",
 		},
 	},
@@ -3797,7 +3797,7 @@ const lessonNine :Array<Iword>= [
 		name: "hoàn toàn  không",
 		character: {
 			hiragana: "ぜんぜん",
-			katakana: "",
+			katakana: null,
 			kanji: "全然",
 		},
 	},
@@ -3805,7 +3805,7 @@ const lessonNine :Array<Iword>= [
 		name: "sớm, nhanh",
 		character: {
 			hiragana: "はやく",
-			katakana: "",
+			katakana: null,
 			kanji: "早く, 速く",
 		},
 	},
@@ -3813,23 +3813,23 @@ const lessonNine :Array<Iword>= [
 		name: "vì ",
 		character: {
 			hiragana: "～から",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tại sao",
 		character: {
 			hiragana: "どうして",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Hãy cho tôi mượn.",
 		character: {
 			hiragana: "貸してください",
-			katakana: "",
+			katakana: null,
 			kanji: "貸してください",
 		},
 	},
@@ -3837,7 +3837,7 @@ const lessonNine :Array<Iword>= [
 		name: "Được chứ./ Được ạ.",
 		character: {
 			hiragana: "いいですよ",
-			katakana: "",
+			katakana: null,
 			kanji: "いいですよ",
 		},
 	},
@@ -3845,7 +3845,7 @@ const lessonNine :Array<Iword>= [
 		name: "Thật đáng tiếc nhỉ./ buồn nhỉ.",
 		character: {
 			hiragana: "残念ですね",
-			katakana: "",
+			katakana: null,
 			kanji: "残念ですね",
 		},
 	},
@@ -3853,74 +3853,74 @@ const lessonNine :Array<Iword>= [
 		name: "Ah",
 		character: {
 			hiragana: "ああ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị cùng  (làm cái gì đó) với chúng tôi được không?",
 		character: {
 			hiragana: "いっしょにいかがですか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "[ thì] có lẽ không được rồi.",
 		character: {
 			hiragana: "[～は]ちょっと…。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Không được à?",
 		character: {
 			hiragana: "だめですか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Hẹn Anh/Chị lần sau vậy.",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "また　今度　お願いします",
 		},
 	},
 ];
 
-const lessonTen :Array<Iword>= [ 
+const lessonTen: Array<Iword> = [
 	{
 		name: "có (tồn tại, dùng cho đồ vật)",
 		character: {
 			hiragana: "あります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "có, ở (tồn tại, dùng cho người và động vật)",
 		character: {
 			hiragana: "います",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhiều, đa dạng",
 		character: {
 			hiragana: "いろいろ[な]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "người đàn ông",
 		character: {
 			hiragana: "おとこのひと",
-			katakana: "",
+			katakana: null,
 			kanji: "男の人",
 		},
 	},
@@ -3928,7 +3928,7 @@ const lessonTen :Array<Iword>= [
 		name: "người đàn bà",
 		character: {
 			hiragana: "おんなのひと",
-			katakana: "",
+			katakana: null,
 			kanji: "女の人",
 		},
 	},
@@ -3936,7 +3936,7 @@ const lessonTen :Array<Iword>= [
 		name: "cậu con trai",
 		character: {
 			hiragana: "おとこのこ",
-			katakana: "",
+			katakana: null,
 			kanji: "男の子",
 		},
 	},
@@ -3944,7 +3944,7 @@ const lessonTen :Array<Iword>= [
 		name: "cô con gái",
 		character: {
 			hiragana: "おんなのこ",
-			katakana: "",
+			katakana: null,
 			kanji: "女の子",
 		},
 	},
@@ -3952,7 +3952,7 @@ const lessonTen :Array<Iword>= [
 		name: "chó",
 		character: {
 			hiragana: "いぬ",
-			katakana: "",
+			katakana: null,
 			kanji: "犬",
 		},
 	},
@@ -3960,23 +3960,23 @@ const lessonTen :Array<Iword>= [
 		name: "mèo",
 		character: {
 			hiragana: "ねこ",
-			katakana: "",
+			katakana: null,
 			kanji: "猫",
 		},
 	},
 	{
 		name: "gấu trúc",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "パンダ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "voi",
 		character: {
 			hiragana: "ぞう",
-			katakana: "",
+			katakana: null,
 			kanji: "象",
 		},
 	},
@@ -3984,7 +3984,7 @@ const lessonTen :Array<Iword>= [
 		name: "cây, gỗ",
 		character: {
 			hiragana: "き",
-			katakana: "",
+			katakana: null,
 			kanji: "木",
 		},
 	},
@@ -3992,7 +3992,7 @@ const lessonTen :Array<Iword>= [
 		name: "vật, đồ vật",
 		character: {
 			hiragana: "もの",
-			katakana: "",
+			katakana: null,
 			kanji: "物",
 		},
 	},
@@ -4000,7 +4000,7 @@ const lessonTen :Array<Iword>= [
 		name: "Pin",
 		character: {
 			hiragana: "でんち",
-			katakana: "",
+			katakana: null,
 			kanji: "電池",
 		},
 	},
@@ -4008,103 +4008,103 @@ const lessonTen :Array<Iword>= [
 		name: "hộp",
 		character: {
 			hiragana: "はこ",
-			katakana: "",
+			katakana: null,
 			kanji: "箱",
 		},
 	},
 	{
 		name: "công tắc",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スイッチ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tủ lạnh",
 		character: {
 			hiragana: "れいぞうこ",
-			katakana: "",
+			katakana: null,
 			kanji: "冷蔵庫",
 		},
 	},
 	{
 		name: "bàn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "テーブル",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "giường",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ベッド",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "giá sách",
 		character: {
 			hiragana: "たな",
-			katakana: "",
+			katakana: null,
 			kanji: "棚",
 		},
 	},
 	{
 		name: "cửa",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ドア",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cửa sổ",
 		character: {
 			hiragana: "まど",
-			katakana: "",
+			katakana: null,
 			kanji: "窓",
 		},
 	},
 	{
 		name: "hộp thư, hòm thư",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ポスト",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "toà nhà",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ビル",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "máy rút tiền tự động ATM",
 		character: {
 			hiragana: "ATM",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cửa hàng tiện lợi (mở 24/24)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コンビニ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "công viên",
 		character: {
 			hiragana: "こうえん",
-			katakana: "",
+			katakana: null,
 			kanji: "公園",
 		},
 	},
@@ -4112,7 +4112,7 @@ const lessonTen :Array<Iword>= [
 		name: "quán giải khát, quán cà-phê",
 		character: {
 			hiragana: "きっさてん",
-			katakana: "",
+			katakana: null,
 			kanji: "喫茶店",
 		},
 	},
@@ -4120,7 +4120,7 @@ const lessonTen :Array<Iword>= [
 		name: "hiệu , cửa hàng ",
 		character: {
 			hiragana: "～や",
-			katakana: "",
+			katakana: null,
 			kanji: "～屋",
 		},
 	},
@@ -4128,7 +4128,7 @@ const lessonTen :Array<Iword>= [
 		name: "bến xe, điểm lên xuống xe",
 		character: {
 			hiragana: "のりば",
-			katakana: "",
+			katakana: null,
 			kanji: "乗り場",
 		},
 	},
@@ -4136,7 +4136,7 @@ const lessonTen :Array<Iword>= [
 		name: "tỉnh",
 		character: {
 			hiragana: "けん",
-			katakana: "",
+			katakana: null,
 			kanji: "県",
 		},
 	},
@@ -4144,7 +4144,7 @@ const lessonTen :Array<Iword>= [
 		name: "trên",
 		character: {
 			hiragana: "うえ",
-			katakana: "",
+			katakana: null,
 			kanji: "上",
 		},
 	},
@@ -4152,7 +4152,7 @@ const lessonTen :Array<Iword>= [
 		name: "dưới",
 		character: {
 			hiragana: "した",
-			katakana: "",
+			katakana: null,
 			kanji: "下",
 		},
 	},
@@ -4160,7 +4160,7 @@ const lessonTen :Array<Iword>= [
 		name: "trước",
 		character: {
 			hiragana: "まえ",
-			katakana: "",
+			katakana: null,
 			kanji: "前",
 		},
 	},
@@ -4168,15 +4168,15 @@ const lessonTen :Array<Iword>= [
 		name: "sau",
 		character: {
 			hiragana: "うしろ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "phải",
 		character: {
 			hiragana: "みぎ",
-			katakana: "",
+			katakana: null,
 			kanji: "右",
 		},
 	},
@@ -4184,7 +4184,7 @@ const lessonTen :Array<Iword>= [
 		name: "trái",
 		character: {
 			hiragana: "ひだり",
-			katakana: "",
+			katakana: null,
 			kanji: "左",
 		},
 	},
@@ -4192,7 +4192,7 @@ const lessonTen :Array<Iword>= [
 		name: "trong, giữa",
 		character: {
 			hiragana: "なか",
-			katakana: "",
+			katakana: null,
 			kanji: "中",
 		},
 	},
@@ -4200,7 +4200,7 @@ const lessonTen :Array<Iword>= [
 		name: "ngoài",
 		character: {
 			hiragana: "そと",
-			katakana: "",
+			katakana: null,
 			kanji: "外",
 		},
 	},
@@ -4208,7 +4208,7 @@ const lessonTen :Array<Iword>= [
 		name: "bên cạnh",
 		character: {
 			hiragana: "となり",
-			katakana: "",
+			katakana: null,
 			kanji: "隣",
 		},
 	},
@@ -4216,7 +4216,7 @@ const lessonTen :Array<Iword>= [
 		name: "gần",
 		character: {
 			hiragana: "ちかく",
-			katakana: "",
+			katakana: null,
 			kanji: "近く",
 		},
 	},
@@ -4224,7 +4224,7 @@ const lessonTen :Array<Iword>= [
 		name: "giữa",
 		character: {
 			hiragana: "あいだ",
-			katakana: "",
+			katakana: null,
 			kanji: "間",
 		},
 	},
@@ -4232,66 +4232,66 @@ const lessonTen :Array<Iword>= [
 		name: "và , [v.v.]",
 		character: {
 			hiragana: "～や～[など] ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Cám ơn",
 		character: {
 			hiragana: "[どうも]すみません。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nampla, nước mắn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ナンプラー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "góc, khu vực",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コーナー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "ở dưới cùng",
 		character: {
 			hiragana: "いちばん下",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Công viên Tokyo Disneyland",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "東京ディズニーランド",
 		},
 	},
 	{
 		name: "tên một siêu thị (giả định)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アジアストア",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonEleven :Array<Iword>= [
+const lessonEleven: Array<Iword> = [
 	{
 		name: "có [con]",
 		character: {
 			hiragana: "こどもが～います",
-			katakana: "",
+			katakana: null,
 			kanji: "子供が～います",
 		},
 	},
@@ -4299,7 +4299,7 @@ const lessonEleven :Array<Iword>= [
 		name: "ở [Nhật]",
 		character: {
 			hiragana: "にほんに～います",
-			katakana: "",
+			katakana: null,
 			kanji: "日本に～います",
 		},
 	},
@@ -4307,15 +4307,15 @@ const lessonEleven :Array<Iword>= [
 		name: "mất, tốn (thời gian, tiền bạc)",
 		character: {
 			hiragana: "かかります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nghỉ [làm việc]",
 		character: {
 			hiragana: "やすみます",
-			katakana: "",
+			katakana: null,
 			kanji: "休みます",
 		},
 	},
@@ -4323,95 +4323,95 @@ const lessonEleven :Array<Iword>= [
 		name: "một cái (dùng để đếm đồ vật)",
 		character: {
 			hiragana: "ひとつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "hai cái",
 		character: {
 			hiragana: "ふたつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ba cái",
 		character: {
 			hiragana: "みっつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bốn cái",
 		character: {
 			hiragana: "よっつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "năm cái",
 		character: {
 			hiragana: "いつつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sáu cái",
 		character: {
 			hiragana: "むっつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bảy cái",
 		character: {
 			hiragana: "ななつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tám cái",
 		character: {
 			hiragana: "やっつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chín cái",
 		character: {
 			hiragana: "ここのつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "mười cái",
 		character: {
 			hiragana: "とお",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "mấy cái, bao nhiêu cái",
 		character: {
 			hiragana: "いくつ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "một người",
 		character: {
 			hiragana: "ひとり",
-			katakana: "",
+			katakana: null,
 			kanji: "１人",
 		},
 	},
@@ -4419,7 +4419,7 @@ const lessonEleven :Array<Iword>= [
 		name: "hai người",
 		character: {
 			hiragana: "ふたり",
-			katakana: "",
+			katakana: null,
 			kanji: "２人",
 		},
 	},
@@ -4427,7 +4427,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- người",
 		character: {
 			hiragana: "―にん",
-			katakana: "",
+			katakana: null,
 			kanji: "－人",
 		},
 	},
@@ -4435,7 +4435,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- cái (dùng để đếm máy móc, xe cộ v.v.)",
 		character: {
 			hiragana: "―だい",
-			katakana: "",
+			katakana: null,
 			kanji: "－台",
 		},
 	},
@@ -4443,7 +4443,7 @@ const lessonEleven :Array<Iword>= [
 		name: "tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)",
 		character: {
 			hiragana: "―まい",
-			katakana: "",
+			katakana: null,
 			kanji: "－枚",
 		},
 	},
@@ -4451,7 +4451,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- lần",
 		character: {
 			hiragana: "―かい",
-			katakana: "",
+			katakana: null,
 			kanji: "―回",
 		},
 	},
@@ -4459,47 +4459,47 @@ const lessonEleven :Array<Iword>= [
 		name: "táo",
 		character: {
 			hiragana: "りんご",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "quýt",
 		character: {
 			hiragana: "みかん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bánh San Uých",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "サンドイッチ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "món [cơm] ca-ri",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "カレー[ライス]",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "kem",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アイスクリーム",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tem",
 		character: {
 			hiragana: "きって",
-			katakana: "",
+			katakana: null,
 			kanji: "切手",
 		},
 	},
@@ -4507,15 +4507,15 @@ const lessonEleven :Array<Iword>= [
 		name: "bưu thiếp",
 		character: {
 			hiragana: "はがき",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "phong bì",
 		character: {
 			hiragana: "ふうとう",
-			katakana: "",
+			katakana: null,
 			kanji: "封筒",
 		},
 	},
@@ -4523,7 +4523,7 @@ const lessonEleven :Array<Iword>= [
 		name: "bố mẹ",
 		character: {
 			hiragana: "りょうしん",
-			katakana: "",
+			katakana: null,
 			kanji: "両親",
 		},
 	},
@@ -4531,7 +4531,7 @@ const lessonEleven :Array<Iword>= [
 		name: "anh chị em",
 		character: {
 			hiragana: "きょうだい",
-			katakana: "",
+			katakana: null,
 			kanji: "兄弟",
 		},
 	},
@@ -4539,7 +4539,7 @@ const lessonEleven :Array<Iword>= [
 		name: "anh trai",
 		character: {
 			hiragana: "あに",
-			katakana: "",
+			katakana: null,
 			kanji: "兄",
 		},
 	},
@@ -4547,7 +4547,7 @@ const lessonEleven :Array<Iword>= [
 		name: "anh trai (dùng cho người khác)",
 		character: {
 			hiragana: "おにいさん",
-			katakana: "",
+			katakana: null,
 			kanji: "お兄さん",
 		},
 	},
@@ -4555,7 +4555,7 @@ const lessonEleven :Array<Iword>= [
 		name: "chị gái",
 		character: {
 			hiragana: "あね",
-			katakana: "",
+			katakana: null,
 			kanji: "姉",
 		},
 	},
@@ -4563,7 +4563,7 @@ const lessonEleven :Array<Iword>= [
 		name: "chị gái (dùng cho người khác)",
 		character: {
 			hiragana: "おねえさん",
-			katakana: "",
+			katakana: null,
 			kanji: "お姉さん",
 		},
 	},
@@ -4571,7 +4571,7 @@ const lessonEleven :Array<Iword>= [
 		name: "em trai",
 		character: {
 			hiragana: "おとうと",
-			katakana: "",
+			katakana: null,
 			kanji: "弟",
 		},
 	},
@@ -4579,7 +4579,7 @@ const lessonEleven :Array<Iword>= [
 		name: "em trai (dùng cho người khác)",
 		character: {
 			hiragana: "おとうとさん",
-			katakana: "",
+			katakana: null,
 			kanji: "弟さん",
 		},
 	},
@@ -4587,7 +4587,7 @@ const lessonEleven :Array<Iword>= [
 		name: "em gái",
 		character: {
 			hiragana: "いもうと",
-			katakana: "",
+			katakana: null,
 			kanji: "妹",
 		},
 	},
@@ -4595,7 +4595,7 @@ const lessonEleven :Array<Iword>= [
 		name: "em gái (dùng cho người khác)",
 		character: {
 			hiragana: "いもうとさん",
-			katakana: "",
+			katakana: null,
 			kanji: "妹さん",
 		},
 	},
@@ -4603,7 +4603,7 @@ const lessonEleven :Array<Iword>= [
 		name: "nước ngoài",
 		character: {
 			hiragana: "がいこく",
-			katakana: "",
+			katakana: null,
 			kanji: "外国",
 		},
 	},
@@ -4611,23 +4611,23 @@ const lessonEleven :Array<Iword>= [
 		name: "lưu học sinh, sinh viên nước ngoài",
 		character: {
 			hiragana: "りゅうがくせい",
-			katakana: "",
+			katakana: null,
 			kanji: "留学生",
 		},
 	},
 	{
 		name: "lớp học",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "クラス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "- tiếng",
 		character: {
 			hiragana: "―じかん",
-			katakana: "",
+			katakana: null,
 			kanji: "―時間",
 		},
 	},
@@ -4635,7 +4635,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- tuần",
 		character: {
 			hiragana: "―しゅうかん",
-			katakana: "",
+			katakana: null,
 			kanji: "―週間",
 		},
 	},
@@ -4643,7 +4643,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- tháng",
 		character: {
 			hiragana: "―かげつ",
-			katakana: "",
+			katakana: null,
 			kanji: "－か月",
 		},
 	},
@@ -4651,7 +4651,7 @@ const lessonEleven :Array<Iword>= [
 		name: "- năm",
 		character: {
 			hiragana: "―ねん",
-			katakana: "",
+			katakana: null,
 			kanji: "―年",
 		},
 	},
@@ -4659,23 +4659,23 @@ const lessonEleven :Array<Iword>= [
 		name: "khoảng ",
 		character: {
 			hiragana: "～ぐらい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bao lâu",
 		character: {
 			hiragana: "どのくらい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tổng cộng",
 		character: {
 			hiragana: "ぜんぶで",
-			katakana: "",
+			katakana: null,
 			kanji: "全部で",
 		},
 	},
@@ -4683,31 +4683,31 @@ const lessonEleven :Array<Iword>= [
 		name: "tất cả",
 		character: {
 			hiragana: "みんな",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chỉ ",
 		character: {
 			hiragana: "～だけ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi đã rõ rồi ạ (thưa ông/bà)",
 		character: {
 			hiragana: "かしこまりました。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Trời đẹp nhỉ.",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "いい[お]天気",
 		},
 	},
@@ -4715,74 +4715,74 @@ const lessonEleven :Array<Iword>= [
 		name: "Anh/ chị đi ra ngoài đấy à?",
 		character: {
 			hiragana: "お出かけですか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi đi  một chút.",
 		character: {
 			hiragana: "ちょっと～まで。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị đi nhé.",
 		character: {
 			hiragana: "行っていらっしゃい。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi đi đây.",
 		character: {
 			hiragana: "行ってきます。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "gửi bằng đường biển",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "船便",
 		},
 	},
 	{
 		name: "gửi bằng đường hàng không",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "航空便",
 		},
 	},
 	{
 		name: "Nhờ anh/chị.",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "お願いします。",
 		},
 	},
 	{
 		name: "Úc",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "オーストラリア",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonTwelve :Array<Iword> = [
+const lessonTwelve: Array<Iword> = [
 	{
 		name: "giản đơn",
 		character: {
 			hiragana: "かんたん",
-			katakana: "",
+			katakana: null,
 			kanji: "簡単",
 		},
 	},
@@ -4790,7 +4790,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "gần",
 		character: {
 			hiragana: "ちかい",
-			katakana: "",
+			katakana: null,
 			kanji: "近い",
 		},
 	},
@@ -4798,7 +4798,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "xa",
 		character: {
 			hiragana: "とおい",
-			katakana: "",
+			katakana: null,
 			kanji: "遠い",
 		},
 	},
@@ -4806,7 +4806,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "nhanh, sớm",
 		character: {
 			hiragana: "はやい",
-			katakana: "",
+			katakana: null,
 			kanji: "速い, 早い",
 		},
 	},
@@ -4814,7 +4814,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "chậm, muộn",
 		character: {
 			hiragana: "おそい",
-			katakana: "",
+			katakana: null,
 			kanji: "遅い",
 		},
 	},
@@ -4822,7 +4822,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "nhiều [người]",
 		character: {
 			hiragana: "[ひとが～]おおい",
-			katakana: "",
+			katakana: null,
 			kanji: "[人が～]多い",
 		},
 	},
@@ -4830,7 +4830,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "ít [người]",
 		character: {
 			hiragana: "[ひとが～]すくない",
-			katakana: "",
+			katakana: null,
 			kanji: "[人が～]少ない",
 		},
 	},
@@ -4838,7 +4838,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "ấm",
 		character: {
 			hiragana: "あたたかい",
-			katakana: "",
+			katakana: null,
 			kanji: "温かい, 暖かい",
 		},
 	},
@@ -4846,7 +4846,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mát",
 		character: {
 			hiragana: "すずしい",
-			katakana: "",
+			katakana: null,
 			kanji: "涼しい",
 		},
 	},
@@ -4854,7 +4854,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "ngọt",
 		character: {
 			hiragana: "あまい",
-			katakana: "",
+			katakana: null,
 			kanji: "甘い",
 		},
 	},
@@ -4862,7 +4862,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "cay",
 		character: {
 			hiragana: "からい",
-			katakana: "",
+			katakana: null,
 			kanji: "辛い",
 		},
 	},
@@ -4870,7 +4870,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "nặng",
 		character: {
 			hiragana: "おもい",
-			katakana: "",
+			katakana: null,
 			kanji: "重い",
 		},
 	},
@@ -4878,7 +4878,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "nhẹ",
 		character: {
 			hiragana: "かるい",
-			katakana: "",
+			katakana: null,
 			kanji: "軽い",
 		},
 	},
@@ -4886,15 +4886,15 @@ const lessonTwelve :Array<Iword> = [
 		name: "thích, chọn, dùng [cafe]",
 		character: {
 			hiragana: "[コーヒーが～]いい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "mùa",
 		character: {
 			hiragana: "きせつ",
-			katakana: "",
+			katakana: null,
 			kanji: "季節",
 		},
 	},
@@ -4902,7 +4902,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mùa xuân",
 		character: {
 			hiragana: "はる",
-			katakana: "",
+			katakana: null,
 			kanji: "春",
 		},
 	},
@@ -4910,7 +4910,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mùa hè",
 		character: {
 			hiragana: "なつ",
-			katakana: "",
+			katakana: null,
 			kanji: "夏",
 		},
 	},
@@ -4918,7 +4918,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mùa thu",
 		character: {
 			hiragana: "あき",
-			katakana: "",
+			katakana: null,
 			kanji: "秋",
 		},
 	},
@@ -4926,7 +4926,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mùa đông",
 		character: {
 			hiragana: "ふゆ",
-			katakana: "",
+			katakana: null,
 			kanji: "冬",
 		},
 	},
@@ -4934,7 +4934,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "thời tiết",
 		character: {
 			hiragana: "てんき",
-			katakana: "",
+			katakana: null,
 			kanji: "天気",
 		},
 	},
@@ -4942,7 +4942,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "mưa",
 		character: {
 			hiragana: "あめ",
-			katakana: "",
+			katakana: null,
 			kanji: "雨",
 		},
 	},
@@ -4950,7 +4950,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "tuyết",
 		character: {
 			hiragana: "ゆき",
-			katakana: "",
+			katakana: null,
 			kanji: "雪",
 		},
 	},
@@ -4958,23 +4958,23 @@ const lessonTwelve :Array<Iword> = [
 		name: "có mây",
 		character: {
 			hiragana: "くもり",
-			katakana: "",
+			katakana: null,
 			kanji: "曇り",
 		},
 	},
 	{
 		name: "khách sạn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ホテル",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "sân bay",
 		character: {
 			hiragana: "くうこう",
-			katakana: "",
+			katakana: null,
 			kanji: "空港",
 		},
 	},
@@ -4982,7 +4982,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "biển, đại dương",
 		character: {
 			hiragana: "うみ",
-			katakana: "",
+			katakana: null,
 			kanji: "海",
 		},
 	},
@@ -4990,23 +4990,23 @@ const lessonTwelve :Array<Iword> = [
 		name: "thế giới",
 		character: {
 			hiragana: "せかい",
-			katakana: "",
+			katakana: null,
 			kanji: "世界",
 		},
 	},
 	{
 		name: "tiệc (をします：tổ chức tiệc)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "パーティー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "lễ hội",
 		character: {
 			hiragana: "[お]まつり",
-			katakana: "",
+			katakana: null,
 			kanji: "[お]祭り",
 		},
 	},
@@ -5014,7 +5014,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "Sukiyaki (món thịt bò nấu rau)",
 		character: {
 			hiragana: "すきやき",
-			katakana: "",
+			katakana: null,
 			kanji: "すき焼き",
 		},
 	},
@@ -5022,7 +5022,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "Sashimi (món gỏi cá sống)",
 		character: {
 			hiragana: "さしみ",
-			katakana: "",
+			katakana: null,
 			kanji: "刺身",
 		},
 	},
@@ -5030,23 +5030,23 @@ const lessonTwelve :Array<Iword> = [
 		name: "Sushi",
 		character: {
 			hiragana: "[お]すし",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tempura (món hải sản và rau chiên tẩm bột)",
 		character: {
 			hiragana: "てんぷら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thịt heo, thịt lợn",
 		character: {
 			hiragana: "ぶたにく",
-			katakana: "",
+			katakana: null,
 			kanji: "豚肉",
 		},
 	},
@@ -5054,7 +5054,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "thịt gà",
 		character: {
 			hiragana: "とりにく",
-			katakana: "",
+			katakana: null,
 			kanji: "とり肉",
 		},
 	},
@@ -5062,23 +5062,23 @@ const lessonTwelve :Array<Iword> = [
 		name: "thịt bò",
 		character: {
 			hiragana: "ぎゅうにく",
-			katakana: "",
+			katakana: null,
 			kanji: "牛肉",
 		},
 	},
 	{
 		name: "chanh tây",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "レモン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Nghệ thuật cắm hoa (～をします：cắm hoa)",
 		character: {
 			hiragana: "いけばな",
-			katakana: "",
+			katakana: null,
 			kanji: "生け花",
 		},
 	},
@@ -5086,7 +5086,7 @@ const lessonTwelve :Array<Iword> = [
 		name: "lá đỏ",
 		character: {
 			hiragana: "もみじ",
-			katakana: "",
+			katakana: null,
 			kanji: "紅葉",
 		},
 	},
@@ -5094,124 +5094,123 @@ const lessonTwelve :Array<Iword> = [
 		name: "cái nào",
 		character: {
 			hiragana: "どちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cả hai",
 		character: {
 			hiragana: "どちらも",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhất",
 		character: {
 			hiragana: "いちばん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "suốt",
 		character: {
 			hiragana: "ずっと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
-	[
-		{
-			name: "lần đầu tiên",
-			character: {
-				hiragana: "はじめて",
-				katakana: "",
-				kanji: "初めて",
-			},
+	{
+		name: "lần đầu tiên",
+		character: {
+			hiragana: "はじめて",
+			katakana: null,
+			kanji: "初めて",
 		},
-		{
-			name: "Tôi đã về đây. (dùng nói khi về đến nhà)",
-			character: {
-				hiragana: "ただいま",
-				katakana: "",
-				kanji: "",
-			},
+	},
+	{
+		name: "Tôi đã về đây. (dùng nói khi về đến nhà)",
+		character: {
+			hiragana: "ただいま",
+			katakana: null,
+			kanji: null,
 		},
-		{
-			name: "Anh/Chị đã về đấy à. (dùng để nói với ai đó mới về đến nhà)",
-			character: {
-				hiragana: "おかえりなさい",
-				katakana: "",
-				kanji: "お帰りなさい",
-			},
+	},
+	{
+		name: "Anh/Chị đã về đấy à. (dùng để nói với ai đó mới về đến nhà)",
+		character: {
+			hiragana: "おかえりなさい",
+			katakana: null,
+			kanji: "お帰りなさい",
 		},
-		{
-			name: "Ôi, (người) đông quá nhỉ!",
-			character: {
-				hiragana: "わあ、すごい人ですね。",
-				katakana: "",
-				kanji: "人",
-			},
+	},
+	{
+		name: "Ôi, (người) đông quá nhỉ!",
+		character: {
+			hiragana: "わあ、すごい人ですね。",
+			katakana: null,
+			kanji: "人",
 		},
-		{
-			name: "Tôi mệt rồi",
-			character: {
-				hiragana: "つかれました",
-				katakana: "",
-				kanji: "疲れました。",
-			},
+	},
+	{
+		name: "Tôi mệt rồi",
+		character: {
+			hiragana: "つかれました",
+			katakana: null,
+			kanji: "疲れました。",
 		},
-		{
-			name: "Lễ hội Gi-ôn (lễ hội nổi tiếng nhất ở Kyoto)",
-			character: {
-				hiragana: "ぎおんまつり",
-				katakana: "",
-				kanji: "祇園祭",
-			},
+	},
+	{
+		name: "Lễ hội Gi-ôn (lễ hội nổi tiếng nhất ở Kyoto)",
+		character: {
+			hiragana: "ぎおんまつり",
+			katakana: null,
+			kanji: "祇園祭",
 		},
-		{
-			name: "Hồng Kông",
-			character: {
-				hiragana: "",
-				katakana: "ホンコン",
-				kanji: "",
-			},
+	},
+	{
+		name: "Hồng Kông",
+		character: {
+			hiragana: null,
+			katakana: "ホンコン",
+			kanji: null,
 		},
-		{
-			name: "Singapore",
-			character: {
-				hiragana: "",
-				katakana: "シンガポール",
-				kanji: "",
-			},
+	},
+	{
+		name: "Singapore",
+		character: {
+			hiragana: null,
+			katakana: "シンガポール",
+			kanji: null,
 		},
-		{
-			name: "tên một siêu thị (giả định)",
-			character: {
-				hiragana: "",
-				katakana: "ＡＣＢストア",
-				kanji: "",
-			},
+	},
+	{
+		name: "tên một siêu thị (giả định)",
+		character: {
+			hiragana: null,
+			katakana: "ＡＣＢストア",
+			kanji: null,
 		},
-		{
-			name: "tên một siêu thị (giả định)",
-			character: {
-				hiragana: "",
-				katakana: "ジャパン",
-				kanji: "",
-			},
+	},
+	{
+		name: "tên một siêu thị (giả định)",
+		character: {
+			hiragana: null,
+			katakana: "ジャパン",
+			kanji: null,
 		},
-	],
+	},
+
 ];
 
-const lessonThirteen :Array<Iword> = [
+const lessonThirteen: Array<Iword> = [
 	{
 		name: "chơi",
 		character: {
 			hiragana: "あそびます",
-			katakana: "",
+			katakana: null,
 			kanji: "遊びます",
 		},
 	},
@@ -5219,7 +5218,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "bơi",
 		character: {
 			hiragana: "およぎます",
-			katakana: "",
+			katakana: null,
 			kanji: "泳ぎます",
 		},
 	},
@@ -5227,7 +5226,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "đón",
 		character: {
 			hiragana: "むかえます",
-			katakana: "",
+			katakana: null,
 			kanji: "迎えます",
 		},
 	},
@@ -5235,7 +5234,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "mệt",
 		character: {
 			hiragana: "つかれます",
-			katakana: "",
+			katakana: null,
 			kanji: "疲れます",
 		},
 	},
@@ -5243,7 +5242,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "kết hôn, lập gia đình, cưới",
 		character: {
 			hiragana: "けっこんします",
-			katakana: "",
+			katakana: null,
 			kanji: "結婚します",
 		},
 	},
@@ -5251,7 +5250,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "mua hàng",
 		character: {
 			hiragana: "かいものします",
-			katakana: "",
+			katakana: null,
 			kanji: "買い物します",
 		},
 	},
@@ -5259,7 +5258,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "ăn cơm",
 		character: {
 			hiragana: "しょくじします",
-			katakana: "",
+			katakana: null,
 			kanji: "食事します",
 		},
 	},
@@ -5267,7 +5266,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "đi dạo [ở công viên]",
 		character: {
 			hiragana: "さんぽします [こうえんを～]",
-			katakana: "",
+			katakana: null,
 			kanji: "散歩します [公園を～]",
 		},
 	},
@@ -5275,7 +5274,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "vất vả, khó khăn, khổ",
 		character: {
 			hiragana: "たいへん「な」",
-			katakana: "",
+			katakana: null,
 			kanji: "大変「な」",
 		},
 	},
@@ -5283,7 +5282,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "muốn có",
 		character: {
 			hiragana: "ほしい",
-			katakana: "",
+			katakana: null,
 			kanji: "欲しい",
 		},
 	},
@@ -5291,7 +5290,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "rộng",
 		character: {
 			hiragana: "ひろい",
-			katakana: "",
+			katakana: null,
 			kanji: "広い",
 		},
 	},
@@ -5299,23 +5298,23 @@ const lessonThirteen :Array<Iword> = [
 		name: "chật, hẹp",
 		character: {
 			hiragana: "せまい",
-			katakana: "",
+			katakana: null,
 			kanji: "狭い",
 		},
 	},
 	{
 		name: "bể bơi",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "プール",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "sông",
 		character: {
 			hiragana: "かわ",
-			katakana: "",
+			katakana: null,
 			kanji: "川",
 		},
 	},
@@ -5323,7 +5322,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "mỹ thuật",
 		character: {
 			hiragana: "びじゅつ",
-			katakana: "",
+			katakana: null,
 			kanji: "美術",
 		},
 	},
@@ -5331,23 +5330,23 @@ const lessonThirteen :Array<Iword> = [
 		name: "việc câu cá (をします：câu cá)",
 		character: {
 			hiragana: "つり",
-			katakana: "",
+			katakana: null,
 			kanji: "釣り",
 		},
 	},
 	{
 		name: "việc trượt tuyết (をします：trượt tuyết)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スキー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cuối tuần",
 		character: {
 			hiragana: "しゅうまつ",
-			katakana: "",
+			katakana: null,
 			kanji: "週末",
 		},
 	},
@@ -5355,7 +5354,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "Tết",
 		character: {
 			hiragana: "[お]しょうがつ",
-			katakana: "",
+			katakana: null,
 			kanji: "[お]正月",
 		},
 	},
@@ -5363,15 +5362,15 @@ const lessonThirteen :Array<Iword> = [
 		name: "khoảng  (dùng cho thời gian)",
 		character: {
 			hiragana: "～ごろ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cái gì đó",
 		character: {
 			hiragana: "なにか",
-			katakana: "",
+			katakana: null,
 			kanji: "何か",
 		},
 	},
@@ -5379,39 +5378,39 @@ const lessonThirteen :Array<Iword> = [
 		name: "đâu đó, chỗ nào đó",
 		character: {
 			hiragana: "どこか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "(tôi) khát.",
 		character: {
 			hiragana: "のどがかわきます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "(tôi) đói rồi.",
 		character: {
 			hiragana: "おなかがすきます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Nhất trí./ Chúng ta thống nhất như thế.",
 		character: {
 			hiragana: "そうしましょう。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/Chị dùng món gì ạ",
 		character: {
 			hiragana: "ごちゅうもんは？",
-			katakana: "",
+			katakana: null,
 			kanji: "ご注文は？",
 		},
 	},
@@ -5419,7 +5418,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "cơm suất, cơm phần",
 		character: {
 			hiragana: "ていしょく",
-			katakana: "",
+			katakana: null,
 			kanji: "定食",
 		},
 	},
@@ -5427,7 +5426,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "món cơm thịt bò",
 		character: {
 			hiragana: "ぎゅうどん",
-			katakana: "",
+			katakana: null,
 			kanji: "牛どん",
 		},
 	},
@@ -5435,7 +5434,7 @@ const lessonThirteen :Array<Iword> = [
 		name: "Xin anh/chị vui lòng đợi [một chút].",
 		character: {
 			hiragana: "[しょうしょう]おまちください",
-			katakana: "",
+			katakana: null,
 			kanji: "[しょうしょう]お待ちください",
 		},
 	},
@@ -5443,50 +5442,50 @@ const lessonThirteen :Array<Iword> = [
 		name: "(cách nói lịch sự của です)",
 		character: {
 			hiragana: "～でございます。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "riêng ra/ để riêng",
 		character: {
 			hiragana: "べつべつに",
-			katakana: "",
+			katakana: null,
 			kanji: "別々に",
 		},
 	},
 	{
 		name: "tên một công ty (giả định)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アキックス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một chương trình truyền hình (giả định)",
 		character: {
 			hiragana: "おはようテレビ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 ];
 
-const lessonFourteen :Array<Iword> = [
+const lessonFourteen: Array<Iword> = [
 	{
 		name: "bật (điện, máy điều hòa)",
 		character: {
 			hiragana: "つけます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tắt (điện, máy điều hòa)",
 		character: {
 			hiragana: "けします",
-			katakana: "",
+			katakana: null,
 			kanji: "消します",
 		},
 	},
@@ -5494,7 +5493,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "mở (cửa, cửa sổ)",
 		character: {
 			hiragana: "あけます",
-			katakana: "",
+			katakana: null,
 			kanji: "開けます",
 		},
 	},
@@ -5502,7 +5501,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "đóng (cửa, cửa sổ)",
 		character: {
 			hiragana: "しめます",
-			katakana: "",
+			katakana: null,
 			kanji: "閉めます",
 		},
 	},
@@ -5510,7 +5509,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "vội, gấp",
 		character: {
 			hiragana: "いそぎます",
-			katakana: "",
+			katakana: null,
 			kanji: "急ぎます",
 		},
 	},
@@ -5518,7 +5517,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "đợi, chờ",
 		character: {
 			hiragana: "まちます",
-			katakana: "",
+			katakana: null,
 			kanji: "待ちます",
 		},
 	},
@@ -5526,7 +5525,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "mang, cầm",
 		character: {
 			hiragana: "もちます",
-			katakana: "",
+			katakana: null,
 			kanji: "持ちます",
 		},
 	},
@@ -5534,7 +5533,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "lấy (muối)",
 		character: {
 			hiragana: "とります",
-			katakana: "",
+			katakana: null,
 			kanji: "取ります",
 		},
 	},
@@ -5542,7 +5541,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "giúp (làm việc)",
 		character: {
 			hiragana: "てつだいます",
-			katakana: "",
+			katakana: null,
 			kanji: "手伝います",
 		},
 	},
@@ -5550,7 +5549,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "gọi (taxi, tên)",
 		character: {
 			hiragana: "よびます",
-			katakana: "",
+			katakana: null,
 			kanji: "呼びます",
 		},
 	},
@@ -5558,7 +5557,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "nói, nói chuyện",
 		character: {
 			hiragana: "はなします",
-			katakana: "",
+			katakana: null,
 			kanji: "話します",
 		},
 	},
@@ -5566,7 +5565,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "dùng, sử dụng",
 		character: {
 			hiragana: "つかいます",
-			katakana: "",
+			katakana: null,
 			kanji: "使います",
 		},
 	},
@@ -5574,7 +5573,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "dừng, đỗ",
 		character: {
 			hiragana: "とめます",
-			katakana: "",
+			katakana: null,
 			kanji: "止めます",
 		},
 	},
@@ -5582,7 +5581,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "cho xem, trình",
 		character: {
 			hiragana: "みせます",
-			katakana: "",
+			katakana: null,
 			kanji: "見せます",
 		},
 	},
@@ -5590,7 +5589,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "nói, cho biết [địa chỉ]",
 		character: {
 			hiragana: "おしえます",
-			katakana: "",
+			katakana: null,
 			kanji: "教えます",
 		},
 	},
@@ -5598,7 +5597,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "ngồi",
 		character: {
 			hiragana: "すわります",
-			katakana: "",
+			katakana: null,
 			kanji: "座ります",
 		},
 	},
@@ -5606,7 +5605,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "đứng",
 		character: {
 			hiragana: "たちます",
-			katakana: "",
+			katakana: null,
 			kanji: "立ちます",
 		},
 	},
@@ -5614,7 +5613,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "vào [quán giải khát]",
 		character: {
 			hiragana: "はいります",
-			katakana: "",
+			katakana: null,
 			kanji: "入ります",
 		},
 	},
@@ -5622,7 +5621,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "ra, ra khỏi [quán giải khát]",
 		character: {
 			hiragana: "でます",
-			katakana: "",
+			katakana: null,
 			kanji: "出ます",
 		},
 	},
@@ -5630,7 +5629,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "rơi [mưa]",
 		character: {
 			hiragana: "ふります",
-			katakana: "",
+			katakana: null,
 			kanji: "降ります",
 		},
 	},
@@ -5638,15 +5637,15 @@ const lessonFourteen :Array<Iword> = [
 		name: "copy",
 		character: {
 			hiragana: "コピーします",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "điện, đèn điện",
 		character: {
 			hiragana: "でんき",
-			katakana: "",
+			katakana: null,
 			kanji: "電気",
 		},
 	},
@@ -5654,23 +5653,23 @@ const lessonFourteen :Array<Iword> = [
 		name: "máy điều hòa",
 		character: {
 			hiragana: "エアコン",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "hộ chiếu",
 		character: {
 			hiragana: "パスポート",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên",
 		character: {
 			hiragana: "なまえ",
-			katakana: "",
+			katakana: null,
 			kanji: "名前",
 		},
 	},
@@ -5678,7 +5677,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "địa chỉ",
 		character: {
 			hiragana: "じゅうしょ",
-			katakana: "",
+			katakana: null,
 			kanji: "住所",
 		},
 	},
@@ -5686,7 +5685,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "bản đồ",
 		character: {
 			hiragana: "ちず",
-			katakana: "",
+			katakana: null,
 			kanji: "地図",
 		},
 	},
@@ -5694,7 +5693,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "muối",
 		character: {
 			hiragana: "しお",
-			katakana: "",
+			katakana: null,
 			kanji: "塩",
 		},
 	},
@@ -5702,7 +5701,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "đường",
 		character: {
 			hiragana: "さとう",
-			katakana: "",
+			katakana: null,
 			kanji: "砂糖",
 		},
 	},
@@ -5710,7 +5709,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "câu hỏi, vấn đề",
 		character: {
 			hiragana: "もんだい",
-			katakana: "",
+			katakana: null,
 			kanji: "問題",
 		},
 	},
@@ -5718,7 +5717,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "câu trả lời",
 		character: {
 			hiragana: "こたえ",
-			katakana: "",
+			katakana: null,
 			kanji: "答え",
 		},
 	},
@@ -5726,7 +5725,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "cách đọc",
 		character: {
 			hiragana: "よみかた",
-			katakana: "",
+			katakana: null,
 			kanji: "読み方",
 		},
 	},
@@ -5734,7 +5733,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "cách ",
 		character: {
 			hiragana: "～かた",
-			katakana: "",
+			katakana: null,
 			kanji: "～方",
 		},
 	},
@@ -5742,47 +5741,47 @@ const lessonFourteen :Array<Iword> = [
 		name: "thẳng",
 		character: {
 			hiragana: "まっすぐ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chậm, thong thả, thoải mái",
 		character: {
 			hiragana: "ゆっくり",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ngay, lập tức",
 		character: {
 			hiragana: "すぐ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "lại (đến)",
 		character: {
 			hiragana: "また",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sau",
 		character: {
 			hiragana: "あとで",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thêm một chút nữa thôi",
 		character: {
 			hiragana: "もう　すこし",
-			katakana: "",
+			katakana: null,
 			kanji: "もう少し",
 		},
 	},
@@ -5790,39 +5789,39 @@ const lessonFourteen :Array<Iword> = [
 		name: "thêm",
 		character: {
 			hiragana: "もう～",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thôi/nào (dùng để thúc giục hoặc khuyến khích ai làm gì)",
 		character: {
 			hiragana: "さあ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ô! (câu cảm thán khi phát hiện hoặc thấy cái gì đó lạ, hoặc bất ngờ)",
 		character: {
 			hiragana: "あれ？",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/ Chị rẽ phải ở chổ đèn tín hiệu.",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "信号を右へ曲がってください",
 		},
 	},
 	{
 		name: "Gởi anh tiền này.",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "これでお願いします",
 		},
 	},
@@ -5830,7 +5829,7 @@ const lessonFourteen :Array<Iword> = [
 		name: "tiền lẻ",
 		character: {
 			hiragana: "おつり",
-			katakana: "",
+			katakana: null,
 			kanji: "お釣り",
 		},
 	},
@@ -5838,18 +5837,18 @@ const lessonFourteen :Array<Iword> = [
 		name: "tên một thành phố (giả định)",
 		character: {
 			hiragana: "みどりちょう",
-			katakana: "",
+			katakana: null,
 			kanji: "みどり町",
 		},
 	},
 ];
 
-const lessonFifteen :Array<Iword> = [
+const lessonFifteen: Array<Iword> = [
 	{
 		name: "đặt, để",
 		character: {
 			hiragana: "おきます",
-			katakana: "",
+			katakana: null,
 			kanji: "置きます",
 		},
 	},
@@ -5857,7 +5856,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "làm, chế tạo, sản xuất",
 		character: {
 			hiragana: "つくります",
-			katakana: "",
+			katakana: null,
 			kanji: "作ります, 造ります",
 		},
 	},
@@ -5865,7 +5864,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "bán",
 		character: {
 			hiragana: "うります",
-			katakana: "",
+			katakana: null,
 			kanji: "売ります",
 		},
 	},
@@ -5873,7 +5872,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "biết",
 		character: {
 			hiragana: "しります",
-			katakana: "",
+			katakana: null,
 			kanji: "知ります",
 		},
 	},
@@ -5881,7 +5880,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "sống, ở",
 		character: {
 			hiragana: "すみます",
-			katakana: "",
+			katakana: null,
 			kanji: "住みます",
 		},
 	},
@@ -5889,7 +5888,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "nghiên cứu",
 		character: {
 			hiragana: "けんきゅうします",
-			katakana: "",
+			katakana: null,
 			kanji: "研究します",
 		},
 	},
@@ -5897,23 +5896,23 @@ const lessonFifteen :Array<Iword> = [
 		name: "tài liệu, tư liệu",
 		character: {
 			hiragana: "しりょう",
-			katakana: "",
+			katakana: null,
 			kanji: "資料",
 		},
 	},
 	{
 		name: "ca-ta-lô",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "カタログ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "bảng giờ tàu chạy",
 		character: {
 			hiragana: "じこくひょう",
-			katakana: "",
+			katakana: null,
 			kanji: "時刻表",
 		},
 	},
@@ -5921,7 +5920,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "quần áo",
 		character: {
 			hiragana: "ふく",
-			katakana: "",
+			katakana: null,
 			kanji: "服",
 		},
 	},
@@ -5929,23 +5928,23 @@ const lessonFifteen :Array<Iword> = [
 		name: "sản phẩm",
 		character: {
 			hiragana: "せいひん",
-			katakana: "",
+			katakana: null,
 			kanji: "製品",
 		},
 	},
 	{
 		name: "phần mềm",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ソフト",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "kim từ điển",
 		character: {
 			hiragana: "でんしじしょ",
-			katakana: "",
+			katakana: null,
 			kanji: "電子辞書",
 		},
 	},
@@ -5953,7 +5952,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "kinh tế",
 		character: {
 			hiragana: "けいざい",
-			katakana: "",
+			katakana: null,
 			kanji: "経済",
 		},
 	},
@@ -5961,7 +5960,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "tòa thị chính",
 		character: {
 			hiragana: "しやくしょ",
-			katakana: "",
+			katakana: null,
 			kanji: "市役所",
 		},
 	},
@@ -5969,7 +5968,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "trường trung học phổ thông, trường cấp 3",
 		character: {
 			hiragana: "こうこう",
-			katakana: "",
+			katakana: null,
 			kanji: "高校",
 		},
 	},
@@ -5977,7 +5976,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "nha sĩ",
 		character: {
 			hiragana: "はいしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "歯医者",
 		},
 	},
@@ -5985,7 +5984,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "độc thân",
 		character: {
 			hiragana: "どくしん",
-			katakana: "",
+			katakana: null,
 			kanji: "独身",
 		},
 	},
@@ -5993,15 +5992,15 @@ const lessonFifteen :Array<Iword> = [
 		name: "xin lỗi",
 		character: {
 			hiragana: "すみません",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "các anh chị, các ông bà, các bạn, quý vị",
 		character: {
 			hiragana: "みなさん",
-			katakana: "",
+			katakana: null,
 			kanji: "皆さん",
 		},
 	},
@@ -6009,7 +6008,7 @@ const lessonFifteen :Array<Iword> = [
 		name: "nhớ lại, hồi tưởng",
 		character: {
 			hiragana: "おもいでします",
-			katakana: "",
+			katakana: null,
 			kanji: "思い出します",
 		},
 	},
@@ -6017,34 +6016,34 @@ const lessonFifteen :Array<Iword> = [
 		name: "kính ngữ của います",
 		character: {
 			hiragana: "いらっしゃいます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một khu phố buôn bán ở Osaka",
 		character: {
 			hiragana: "にっぽんばし",
-			katakana: "",
+			katakana: null,
 			kanji: "日本橋",
 		},
 	},
 	{
 		name: "tên chương trình truyền hình (giả định)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "みんなのインタビュー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonSixteen :Array<Iword> = [
+const lessonSixteen: Array<Iword> = [
 	{
 		name: "đi, lên [tàu]",
 		character: {
 			hiragana: "のります",
-			katakana: "",
+			katakana: null,
 			kanji: "乗ります",
 		},
 	},
@@ -6052,7 +6051,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "xuống [tàu]",
 		character: {
 			hiragana: "おります",
-			katakana: "",
+			katakana: null,
 			kanji: "降ります",
 		},
 	},
@@ -6060,7 +6059,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "chuyển, đổi (tàu)",
 		character: {
 			hiragana: "のりかえます",
-			katakana: "",
+			katakana: null,
 			kanji: "乗り換えます",
 		},
 	},
@@ -6068,7 +6067,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "tắm [vòi hoa sen]",
 		character: {
 			hiragana: "あびます",
-			katakana: "",
+			katakana: null,
 			kanji: "浴びます",
 		},
 	},
@@ -6076,7 +6075,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "cho vào, bỏ vào",
 		character: {
 			hiragana: "いれます",
-			katakana: "",
+			katakana: null,
 			kanji: "入れます",
 		},
 	},
@@ -6084,7 +6083,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "lấy ra, đưa ra, gửi",
 		character: {
 			hiragana: "だします",
-			katakana: "",
+			katakana: null,
 			kanji: "出します",
 		},
 	},
@@ -6092,7 +6091,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "rút [tiền]",
 		character: {
 			hiragana: "おろします",
-			katakana: "",
+			katakana: null,
 			kanji: "下ろします",
 		},
 	},
@@ -6100,7 +6099,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "vào, nhập học [đại học]",
 		character: {
 			hiragana: "はいります",
-			katakana: "",
+			katakana: null,
 			kanji: "入ります",
 		},
 	},
@@ -6108,7 +6107,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "ra, tốt nghiệp [đại học]",
 		character: {
 			hiragana: "でます",
-			katakana: "",
+			katakana: null,
 			kanji: "出ます",
 		},
 	},
@@ -6116,7 +6115,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "bấm, ấn (nút)",
 		character: {
 			hiragana: "おします",
-			katakana: "",
+			katakana: null,
 			kanji: "押します",
 		},
 	},
@@ -6124,7 +6123,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "uống (bia, rượu)",
 		character: {
 			hiragana: "のみます",
-			katakana: "",
+			katakana: null,
 			kanji: "飲みます",
 		},
 	},
@@ -6132,7 +6131,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "bắt đầu",
 		character: {
 			hiragana: "はじめます",
-			katakana: "",
+			katakana: null,
 			kanji: "始めます",
 		},
 	},
@@ -6140,7 +6139,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "tham quan kiến tập",
 		character: {
 			hiragana: "けんがくします",
-			katakana: "",
+			katakana: null,
 			kanji: "見学します",
 		},
 	},
@@ -6148,7 +6147,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "gọi điện thoại",
 		character: {
 			hiragana: "でんわします",
-			katakana: "",
+			katakana: null,
 			kanji: "電話します",
 		},
 	},
@@ -6156,7 +6155,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "trẻ",
 		character: {
 			hiragana: "わかい",
-			katakana: "",
+			katakana: null,
 			kanji: "若い",
 		},
 	},
@@ -6164,7 +6163,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "dài",
 		character: {
 			hiragana: "ながい",
-			katakana: "",
+			katakana: null,
 			kanji: "長い",
 		},
 	},
@@ -6172,7 +6171,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "ngắn",
 		character: {
 			hiragana: "みじかい",
-			katakana: "",
+			katakana: null,
 			kanji: "短い",
 		},
 	},
@@ -6180,7 +6179,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "sáng",
 		character: {
 			hiragana: "あかるい",
-			katakana: "",
+			katakana: null,
 			kanji: "明るい",
 		},
 	},
@@ -6188,7 +6187,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "tối",
 		character: {
 			hiragana: "くらい",
-			katakana: "",
+			katakana: null,
 			kanji: "暗い",
 		},
 	},
@@ -6196,7 +6195,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "người, cơ thể",
 		character: {
 			hiragana: "からだ",
-			katakana: "",
+			katakana: null,
 			kanji: "体",
 		},
 	},
@@ -6204,7 +6203,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "đầu",
 		character: {
 			hiragana: "あたま",
-			katakana: "",
+			katakana: null,
 			kanji: "頭",
 		},
 	},
@@ -6212,7 +6211,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "tóc",
 		character: {
 			hiragana: "かみ",
-			katakana: "",
+			katakana: null,
 			kanji: "髪",
 		},
 	},
@@ -6220,7 +6219,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "mặt",
 		character: {
 			hiragana: "かお",
-			katakana: "",
+			katakana: null,
 			kanji: "顔",
 		},
 	},
@@ -6228,7 +6227,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "mắt",
 		character: {
 			hiragana: "め",
-			katakana: "",
+			katakana: null,
 			kanji: "目",
 		},
 	},
@@ -6236,7 +6235,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "tai",
 		character: {
 			hiragana: "みみ",
-			katakana: "",
+			katakana: null,
 			kanji: "耳",
 		},
 	},
@@ -6244,7 +6243,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "mũi",
 		character: {
 			hiragana: "はな",
-			katakana: "",
+			katakana: null,
 			kanji: "鼻",
 		},
 	},
@@ -6252,7 +6251,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "miệng",
 		character: {
 			hiragana: "くち",
-			katakana: "",
+			katakana: null,
 			kanji: "口",
 		},
 	},
@@ -6260,7 +6259,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "răng",
 		character: {
 			hiragana: "は",
-			katakana: "",
+			katakana: null,
 			kanji: "歯",
 		},
 	},
@@ -6268,15 +6267,15 @@ const lessonSixteen :Array<Iword> = [
 		name: "bụng",
 		character: {
 			hiragana: "おなか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chân",
 		character: {
 			hiragana: "あし",
-			katakana: "",
+			katakana: null,
 			kanji: "足",
 		},
 	},
@@ -6284,39 +6283,39 @@ const lessonSixteen :Array<Iword> = [
 		name: "chiều cao (cơ thể)",
 		character: {
 			hiragana: "せ",
-			katakana: "",
+			katakana: null,
 			kanji: "背",
 		},
 	},
 	{
 		name: "dịch vụ",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "サービス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "việc chạy bộ (をします: chạy bộ)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ジョギング",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "vòi hoa sen",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "シャワー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "màu xanh lá cây",
 		character: {
 			hiragana: "みどり",
-			katakana: "",
+			katakana: null,
 			kanji: "緑",
 		},
 	},
@@ -6324,7 +6323,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "chùa",
 		character: {
 			hiragana: "[お]てら",
-			katakana: "",
+			katakana: null,
 			kanji: "寺",
 		},
 	},
@@ -6332,7 +6331,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "đền thờ đạo thần",
 		character: {
 			hiragana: "じんじゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "神社",
 		},
 	},
@@ -6340,7 +6339,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "số ―",
 		character: {
 			hiragana: "いちばん",
-			katakana: "",
+			katakana: null,
 			kanji: "一番",
 		},
 	},
@@ -6348,47 +6347,47 @@ const lessonSixteen :Array<Iword> = [
 		name: "làm thế nào",
 		character: {
 			hiragana: "どうやって",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cái nào (dùng với trường hợp từ ba thứ trở lên)",
 		character: {
 			hiragana: "どの～",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cái nào (dùng với trường hợp ba cái hoặc nhiều hơn)",
 		character: {
 			hiragana: "どれ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Thật là tuyệt vời. / Kinh quá nhỉ.",
 		character: {
 			hiragana: "すごいですね。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "[không,] tôi còn kém lắm. (cách nói khiêm nhường khi ai đó khen)",
 		character: {
 			hiragana: "[いいえ、]まだまだです。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/ chị rút tiền ạ?",
 		character: {
 			hiragana: "おひきだしですか。",
-			katakana: "",
+			katakana: null,
 			kanji: "お引き出しですか。",
 		},
 	},
@@ -6396,31 +6395,31 @@ const lessonSixteen :Array<Iword> = [
 		name: "trước hết, đầu tiên",
 		character: {
 			hiragana: "まず",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tiếp theo, sau đó",
 		character: {
 			hiragana: "つぎに",
-			katakana: "",
+			katakana: null,
 			kanji: "次に",
 		},
 	},
 	{
 		name: "thẻ ngân hàng, thẻ ATM",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "キャッシュカード",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "mã số bí mật (mật khẩu)",
 		character: {
 			hiragana: "あんしょうばんごう",
-			katakana: "",
+			katakana: null,
 			kanji: "暗証番号",
 		},
 	},
@@ -6428,7 +6427,7 @@ const lessonSixteen :Array<Iword> = [
 		name: "số tiền, khoản tiền",
 		character: {
 			hiragana: "きんがく",
-			katakana: "",
+			katakana: null,
 			kanji: "金額",
 		},
 	},
@@ -6436,63 +6435,63 @@ const lessonSixteen :Array<Iword> = [
 		name: "sự xác nhận, sự kiểm tra (します：xác nhận)",
 		character: {
 			hiragana: "かくにん",
-			katakana: "",
+			katakana: null,
 			kanji: "確認",
 		},
 	},
 	{
 		name: "nút",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ボタン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "công ty đường sắt Nhật Bản",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ＪＲ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Lễ hội tuyết",
 		character: {
 			hiragana: "ゆきまつり",
-			katakana: "",
+			katakana: null,
 			kanji: "雪祭り",
 		},
 	},
 	{
 		name: "Bandung (ở Indonesia)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "バンドン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Franken (ở Đức)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "フランケン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Veracruz (ở Mexico)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ベラクルス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một quận ở Osaka",
 		character: {
 			hiragana: "うめだ",
-			katakana: "",
+			katakana: null,
 			kanji: "梅田",
 		},
 	},
@@ -6500,18 +6499,18 @@ const lessonSixteen :Array<Iword> = [
 		name: "tên một điểm dừng xe buýt (giả tưởng)",
 		character: {
 			hiragana: "だいがくまえ",
-			katakana: "",
+			katakana: null,
 			kanji: "大学前",
 		},
 	},
 ];
 
-const lessonSeventeen:Array<Iword> = [
+const lessonSeventeen: Array<Iword> = [
 	{
 		name: "nhớ",
 		character: {
 			hiragana: "おぼえます",
-			katakana: "",
+			katakana: null,
 			kanji: "覚えます",
 		},
 	},
@@ -6519,7 +6518,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "quên",
 		character: {
 			hiragana: "わすれます",
-			katakana: "",
+			katakana: null,
 			kanji: "忘れます",
 		},
 	},
@@ -6527,15 +6526,15 @@ const lessonSeventeen:Array<Iword> = [
 		name: "mất, đánh mất",
 		character: {
 			hiragana: "なくします",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "trả tiền",
 		character: {
 			hiragana: "はらいます",
-			katakana: "",
+			katakana: null,
 			kanji: "払います",
 		},
 	},
@@ -6543,7 +6542,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "trả lại",
 		character: {
 			hiragana: "かえします",
-			katakana: "",
+			katakana: null,
 			kanji: "返します",
 		},
 	},
@@ -6551,7 +6550,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "ra ngoài",
 		character: {
 			hiragana: "でかけます",
-			katakana: "",
+			katakana: null,
 			kanji: "出かけます",
 		},
 	},
@@ -6559,7 +6558,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "cởi (quần áo, giầy)",
 		character: {
 			hiragana: "ぬぎます",
-			katakana: "",
+			katakana: null,
 			kanji: "脱ぎます",
 		},
 	},
@@ -6567,7 +6566,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "mang đi, mang theo",
 		character: {
 			hiragana: "もっていきます",
-			katakana: "",
+			katakana: null,
 			kanji: "持って行きます",
 		},
 	},
@@ -6575,7 +6574,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "mang đến",
 		character: {
 			hiragana: "もってきます",
-			katakana: "",
+			katakana: null,
 			kanji: "持って来ます",
 		},
 	},
@@ -6583,7 +6582,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "lo lắng",
 		character: {
 			hiragana: "しんぱいします",
-			katakana: "",
+			katakana: null,
 			kanji: "心配します",
 		},
 	},
@@ -6591,7 +6590,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "làm thêm, làm quá giờ",
 		character: {
 			hiragana: "ざんぎょうします",
-			katakana: "",
+			katakana: null,
 			kanji: "残業します",
 		},
 	},
@@ -6599,7 +6598,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "đi công tác",
 		character: {
 			hiragana: "しゅっちょうします",
-			katakana: "",
+			katakana: null,
 			kanji: "出張します",
 		},
 	},
@@ -6607,7 +6606,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "uống [thuốc]",
 		character: {
 			hiragana: "のみます",
-			katakana: "",
+			katakana: null,
 			kanji: "飲みます",
 		},
 	},
@@ -6615,7 +6614,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "tắm bồn [vào bồn tắm]",
 		character: {
 			hiragana: "はいります",
-			katakana: "",
+			katakana: null,
 			kanji: "入ります",
 		},
 	},
@@ -6623,7 +6622,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "quan trọng, quý giá",
 		character: {
 			hiragana: "たいせつ",
-			katakana: "",
+			katakana: null,
 			kanji: "大切",
 		},
 	},
@@ -6631,7 +6630,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "không sao, không có vấn đề gì",
 		character: {
 			hiragana: "だいじょうぶ",
-			katakana: "",
+			katakana: null,
 			kanji: "大丈夫",
 		},
 	},
@@ -6639,7 +6638,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "nguy hiểm",
 		character: {
 			hiragana: "あぶない",
-			katakana: "",
+			katakana: null,
 			kanji: "危ない",
 		},
 	},
@@ -6647,7 +6646,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "cấm hút thuốc",
 		character: {
 			hiragana: "きんえん",
-			katakana: "",
+			katakana: null,
 			kanji: "禁煙",
 		},
 	},
@@ -6655,7 +6654,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "thẻ bảo hiểm [y tế]",
 		character: {
 			hiragana: "[けんこう]ほけんしょう",
-			katakana: "",
+			katakana: null,
 			kanji: "[健康]保険証",
 		},
 	},
@@ -6663,7 +6662,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "sốt",
 		character: {
 			hiragana: "ねつ",
-			katakana: "",
+			katakana: null,
 			kanji: "熱",
 		},
 	},
@@ -6671,7 +6670,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "ốm, bệnh",
 		character: {
 			hiragana: "びょうき",
-			katakana: "",
+			katakana: null,
 			kanji: "病気",
 		},
 	},
@@ -6679,7 +6678,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "thuốc",
 		character: {
 			hiragana: "くすり",
-			katakana: "",
+			katakana: null,
 			kanji: "薬",
 		},
 	},
@@ -6687,15 +6686,15 @@ const lessonSeventeen:Array<Iword> = [
 		name: "bồn tắm",
 		character: {
 			hiragana: "[お]ふろ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "áo khoác",
 		character: {
 			hiragana: "うわぎ",
-			katakana: "",
+			katakana: null,
 			kanji: "上着",
 		},
 	},
@@ -6703,7 +6702,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "quần áo lót",
 		character: {
 			hiragana: "したぎ",
-			katakana: "",
+			katakana: null,
 			kanji: "下着",
 		},
 	},
@@ -6711,7 +6710,7 @@ const lessonSeventeen:Array<Iword> = [
 		name: "2,3 ngày, vài ngày",
 		character: {
 			hiragana: "２，３にち",
-			katakana: "",
+			katakana: null,
 			kanji: "２，３日",
 		},
 	},
@@ -6719,47 +6718,47 @@ const lessonSeventeen:Array<Iword> = [
 		name: "vài (“” là hậu tố đếm)",
 		character: {
 			hiragana: "２，３～",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "trước  (chỉ thời hạn)",
 		character: {
 			hiragana: "～までに",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "vì thế, vì vậy, do đó",
 		character: {
 			hiragana: "ですから",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Có vấn đề gì?<br>Anh/chị bị làm sao?",
 		character: {
 			hiragana: "どうしましたか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "họng",
 		character: {
 			hiragana: "のど",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi bị đau [].",
 		character: {
 			hiragana: "[～が]いたいです。",
-			katakana: "",
+			katakana: null,
 			kanji: "痛い",
 		},
 	},
@@ -6767,42 +6766,42 @@ const lessonSeventeen:Array<Iword> = [
 		name: "cảm, cúm",
 		character: {
 			hiragana: "かぜ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "và, sau đó",
 		character: {
 			hiragana: "それから",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị nhớ giữ gìn sức khỏe.<br> (câu nói với người ốm,bị bệnh)",
 		character: {
 			hiragana: "おだいじに",
-			katakana: "",
+			katakana: null,
 			kanji: "お大事に",
 		},
 	},
 ];
 
-const lessonEighteen :Array<Iword>= [
+const lessonEighteen: Array<Iword> = [
 	{
 		name: "có thể",
 		character: {
 			hiragana: "できます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "rửa",
 		character: {
 			hiragana: "あらいます",
-			katakana: "",
+			katakana: null,
 			kanji: "洗います",
 		},
 	},
@@ -6810,7 +6809,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "chơi (nhạc cụ)",
 		character: {
 			hiragana: "ひきます",
-			katakana: "",
+			katakana: null,
 			kanji: "弾きます",
 		},
 	},
@@ -6818,7 +6817,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "hát",
 		character: {
 			hiragana: "うたいます",
-			katakana: "",
+			katakana: null,
 			kanji: "歌います",
 		},
 	},
@@ -6826,7 +6825,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "sưu tầm, thu thập",
 		character: {
 			hiragana: "あつめます",
-			katakana: "",
+			katakana: null,
 			kanji: "集めます",
 		},
 	},
@@ -6834,7 +6833,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "vứt, bỏ đi",
 		character: {
 			hiragana: "すてます",
-			katakana: "",
+			katakana: null,
 			kanji: "捨てます",
 		},
 	},
@@ -6842,7 +6841,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "đổi",
 		character: {
 			hiragana: "かえます",
-			katakana: "",
+			katakana: null,
 			kanji: "換えます",
 		},
 	},
@@ -6850,7 +6849,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "lái",
 		character: {
 			hiragana: "うんてんします",
-			katakana: "",
+			katakana: null,
 			kanji: "運転します",
 		},
 	},
@@ -6858,31 +6857,31 @@ const lessonEighteen :Array<Iword>= [
 		name: "đặt chỗ, đặt trước",
 		character: {
 			hiragana: "よやくします",
-			katakana: "",
+			katakana: null,
 			kanji: "予約します",
 		},
 	},
 	{
 		name: "đàn Piano",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ピアノ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "― mét",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "―メートル",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tiền mặt",
 		character: {
 			hiragana: "げんきん",
-			katakana: "",
+			katakana: null,
 			kanji: "現金",
 		},
 	},
@@ -6890,7 +6889,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "sở thích, thú vui",
 		character: {
 			hiragana: "しゅみ",
-			katakana: "",
+			katakana: null,
 			kanji: "趣味",
 		},
 	},
@@ -6898,7 +6897,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "nhật ký",
 		character: {
 			hiragana: "にっき",
-			katakana: "",
+			katakana: null,
 			kanji: "日記",
 		},
 	},
@@ -6906,7 +6905,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "việc cầu nguyện (～をします：cầu nguyện)",
 		character: {
 			hiragana: "[お]いのり",
-			katakana: "",
+			katakana: null,
 			kanji: "[お]祈り",
 		},
 	},
@@ -6914,7 +6913,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "tổ trưởng",
 		character: {
 			hiragana: "かちょう",
-			katakana: "",
+			katakana: null,
 			kanji: "課長",
 		},
 	},
@@ -6922,7 +6921,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "trưởng phòng",
 		character: {
 			hiragana: "ぶちょう",
-			katakana: "",
+			katakana: null,
 			kanji: "部長",
 		},
 	},
@@ -6930,7 +6929,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "giám đốc",
 		character: {
 			hiragana: "しゃちょう",
-			katakana: "",
+			katakana: null,
 			kanji: "社長",
 		},
 	},
@@ -6938,7 +6937,7 @@ const lessonEighteen :Array<Iword>= [
 		name: "động vật",
 		character: {
 			hiragana: "どうぶつ",
-			katakana: "",
+			katakana: null,
 			kanji: "動物",
 		},
 	},
@@ -6946,23 +6945,23 @@ const lessonEighteen :Array<Iword>= [
 		name: "ngựa",
 		character: {
 			hiragana: "うま",
-			katakana: "",
+			katakana: null,
 			kanji: "馬",
 		},
 	},
 	{
 		name: "internet",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "インターネット",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "đặt biệt là",
 		character: {
 			hiragana: "特に",
-			katakana: "",
+			katakana: null,
 			kanji: "特に",
 		},
 	},
@@ -6970,74 +6969,74 @@ const lessonEighteen :Array<Iword>= [
 		name: "thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
 		character: {
 			hiragana: "へえ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Hay thật nhỉ.",
 		character: {
 			hiragana: "それはおもしろいですね。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "khó mà, mãi mà (dùng với thể phủ định)",
 		character: {
 			hiragana: "なかなか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Thật không ạ?",
 		character: {
 			hiragana: "ほんとうですか。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhất định, rất",
 		character: {
 			hiragana: "ぜひ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: 'Furusato(tên bài hát có nghĩa "quê nhà")',
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "故郷",
 		},
 	},
 	{
 		name: "Beatles, một băng nhạc nổi tiếng nước Anh",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ビートルズ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "một quận ở Tokyo",
 		character: {
 			hiragana: "秋葉原",
-			katakana: "",
+			katakana: null,
 			kanji: "秋葉原",
 		},
 	},
 ];
 
-const lessonNineTeen :Array<Iword> = [
+const lessonNineTeen: Array<Iword> = [
 	{
 		name: "leo [núi]",
 		character: {
 			hiragana: "のぼります",
-			katakana: "",
+			katakana: null,
 			kanji: "登ります",
 		},
 	},
@@ -7045,7 +7044,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "trọ [ở khách sạn]",
 		character: {
 			hiragana: "とまります",
-			katakana: "",
+			katakana: null,
 			kanji: "泊まります",
 		},
 	},
@@ -7053,7 +7052,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "dọn vệ sinh",
 		character: {
 			hiragana: "そうじします",
-			katakana: "",
+			katakana: null,
 			kanji: "掃除します",
 		},
 	},
@@ -7061,7 +7060,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "giặt",
 		character: {
 			hiragana: "せんたくします",
-			katakana: "",
+			katakana: null,
 			kanji: "洗濯します",
 		},
 	},
@@ -7069,15 +7068,15 @@ const lessonNineTeen :Array<Iword> = [
 		name: "trở thành, trở nên",
 		character: {
 			hiragana: "なります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "buồn ngủ",
 		character: {
 			hiragana: "ねむい",
-			katakana: "",
+			katakana: null,
 			kanji: "眠い",
 		},
 	},
@@ -7085,7 +7084,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "mạnh",
 		character: {
 			hiragana: "つよい",
-			katakana: "",
+			katakana: null,
 			kanji: "強い",
 		},
 	},
@@ -7093,23 +7092,23 @@ const lessonNineTeen :Array<Iword> = [
 		name: "yếu",
 		character: {
 			hiragana: "よわい",
-			katakana: "",
+			katakana: null,
 			kanji: "弱い",
 		},
 	},
 	{
 		name: "gôn (～をします:chơi gôn)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ゴルフ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "vật Sumo",
 		character: {
 			hiragana: "すもう",
-			katakana: "",
+			katakana: null,
 			kanji: "相撲",
 		},
 	},
@@ -7117,7 +7116,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "trà",
 		character: {
 			hiragana: "おちゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "お茶",
 		},
 	},
@@ -7125,7 +7124,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "ngày",
 		character: {
 			hiragana: "ひ",
-			katakana: "",
+			katakana: null,
 			kanji: "日",
 		},
 	},
@@ -7133,7 +7132,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "tình trạng, trạng thái",
 		character: {
 			hiragana: "ちょうし",
-			katakana: "",
+			katakana: null,
 			kanji: "調子",
 		},
 	},
@@ -7141,7 +7140,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "một lần",
 		character: {
 			hiragana: "いちど",
-			katakana: "",
+			katakana: null,
 			kanji: "一度",
 		},
 	},
@@ -7149,7 +7148,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "chưa lần nào",
 		character: {
 			hiragana: "いちども",
-			katakana: "",
+			katakana: null,
 			kanji: "一度も",
 		},
 	},
@@ -7157,55 +7156,55 @@ const lessonNineTeen :Array<Iword> = [
 		name: "dần dần",
 		character: {
 			hiragana: "だんだん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sắp",
 		character: {
 			hiragana: "もうすぐ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhờ ơn anh/ chị mà  ; Nhờ trời ",
 		character: {
 			hiragana: "おかげさまで",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhưng",
 		character: {
 			hiragana: "でも",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nâng cốc!/cạn chén",
 		character: {
 			hiragana: "かんぱい",
-			katakana: "",
+			katakana: null,
 			kanji: "乾杯",
 		},
 	},
 	{
 		name: "việc ăn kiêng, chế độ giảm cân (～をします:ăn kiêng)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ダイエット",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "không thể, quá sức",
 		character: {
 			hiragana: "むり",
-			katakana: "",
+			katakana: null,
 			kanji: "無理",
 		},
 	},
@@ -7213,7 +7212,7 @@ const lessonNineTeen :Array<Iword> = [
 		name: "tốt cho sức khỏe",
 		character: {
 			hiragana: "からだにいい",
-			katakana: "",
+			katakana: null,
 			kanji: "体にいい",
 		},
 	},
@@ -7221,26 +7220,26 @@ const lessonNineTeen :Array<Iword> = [
 		name: "Tokyo Sky Tree (tháp truyền hình có đài ngắm)",
 		character: {
 			hiragana: "とうきょうスカイツリー",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Katsushika Hokusai (1760-1849), một họa sĩ nổi tiếng thời Edo",
 		character: {
 			hiragana: "かつしかほくさい",
-			katakana: "",
+			katakana: null,
 			kanji: "葛飾北斎",
 		},
 	},
 ];
 
-const lessonTwenty :Array<Iword>= [
+const lessonTwenty: Array<Iword> = [
 	{
 		name: "cần [thị thực (visa)]",
 		character: {
 			hiragana: "いります",
-			katakana: "",
+			katakana: null,
 			kanji: "要ります",
 		},
 	},
@@ -7248,7 +7247,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "tìm hiểu, điều tra, xem",
 		character: {
 			hiragana: "しらべます",
-			katakana: "",
+			katakana: null,
 			kanji: "調べます",
 		},
 	},
@@ -7256,7 +7255,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "sửa chữa, tu sửa",
 		character: {
 			hiragana: "しゅうりします",
-			katakana: "",
+			katakana: null,
 			kanji: "修理します",
 		},
 	},
@@ -7264,7 +7263,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "tớ (cách xưng thân mật của わたし  được dùng bởi nam giới)",
 		character: {
 			hiragana: "ぼく",
-			katakana: "",
+			katakana: null,
 			kanji: "僕",
 		},
 	},
@@ -7272,7 +7271,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "cậu, bạn (cách gọi thân mật của あなた dùng cho người ngang hàng hoặc ít tuổi hơn.)",
 		character: {
 			hiragana: "きみ",
-			katakana: "",
+			katakana: null,
 			kanji: "君",
 		},
 	},
@@ -7280,7 +7279,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "anh, cậu (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)",
 		character: {
 			hiragana: "～くん",
-			katakana: "",
+			katakana: null,
 			kanji: "～君",
 		},
 	},
@@ -7288,47 +7287,47 @@ const lessonTwenty :Array<Iword>= [
 		name: "ừ (cách nói thân mật của 「はい」)",
 		character: {
 			hiragana: "うん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "không (cách nói thân mật của 「いいえ」)",
 		character: {
 			hiragana: "ううん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "từ, tiếng",
 		character: {
 			hiragana: "ことば",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Kimono (trang phục truyền thống của Nhật Bản)",
 		character: {
 			hiragana: "きもの",
-			katakana: "",
+			katakana: null,
 			kanji: "着物",
 		},
 	},
 	{
 		name: "thị thực, Visa",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ビザ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "ban đầu, đầu tiên",
 		character: {
 			hiragana: "はじめ",
-			katakana: "",
+			katakana: null,
 			kanji: "始め",
 		},
 	},
@@ -7336,7 +7335,7 @@ const lessonTwenty :Array<Iword>= [
 		name: "kết thúc",
 		character: {
 			hiragana: "おわり",
-			katakana: "",
+			katakana: null,
 			kanji: "終わり",
 		},
 	},
@@ -7344,82 +7343,82 @@ const lessonTwenty :Array<Iword>= [
 		name: "phía này, chỗ này (cách nói thân mật của 「こちら」)",
 		character: {
 			hiragana: "こっち",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
 		character: {
 			hiragana: "そっち",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
 		character: {
 			hiragana: "あっち",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
 		character: {
 			hiragana: "どっち",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "mọi người cùng",
 		character: {
 			hiragana: "みんなで",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhưng (cách nói thân mật của 「が」)",
 		character: {
 			hiragana: "～けど",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "(Tôi) no rồi",
 		character: {
 			hiragana: "おなかがいっぱいです",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Nếu anh/chị thích thì",
 		character: {
 			hiragana: "よかったら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nhiều thứ",
 		character: {
 			hiragana: "いろいろ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 ];
 
-const lessonTwentyOne:Array<Iword> = [
+const lessonTwentyOne: Array<Iword> = [
 	{
 		name: "nghĩ",
 		character: {
 			hiragana: "おもいます",
-			katakana: "",
+			katakana: null,
 			kanji: "思います",
 		},
 	},
@@ -7427,7 +7426,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "nói",
 		character: {
 			hiragana: "いいます",
-			katakana: "",
+			katakana: null,
 			kanji: "言います",
 		},
 	},
@@ -7435,7 +7434,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "thắng",
 		character: {
 			hiragana: "かちます",
-			katakana: "",
+			katakana: null,
 			kanji: "勝ちます",
 		},
 	},
@@ -7443,7 +7442,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "thua",
 		character: {
 			hiragana: "まけます",
-			katakana: "",
+			katakana: null,
 			kanji: "負けます",
 		},
 	},
@@ -7451,7 +7450,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "được tổ chức, diễn ra, có [lễ hội]",
 		character: {
 			hiragana: "あります",
-			katakana: "",
+			katakana: null,
 			kanji: "あります",
 		},
 	},
@@ -7459,7 +7458,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "giúp ích",
 		character: {
 			hiragana: "やくにたちます",
-			katakana: "",
+			katakana: null,
 			kanji: "役に立ちます",
 		},
 	},
@@ -7467,7 +7466,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "chuyển động, chạy",
 		character: {
 			hiragana: "うごきます",
-			katakana: "",
+			katakana: null,
 			kanji: "動きます",
 		},
 	},
@@ -7475,7 +7474,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "bỏ, thôi [việc công ty]",
 		character: {
 			hiragana: "やめます",
-			katakana: "",
+			katakana: null,
 			kanji: "会社を～",
 		},
 	},
@@ -7483,7 +7482,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "chú ý, bảo trọng",
 		character: {
 			hiragana: "きをつけます",
-			katakana: "",
+			katakana: null,
 			kanji: "気をつけます",
 		},
 	},
@@ -7491,7 +7490,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "du học",
 		character: {
 			hiragana: "りゅうがくします",
-			katakana: "",
+			katakana: null,
 			kanji: "留学します",
 		},
 	},
@@ -7499,15 +7498,15 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "lãng phí, vô ích",
 		character: {
 			hiragana: "むだ[な]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bất tiện",
 		character: {
 			hiragana: "ふべん[な]",
-			katakana: "",
+			katakana: null,
 			kanji: "不便",
 		},
 	},
@@ -7515,31 +7514,31 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "ghê quá, giỏi quá",
 		character: {
 			hiragana: "すごい",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sự thật",
 		character: {
 			hiragana: "ほんとう",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "giả dối, nói dối",
 		character: {
 			hiragana: "うそ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ô tô, xe hơi",
 		character: {
 			hiragana: "じどうしゃ",
-			katakana: "",
+			katakana: null,
 			kanji: "自動車",
 		},
 	},
@@ -7547,7 +7546,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "giao thông",
 		character: {
 			hiragana: "こうつう",
-			katakana: "",
+			katakana: null,
 			kanji: "交通",
 		},
 	},
@@ -7555,7 +7554,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "giá cả, mức giá, vật giá",
 		character: {
 			hiragana: "ぶっか",
-			katakana: "",
+			katakana: null,
 			kanji: "物価",
 		},
 	},
@@ -7563,47 +7562,47 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "phát, phát thanh",
 		character: {
 			hiragana: "ほうそう",
-			katakana: "",
+			katakana: null,
 			kanji: "放送",
 		},
 	},
 	{
 		name: "tin tức, bản tin",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ニュース",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "phim hoạt hình (Nhật Bản)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アニメ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "truyện tranh",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "マンガ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "thiết kế",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "デザイン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "giấc mơ",
 		character: {
 			hiragana: "ゆめ",
-			katakana: "",
+			katakana: null,
 			kanji: "夢",
 		},
 	},
@@ -7611,7 +7610,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "thiên tài",
 		character: {
 			hiragana: "てんさい",
-			katakana: "",
+			katakana: null,
 			kanji: "天才",
 		},
 	},
@@ -7619,7 +7618,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "trận đấu",
 		character: {
 			hiragana: "しあい",
-			katakana: "",
+			katakana: null,
 			kanji: "試合",
 		},
 	},
@@ -7627,7 +7626,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "ý kiến",
 		character: {
 			hiragana: "いけん",
-			katakana: "",
+			katakana: null,
 			kanji: "意見",
 		},
 	},
@@ -7635,7 +7634,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "câu chuyện, bài nói chuyện",
 		character: {
 			hiragana: "[お]はなし",
-			katakana: "",
+			katakana: null,
 			kanji: "話",
 		},
 	},
@@ -7643,7 +7642,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "trái đất",
 		character: {
 			hiragana: "ちきゅう",
-			katakana: "",
+			katakana: null,
 			kanji: "地球",
 		},
 	},
@@ -7651,7 +7650,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "mặt trăng",
 		character: {
 			hiragana: "つき",
-			katakana: "",
+			katakana: null,
 			kanji: "月",
 		},
 	},
@@ -7659,7 +7658,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "gần đây",
 		character: {
 			hiragana: "さいきん",
-			katakana: "",
+			katakana: null,
 			kanji: "最近",
 		},
 	},
@@ -7667,119 +7666,119 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "chắc, có thể",
 		character: {
 			hiragana: "たぶん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chắc chắn, nhất định",
 		character: {
 			hiragana: "きっと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thật sự",
 		character: {
 			hiragana: "ほんとうに",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "(không) lắm",
 		character: {
 			hiragana: "そんなに",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "về",
 		character: {
 			hiragana: "～について",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Đã lâu không gặp nhỉ.",
 		character: {
 			hiragana: "ひさしぶりですね",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị uống (cà-phê, rượu hay cái gì đó) nhé.",
 		character: {
 			hiragana: "～でものみませんか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tất nhiên",
 		character: {
 			hiragana: "もちろん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Tôi phải về bây giờ không thì …",
 		character: {
 			hiragana: "かえらないと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Albert Einstein (1879-1955)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "アインシュタイン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Yuri Alekseyevich Gagarin (1934-1968)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ガガーリン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Galileo Galilei (1564-1642)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ガリレオ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Mục sư Martin Luther King, JR. (1929-1968)",
 		character: {
-			hiragana: "",
-			katakana: "",
+			hiragana: null,
+			katakana: null,
 			kanji: "キング牧師",
 		},
 	},
 	{
 		name: "Benjamin Franklin (1706-1790)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "フランクリン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "công chúa Kaguya",
 		character: {
 			hiragana: "かぐやひめ",
-			katakana: "",
+			katakana: null,
 			kanji: "かぐや姫",
 		},
 	},
@@ -7787,7 +7786,7 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "Lễ hội Tenjin (ở Osaka)",
 		character: {
 			hiragana: "てんじんまつり",
-			katakana: "",
+			katakana: null,
 			kanji: "天神祭",
 		},
 	},
@@ -7795,42 +7794,42 @@ const lessonTwentyOne:Array<Iword> = [
 		name: "núi Yoshino (ở tỉnh Nara)",
 		character: {
 			hiragana: "よしのやま",
-			katakana: "",
+			katakana: null,
 			kanji: "吉野山",
 		},
 	},
 	{
 		name: "con kăng-gu-ru, chuột túi",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "カンガルー",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "thuyền trưởng Cook (James Cook 1728 – 79)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "キャプテン・クック",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "tên công ty (giả định)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ヨーネン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonTwentyTwo :Array<Iword>= [
+const lessonTwentyTwo: Array<Iword> = [
 	{
 		name: "mặc [áo sơ mi, v.v.]",
 		character: {
 			hiragana: "きます",
-			katakana: "",
+			katakana: null,
 			kanji: "着ます",
 		},
 	},
@@ -7838,23 +7837,23 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "đi, mặc [giầy, quần âu, v.v.]",
 		character: {
 			hiragana: "はきます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "đội [mũ, v.v.]",
 		character: {
 			hiragana: "かぶります",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "đeo [kính]",
 		character: {
 			hiragana: "かけます",
-			katakana: "",
+			katakana: null,
 			kanji: "眼鏡を～",
 		},
 	},
@@ -7862,15 +7861,15 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "đeo [cà vạt]",
 		character: {
 			hiragana: "します",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "sinh ra",
 		character: {
 			hiragana: "うまれます",
-			katakana: "",
+			katakana: null,
 			kanji: "生まれます",
 		},
 	},
@@ -7878,39 +7877,39 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "chúng tôi, chúng ta",
 		character: {
 			hiragana: "わたしたち",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "áo khoác",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "コート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "áo len",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "セーター",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "com-lê",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "スーツ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "mũ",
 		character: {
 			hiragana: "ぼうし",
-			katakana: "",
+			katakana: null,
 			kanji: "帽子",
 		},
 	},
@@ -7918,47 +7917,47 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "kính",
 		character: {
 			hiragana: "めがね",
-			katakana: "",
+			katakana: null,
 			kanji: "眼鏡",
 		},
 	},
 	{
 		name: "bánh ngọt",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ケーキ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "cơm hộp",
 		character: {
 			hiragana: "[お]べんとう",
-			katakana: "",
+			katakana: null,
 			kanji: "お弁当",
 		},
 	},
 	{
 		name: "ro bốt",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ロボット",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "sự hài hước",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ユーモア",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "(sự) thích hợp",
 		character: {
 			hiragana: "つごう",
-			katakana: "",
+			katakana: null,
 			kanji: "都合",
 		},
 	},
@@ -7966,71 +7965,71 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "thường, hay",
 		character: {
 			hiragana: "よく",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "ừ, à",
 		character: {
 			hiragana: "えーと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Chúc mừng.",
 		character: {
 			hiragana: "おめでとう　[ございます]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Anh/chị tìm  à?",
 		character: {
 			hiragana: "お探しですか",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Thế/Vậy (nhé)",
 		character: {
 			hiragana: "では",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cái này (cách nói lịch sự của [これ])",
 		character: {
 			hiragana: "こちら",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tiền thuê nhà",
 		character: {
 			hiragana: "家賃",
-			katakana: "",
+			katakana: null,
 			kanji: "やちん",
 		},
 	},
 	{
 		name: "bếp kèm phòng ăn",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ダイニングキチン",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "phòng kiểu Nhật",
 		character: {
 			hiragana: "和室",
-			katakana: "",
+			katakana: null,
 			kanji: "わしつ",
 		},
 	},
@@ -8038,7 +8037,7 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "Chổ để chăn gối trong một căn phòng kiểu Nhật",
 		character: {
 			hiragana: "押し入れ",
-			katakana: "",
+			katakana: null,
 			kanji: "おいれ",
 		},
 	},
@@ -8046,42 +8045,42 @@ const lessonTwentyTwo :Array<Iword>= [
 		name: "chăn, đệm",
 		character: {
 			hiragana: "布団",
-			katakana: "",
+			katakana: null,
 			kanji: "ふとん",
 		},
 	},
 	{
 		name: "Pari",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "パリ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Vạn Lý Trường Thành",
 		character: {
 			hiragana: "万里の長城",
-			katakana: "",
+			katakana: null,
 			kanji: "ばんりのちょうじょう",
 		},
 	},
 	{
 		name: "tiêu đề bài điều tra (giả định)",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "みんなのアンケート",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-const lessonTwentyThree:Array<Iword> = [
+const lessonTwentyThree: Array<Iword> = [
 	{
 		name: "hỏi [giáo viên]",
 		character: {
 			hiragana: "ききます",
-			katakana: "",
+			katakana: null,
 			kanji: "聞きます",
 		},
 	},
@@ -8089,7 +8088,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "vặn (núm)",
 		character: {
 			hiragana: "まわします",
-			katakana: "",
+			katakana: null,
 			kanji: "回します",
 		},
 	},
@@ -8097,7 +8096,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "kéo",
 		character: {
 			hiragana: "ひきます",
-			katakana: "",
+			katakana: null,
 			kanji: "引きます",
 		},
 	},
@@ -8105,7 +8104,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "đổi",
 		character: {
 			hiragana: "かえます",
-			katakana: "",
+			katakana: null,
 			kanji: "変えます",
 		},
 	},
@@ -8113,7 +8112,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "sờ, chạm vào [cửa]",
 		character: {
 			hiragana: "さわります",
-			katakana: "",
+			katakana: null,
 			kanji: "触ります",
 		},
 	},
@@ -8121,7 +8120,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "[tiền thừa] ra, chạy ra",
 		character: {
 			hiragana: "でます",
-			katakana: "",
+			katakana: null,
 			kanji: "出ます",
 		},
 	},
@@ -8129,7 +8128,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "đi bộ",
 		character: {
 			hiragana: "あるきます",
-			katakana: "",
+			katakana: null,
 			kanji: "歩きます",
 		},
 	},
@@ -8137,7 +8136,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "qua, đi qua [cầu]",
 		character: {
 			hiragana: "わたります",
-			katakana: "",
+			katakana: null,
 			kanji: "渡ります",
 		},
 	},
@@ -8145,7 +8144,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "rẽ, quẹo [phải]",
 		character: {
 			hiragana: "まがります",
-			katakana: "",
+			katakana: null,
 			kanji: "曲がります",
 		},
 	},
@@ -8153,7 +8152,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "buồn, cô đơn",
 		character: {
 			hiragana: "さびしい",
-			katakana: "",
+			katakana: null,
 			kanji: "寂しい",
 		},
 	},
@@ -8161,7 +8160,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "nước nóng",
 		character: {
 			hiragana: "おゆ",
-			katakana: "",
+			katakana: null,
 			kanji: "お湯",
 		},
 	},
@@ -8169,23 +8168,23 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "âm thanh",
 		character: {
 			hiragana: "おと",
-			katakana: "",
+			katakana: null,
 			kanji: "音",
 		},
 	},
 	{
 		name: "cỡ, kích thước",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "サイズ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "hỏng (します：bị hỏng)",
 		character: {
 			hiragana: "こしょう",
-			katakana: "",
+			katakana: null,
 			kanji: "故障",
 		},
 	},
@@ -8193,7 +8192,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "đường",
 		character: {
 			hiragana: "みち",
-			katakana: "",
+			katakana: null,
 			kanji: "道",
 		},
 	},
@@ -8201,7 +8200,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "ngã tư",
 		character: {
 			hiragana: "こうさてん",
-			katakana: "",
+			katakana: null,
 			kanji: "交差点",
 		},
 	},
@@ -8209,7 +8208,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "đèn tín hiệu",
 		character: {
 			hiragana: "しんごう",
-			katakana: "",
+			katakana: null,
 			kanji: "信号",
 		},
 	},
@@ -8217,7 +8216,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "góc",
 		character: {
 			hiragana: "かど",
-			katakana: "",
+			katakana: null,
 			kanji: "角",
 		},
 	},
@@ -8225,7 +8224,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "cầu",
 		character: {
 			hiragana: "はし",
-			katakana: "",
+			katakana: null,
 			kanji: "橋",
 		},
 	},
@@ -8233,7 +8232,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "bãi đỗ xe",
 		character: {
 			hiragana: "ちゅうしゃじょう",
-			katakana: "",
+			katakana: null,
 			kanji: "駐車場",
 		},
 	},
@@ -8241,7 +8240,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "tòa nhà",
 		character: {
 			hiragana: "たてもの",
-			katakana: "",
+			katakana: null,
 			kanji: "建物",
 		},
 	},
@@ -8249,7 +8248,7 @@ const lessonTwentyThree:Array<Iword> = [
 		name: "nhiều lần",
 		character: {
 			hiragana: "なんかいも",
-			katakana: "",
+			katakana: null,
 			kanji: "何回も",
 		},
 	},
@@ -8258,65 +8257,65 @@ const lessonTwentyThree:Array<Iword> = [
 		character: {
 			hiragana: "―め",
 			katakana: "―目",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "Thái tử Shotoku (574 – 622)",
 		character: {
 			hiragana: "しょうとくたいし",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Chùa Horyu-ji (một ngôi chùa ở Nara do hoàng tử Shotoku xây vào thế kỷ thứ 7)",
 		character: {
 			hiragana: "ほうりゅうじ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một loại trà (giả tưởng)",
 		character: {
 			hiragana: "げんきちゃ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một nhà ga (giả tưởng)",
 		character: {
 			hiragana: "ほんだえき",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "tên một bến xe buýt (giả tưởng)",
 		character: {
 			hiragana: "としょかんまえ",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 ];
 
-const lessonTwentyFour :Array<Iword>= [
+const lessonTwentyFour: Array<Iword> = [
 	{
 		name: "cho, tặng (tôi)",
 		character: {
 			hiragana: "くれます",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chữa, sửa",
 		character: {
 			hiragana: "なおします",
-			katakana: "",
+			katakana: null,
 			kanji: "直します",
 		},
 	},
@@ -8324,7 +8323,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "dẫn đi",
 		character: {
 			hiragana: "つれていきます",
-			katakana: "",
+			katakana: null,
 			kanji: "連れて行きます",
 		},
 	},
@@ -8332,7 +8331,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "dẫn đến",
 		character: {
 			hiragana: "つれてきます",
-			katakana: "",
+			katakana: null,
 			kanji: "連れて来ます",
 		},
 	},
@@ -8340,7 +8339,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "đưa đi, đưa đến, tiễn [một ai đó]",
 		character: {
 			hiragana: "おくります",
-			katakana: "",
+			katakana: null,
 			kanji: "送ります",
 		},
 	},
@@ -8348,7 +8347,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "giới thiệu",
 		character: {
 			hiragana: "しょうかいします",
-			katakana: "",
+			katakana: null,
 			kanji: "紹介します",
 		},
 	},
@@ -8356,7 +8355,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "hướng dẫn, giới thiệu, dẫn đường",
 		character: {
 			hiragana: "あんないします",
-			katakana: "",
+			katakana: null,
 			kanji: "案内します",
 		},
 	},
@@ -8364,7 +8363,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "giải thích, trình bày",
 		character: {
 			hiragana: "せつめいします",
-			katakana: "",
+			katakana: null,
 			kanji: "説明します",
 		},
 	},
@@ -8372,23 +8371,23 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "ông nội, ông ngoại, ông",
 		character: {
 			hiragana: "おじいさん／おじいちゃん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "bà nội, bà ngoại, bà",
 		character: {
 			hiragana: "おばあさん／おばあちゃん",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "chuẩn bị",
 		character: {
 			hiragana: "じゅんび",
-			katakana: "",
+			katakana: null,
 			kanji: "準備",
 		},
 	},
@@ -8396,7 +8395,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "sự chuyển nhà",
 		character: {
 			hiragana: "ひっこし",
-			katakana: "",
+			katakana: null,
 			kanji: "引っ越し",
 		},
 	},
@@ -8404,23 +8403,23 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "bánh kẹo",
 		character: {
 			hiragana: "[お]かし",
-			katakana: "",
+			katakana: null,
 			kanji: "菓子",
 		},
 	},
 	{
 		name: "homestay",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ホームステイ",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "toàn bộ, tất cả",
 		character: {
 			hiragana: "ぜんぶ",
-			katakana: "",
+			katakana: null,
 			kanji: "全部",
 		},
 	},
@@ -8428,7 +8427,7 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "tự (mình)",
 		character: {
 			hiragana: "じぶんで",
-			katakana: "",
+			katakana: null,
 			kanji: "自分で",
 		},
 	},
@@ -8436,26 +8435,26 @@ const lessonTwentyFour :Array<Iword>= [
 		name: "ngoài ra, bên cạnh đó",
 		character: {
 			hiragana: "ほかに",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "Ngày của Mẹ",
 		character: {
 			hiragana: "ははのひ",
-			katakana: "",
+			katakana: null,
 			kanji: "母の日",
 		},
 	},
 ];
 
-const lessonTwentyFive:Array<Iword> = [
+const lessonTwentyFive: Array<Iword> = [
 	{
 		name: "nghĩ, suy nghĩ",
 		character: {
 			hiragana: "かんがえます",
-			katakana: "",
+			katakana: null,
 			kanji: "考えます",
 		},
 	},
@@ -8463,7 +8462,7 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "đến",
 		character: {
 			hiragana: "つきます",
-			katakana: "",
+			katakana: null,
 			kanji: "着きます",
 		},
 	},
@@ -8471,7 +8470,7 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "thêm [tuổi]",
 		character: {
 			hiragana: "とります",
-			katakana: "",
+			katakana: null,
 			kanji: "取ります",
 		},
 	},
@@ -8479,7 +8478,7 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "đủ",
 		character: {
 			hiragana: "たります",
-			katakana: "",
+			katakana: null,
 			kanji: "足ります",
 		},
 	},
@@ -8487,23 +8486,23 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "quê, nông thôn",
 		character: {
 			hiragana: "いなか",
-			katakana: "",
+			katakana: null,
 			kanji: "田舎",
 		},
 	},
 	{
 		name: "cơ hội",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "チャンス",
-			kanji: "",
+			kanji: null,
 		},
 	},
 	{
 		name: "một trăm triệu",
 		character: {
 			hiragana: "おく",
-			katakana: "",
+			katakana: null,
 			kanji: "億",
 		},
 	},
@@ -8511,15 +8510,15 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "nếu [ thì]",
 		character: {
 			hiragana: "もし[～たら]",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "nghĩa, ý nghĩa",
 		character: {
 			hiragana: "いみ",
-			katakana: "",
+			katakana: null,
 			kanji: "意味",
 		},
 	},
@@ -8527,15 +8526,15 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "A-lô",
 		character: {
 			hiragana: "もしもし",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "việc chuyển địa điểm làm việc (～します: chuyển địa điểm làm việc)",
 		character: {
 			hiragana: "てんきん",
-			katakana: "",
+			katakana: null,
 			kanji: "転勤",
 		},
 	},
@@ -8543,15 +8542,15 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "việc , chuyện (の　こと: việc )",
 		character: {
 			hiragana: "こと",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "thời gian rảnh",
 		character: {
 			hiragana: "ひま",
-			katakana: "",
+			katakana: null,
 			kanji: "暇",
 		},
 	},
@@ -8559,15 +8558,15 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "Anh/chị đã giúp tôi (nhiều).",
 		character: {
 			hiragana: "[いろいろ]おせわになりました。",
-			katakana: "",
-			kanji: "",
+			katakana: null,
+			kanji: null,
 		},
 	},
 	{
 		name: "cố, cố gắng",
 		character: {
 			hiragana: "がんばります",
-			katakana: "",
+			katakana: null,
 			kanji: "頑張ります",
 		},
 	},
@@ -8575,21 +8574,21 @@ const lessonTwentyFive:Array<Iword> = [
 		name: "Chúc anh/chị mạnh khỏe.",
 		character: {
 			hiragana: "どうぞおげんきで。",
-			katakana: "",
+			katakana: null,
 			kanji: "どうぞお元気で。",
 		},
 	},
 	{
 		name: "Việt Nam",
 		character: {
-			hiragana: "",
+			hiragana: null,
 			katakana: "ベトナム",
-			kanji: "",
+			kanji: null,
 		},
 	},
 ];
 
-export const LessonCollection = new Map<string,Array<Iword>>([
+export const LessonCollection = new Map<string, Array<Iword>>([
 	["lesson_1", lessonOne],
 	["lesson_2", lessonTwo],
 	["lesson_3", lessonThree],

@@ -8,16 +8,20 @@ interface IDrawerSetting {
 }
 export default function DrawerSetting(props: IDrawerSetting) {
   const { open, onClose } = props;
-  const { beforeVi, setBeforeVi, kanji, setKanji } = useSetting(
+  const { beforeVi, setBeforeVi, kanji, setKanji, isLikeList, setIsLikeList, isLearnedList, setIsLearnedList } = useSetting(
     (state) => ({
       kanji: state.kanji,
       beforeVi: state.beforeVi,
+      isLikeList: state.isLikeList,
+      isLearnedList: state.isLearnedList,
       setBeforeVi: state.setBeforeVi,
-      setKanji: state.setKanji
+      setKanji: state.setKanji,
+      setIsLikeList: state.setIsLikeList,
+      setIsLearnedList: state.setIsLearnedList,
     })
   )
   return (<>
-    {open && <BackgroundDialog/>}
+    {open && <BackgroundDialog />}
     <div className={clsx(!open && "-z-50 transition-all duration-300 ", "relative z-[100] ")} role="dialog">
       <div className={clsx(!open && 'translate-x-full duration-300 transition-transform', "fixed inset-0 overflow-hidden")}>
         <div className="absolute inset-0 overflow-hidden">
@@ -45,6 +49,24 @@ export default function DrawerSetting(props: IDrawerSetting) {
                     <p className='text-ellipsis'>Tiếng Việt trước</p>
                     <label className="inline-flex items-center mb-5 cursor-pointer">
                       <input type="checkbox" checked={beforeVi} onChange={() => setBeforeVi(!beforeVi)} className="sr-only peer" />
+                      <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
+                    </label>
+                  </div>
+                  <div className='py-2 border-b border-slate-900/10 dark:border-slate-50/[0.06]'>
+                    <h2 className='font-semibold leading-6'>Luyện tập</h2>
+                  </div>
+                  <div className='flex flex-row mt-2 justify-between'>
+                    <p className='text-ellipsis'>Từ đã thuộc</p>
+                    <label className="inline-flex items-center mb-5 cursor-pointer">
+                      <input type="checkbox" checked={isLearnedList} onChange={() => { setIsLearnedList(!isLearnedList) 
+                       if(isLikeList) setIsLikeList(false)}} className="sr-only peer" />
+                      <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
+                    </label>
+                  </div>
+                  <div className='flex flex-row justify-between'>
+                    <p className='text-ellipsis'>Từ yêu thích</p>
+                    <label className="inline-flex items-center mb-5 cursor-pointer">
+                      <input type="checkbox" checked={isLikeList} onChange={() => { setIsLikeList(!isLikeList); if(isLearnedList) setIsLearnedList(false) }} className="sr-only peer" />
                       <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
                     </label>
                   </div>

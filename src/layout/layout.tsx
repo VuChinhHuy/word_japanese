@@ -1,5 +1,6 @@
 import { LessonContent } from "../components/lesson_content";
 import NoContent from "../components/no_content";
+import PracticeTest from "../components/practice_test";
 import Header from "../header/header";
 import { useLesson } from "../store/setting_lesson";
 
@@ -15,7 +16,7 @@ export default function Layout(props: ILayout) {
     <Header />
     <div className="h-full w-full flex justify-center items-center">
       {selectedLesson ? <LessonContent /> : <NoContent />}
-
+      {/* <PracticeTest/> */}
     </div>
     {children}
   </>
