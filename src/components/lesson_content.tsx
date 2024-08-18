@@ -81,7 +81,7 @@ export function LessonContent() {
           </button>
         </div>
         <div onClick={() => setIsVi(!isVi)} className='flex-col justify-around h-full w-full xl:w-96 bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-xl py-1 px-3 sm:px-1 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
-          {isVi ? (<div>
+          {!isVi ? (<div>
             <div className='m-1 md:m-6'>
               <p className='font-[Kamikaze] md:text-[42px] text-[32px]' >{lessonWord[indexWord]?.character.hiragana ?? lessonWord[indexWord]?.character.katakana}</p>
             </div>

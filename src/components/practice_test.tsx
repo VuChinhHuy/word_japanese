@@ -101,7 +101,7 @@ export default function PracticeTest() {
       <div className="w-full h-1/2 my-5 md:my-0 ">
         <div className="grid md:grid-rows-2 md:grid-flow-col gap-4 h-full w-full">
           {answers.map((answer, index) => (
-            <button onClick={()=> chooseAnswer(answer)} key={index} className="p-1 rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-sm leading-6 font-semibold bg-teal-900/20   dark:bg-slate-400/10  dark:highlight-white/5 text-gray-500 dark:text-gray-50">
+            <button onClick={()=> chooseAnswer(answer)} key={index} className="p-1  rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-[28px] leading-6 font-semibold bg-teal-900/20   dark:bg-slate-400/10  dark:highlight-white/5 text-gray-500 dark:text-gray-50">
               {answer}
             </button>
           ))}
