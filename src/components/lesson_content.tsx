@@ -112,8 +112,13 @@ export function LessonContent() {
                   <p className='font-[Kamikaze] md:text-[32px] text-[28px]' >{lessonWord[indexWord]?.character.kanji ?? ''}</p>
                 </div>
               </div>}
+              {lessonWord[indexWord]?.note && <div className='w-full border-t border-1 border-slate-900/10 dark:border-slate-50/[0.06]'>
+                <p className='text-gray-900 dark:text-gray-50'>
+                    {lessonWord[indexWord]?.note}
+                  </p>
+                </div>}
             </> : <>
-              <div className='flex w-full flex-col flex-1 border-1 border-b lg:border-slate-900/10 dark:border-slate-50/[0.06]'>
+              <div className='flex w-full flex-col flex-1 border-1 border-b border-slate-900/10 dark:border-slate-50/[0.06]'>
                 <div className=' underline dark:text-cyan-300 underline-offset-4'>Nhật: </div>
                 <div className='flex flex-1 justify-center items-center '>
                   <p className='font-[Kamikaze] md:text-[42px] text-[32px]' >{lessonWord[indexWord]?.character.hiragana ?? lessonWord[indexWord]?.character.katakana}</p>
@@ -132,6 +137,11 @@ export function LessonContent() {
                   <p className=' md:text-[32px] text-[28px]' >{lessonWord[indexWord]?.name}</p>
                 </div>
               </div>
+              {lessonWord[indexWord]?.note && <div className='w-full border-t border-1 border-slate-900/10 dark:border-slate-50/[0.06]'>
+                  <p className='text-gray-900 dark:text-gray-50'>
+                    {lessonWord[indexWord]?.note}
+                  </p>
+                </div>}
             </>}
           </div>
         </> :

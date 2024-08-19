@@ -3329,6 +3329,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "handsome",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "đẹp, sạch",
@@ -3338,6 +3339,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "beautiful_clean",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "yên tĩnh",
@@ -3347,6 +3349,7 @@ export const lessonEight: Iword[] = [
 			kanji: "静か",
 		},
 		sound: "quiet",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "náo nhiệt",
@@ -3356,6 +3359,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "lively",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "nổi tiếng",
@@ -3365,6 +3369,7 @@ export const lessonEight: Iword[] = [
 			kanji: "有名",
 		},
 		sound: "famous",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "tốt bụng, thân thiện",
@@ -3374,6 +3379,7 @@ export const lessonEight: Iword[] = [
 			kanji: "親切",
 		},
 		sound: "kind_friendly",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "khỏe",
@@ -3383,6 +3389,7 @@ export const lessonEight: Iword[] = [
 			kanji: "元気",
 		},
 		sound: "healthy",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "rảnh rỗi",
@@ -3392,6 +3399,7 @@ export const lessonEight: Iword[] = [
 			kanji: "暇",
 		},
 		sound: "free_time",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "tiện lợi",
@@ -3401,15 +3409,17 @@ export const lessonEight: Iword[] = [
 			kanji: "便利",
 		},
 		sound: "convenient",
+		note: "Tính từ đuôi な"
 	},
 	{
-		name: "đẹp, hay",
+		name: "đẹp, hay, tuyệt vời",
 		character: {
 			hiragana: "すてき",
 			katakana: null,
 			kanji: null,
 		},
 		sound: "lovely",
+		note: "Tính từ đuôi な"
 	},
 	{
 		name: "lớn, to",
@@ -3419,6 +3429,7 @@ export const lessonEight: Iword[] = [
 			kanji: "大きい",
 		},
 		sound: "big_large",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "bé, nhỏ",
@@ -3428,6 +3439,7 @@ export const lessonEight: Iword[] = [
 			kanji: "小さい",
 		},
 		sound: "small",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "mới",
@@ -3437,6 +3449,7 @@ export const lessonEight: Iword[] = [
 			kanji: "新しい",
 		},
 		sound: "new",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "cũ",
@@ -3446,6 +3459,7 @@ export const lessonEight: Iword[] = [
 			kanji: "古い",
 		},
 		sound: "old",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "tốt",
@@ -3455,6 +3469,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "good",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "xấu",
@@ -3464,6 +3479,7 @@ export const lessonEight: Iword[] = [
 			kanji: "悪い",
 		},
 		sound: "bad",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "nóng",
@@ -3473,6 +3489,7 @@ export const lessonEight: Iword[] = [
 			kanji: "暑い, 熱い",
 		},
 		sound: "hot",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "lạnh, rét (dùng cho thời tiết)",
@@ -3482,6 +3499,7 @@ export const lessonEight: Iword[] = [
 			kanji: "寒い",
 		},
 		sound: "cold_weather",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "lạnh, buốt (dùng cho cảm giác)",
@@ -3491,6 +3509,7 @@ export const lessonEight: Iword[] = [
 			kanji: "冷たい",
 		},
 		sound: "cold_feel",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "khó",
@@ -3500,6 +3519,7 @@ export const lessonEight: Iword[] = [
 			kanji: "難しい",
 		},
 		sound: "difficult",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "dễ",
@@ -3509,6 +3529,7 @@ export const lessonEight: Iword[] = [
 			kanji: "易しい",
 		},
 		sound: "easy",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "đắt, cao",
@@ -3518,6 +3539,7 @@ export const lessonEight: Iword[] = [
 			kanji: "高い",
 		},
 		sound: "expensive_high",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "rẻ",
@@ -3527,6 +3549,7 @@ export const lessonEight: Iword[] = [
 			kanji: "安い",
 		},
 		sound: "cheap",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "thấp",
@@ -3536,6 +3559,7 @@ export const lessonEight: Iword[] = [
 			kanji: "低い",
 		},
 		sound: "low",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "thú vị, hay",
@@ -3545,6 +3569,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "interesting",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "ngon",
@@ -3554,6 +3579,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "delicious",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "bận",
@@ -3563,6 +3589,7 @@ export const lessonEight: Iword[] = [
 			kanji: "忙しい",
 		},
 		sound: "busy",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "vui",
@@ -3572,6 +3599,7 @@ export const lessonEight: Iword[] = [
 			kanji: "楽しい",
 		},
 		sound: "fun",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "trắng",
@@ -3581,6 +3609,7 @@ export const lessonEight: Iword[] = [
 			kanji: "白い",
 		},
 		sound: "white",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "đen",
@@ -3590,6 +3619,7 @@ export const lessonEight: Iword[] = [
 			kanji: "黒い",
 		},
 		sound: "black",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "đỏ",
@@ -3599,6 +3629,7 @@ export const lessonEight: Iword[] = [
 			kanji: "赤い",
 		},
 		sound: "red",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "xanh da trời",
@@ -3608,6 +3639,7 @@ export const lessonEight: Iword[] = [
 			kanji: "青い",
 		},
 		sound: "blue",
+		note: "Tính từ đuôi い"
 	},
 	{
 		name: "anh đào (hoa, cây)",
@@ -3617,6 +3649,7 @@ export const lessonEight: Iword[] = [
 			kanji: "桜",
 		},
 		sound: "cherry_blossom",
+		note: "Danh từ"
 	},
 	{
 		name: "núi",
@@ -3626,6 +3659,7 @@ export const lessonEight: Iword[] = [
 			kanji: "山",
 		},
 		sound: "mountain",
+		note: "Danh từ"
 	},
 	{
 		name: "thị trấn, thị xã, thành phố",
@@ -3635,6 +3669,7 @@ export const lessonEight: Iword[] = [
 			kanji: "町",
 		},
 		sound: "town_city",
+		note: "Danh từ"
 	},
 	{
 		name: "đồ ăn",
@@ -3644,6 +3679,7 @@ export const lessonEight: Iword[] = [
 			kanji: "食べ物",
 		},
 		sound: "food",
+		note: "Danh từ"
 	},
 	{
 		name: "nơi, chỗ",
@@ -3653,6 +3689,7 @@ export const lessonEight: Iword[] = [
 			kanji: "所",
 		},
 		sound: "place",
+		note: "Danh từ"
 	},
 	{
 		name: "kí túc xá",
@@ -3662,6 +3699,7 @@ export const lessonEight: Iword[] = [
 			kanji: "寮",
 		},
 		sound: "dormitory",
+		note: "Danh từ"
 	},
 	{
 		name: "nhà hàng",
@@ -3671,6 +3709,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "restaurant",
+		note: "Danh từ"
 	},
 	{
 		name: "cuộc sống, sinh hoạt",
@@ -3680,6 +3719,7 @@ export const lessonEight: Iword[] = [
 			kanji: "生活",
 		},
 		sound: "life",
+		note: "Danh từ"
 	},
 	{
 		name: "công việc (～をします：làm việc)",
@@ -3689,6 +3729,7 @@ export const lessonEight: Iword[] = [
 			kanji: "仕事",
 		},
 		sound: "work",
+		note: "Danh từ"
 	},
 	{
 		name: "thế nào",
@@ -3698,6 +3739,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "how",
+		note: "Từ hỏi"
 	},
 	{
 		name: " như thế nào",
@@ -3707,6 +3749,7 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "what_about",
+		note: "Phó từ"
 	},
 	{
 		name: "rất, lắm",
@@ -3716,15 +3759,17 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "very",
+		note: "Phó từ"
 	},
 	{
-		name: "không  lắm",
+		name: "không lắm",
 		character: {
 			hiragana: "あまり",
 			katakana: null,
 			kanji: null,
 		},
 		sound: "not_much",
+		note: "Phó từ"
 	},
 	{
 		name: "và, thêm nữa (dùng để nối 2 câu)",
@@ -3736,7 +3781,7 @@ export const lessonEight: Iword[] = [
 		sound: "and",
 	},
 	{
-		name: " , nhưng ",
+		name: " nhưng ",
 		character: {
 			hiragana: "～が、～",
 			katakana: null,
@@ -3872,6 +3917,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "understand",
+		note: "Động từ"
 	},
 	{
 		name: "có (sở hữu)",
@@ -3881,6 +3927,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "have",
+		note: "Động từ"
 	},
 	{
 		name: "thích",
@@ -3890,6 +3937,7 @@ export const lessonNine: Iword[] = [
 			kanji: "好き",
 		},
 		sound: "like",
+		note: "Tính từ"
 	},
 	{
 		name: "ghét, không thích",
@@ -3899,6 +3947,7 @@ export const lessonNine: Iword[] = [
 			kanji: "嫌い",
 		},
 		sound: "dislike",
+		note: "Tính từ"
 	},
 	{
 		name: "giỏi, khéo",
@@ -3908,6 +3957,7 @@ export const lessonNine: Iword[] = [
 			kanji: "上手",
 		},
 		sound: "skilled",
+		note: "Tính từ"
 	},
 	{
 		name: "kém",
@@ -3917,6 +3967,7 @@ export const lessonNine: Iword[] = [
 			kanji: "下手",
 		},
 		sound: "unskilled",
+		note: "Tính từ"
 	},
 	{
 		name: "đồ uống",
@@ -3926,6 +3977,7 @@ export const lessonNine: Iword[] = [
 			kanji: "飲み物",
 		},
 		sound: "beverage",
+		note: "Tính từ"
 	},
 	{
 		name: "món ăn, việc nấu ăn",
@@ -3935,6 +3987,7 @@ export const lessonNine: Iword[] = [
 			kanji: "料理",
 		},
 		sound: "cuisine",
+		note: "Tính từ"
 	},
 	{
 		name: "thể thao (～をします：chơi thể thao)",
@@ -3944,6 +3997,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "sports",
+		note: "Tính từ"
 	},
 	{
 		name: "bóng chày (～をします：chơi bóng chày)",
@@ -3953,6 +4007,7 @@ export const lessonNine: Iword[] = [
 			kanji: "野球",
 		},
 		sound: "baseball",
+		note: "Danh từ"
 	},
 	{
 		name: "nhảy, khiêu vũ(～をします：nhảy, khiêu vũ)",
@@ -3962,6 +4017,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "dance",
+		note: "Danh từ"
 	},
 	{
 		name: "du lịch, chuyến du lịch",
@@ -3971,6 +4027,7 @@ export const lessonNine: Iword[] = [
 			kanji: "旅行",
 		},
 		sound: "travel",
+		note: "Danh từ"
 	},
 	{
 		name: "âm nhạc",
@@ -3980,6 +4037,7 @@ export const lessonNine: Iword[] = [
 			kanji: "音楽",
 		},
 		sound: "music",
+		note: "Danh từ"
 	},
 	{
 		name: "bài hát",
@@ -3989,6 +4047,7 @@ export const lessonNine: Iword[] = [
 			kanji: "歌",
 		},
 		sound: "song",
+		note: "Danh từ"
 	},
 	{
 		name: "nhạc cổ điển",
@@ -3998,6 +4057,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "classical_music",
+		note: "Danh từ"
 	},
 	{
 		name: "nhạc jazz",
@@ -4007,6 +4067,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "jazz_music",
+		note: "Danh từ"
 	},
 	{
 		name: "buổi hòa nhạc",
@@ -4016,6 +4077,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "concert",
+		note: "Danh từ"
 	},
 	{
 		name: "karaoke",
@@ -4025,6 +4087,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "karaoke",
+		note: "Danh từ"
 	},
 	{
 		name: "Kabuki (một loại ca kịch truyền thống của Nhật)",
@@ -4034,6 +4097,7 @@ export const lessonNine: Iword[] = [
 			kanji: "歌舞伎",
 		},
 		sound: "kabuki",
+		note: "Danh từ"
 	},
 	{
 		name: "tranh, hội họa",
@@ -4043,6 +4107,7 @@ export const lessonNine: Iword[] = [
 			kanji: "絵",
 		},
 		sound: "painting",
+		note: "Danh từ"
 	},
 	{
 		name: "chữ",
@@ -4052,6 +4117,7 @@ export const lessonNine: Iword[] = [
 			kanji: "字",
 		},
 		sound: "character",
+		note: "Danh từ"
 	},
 	{
 		name: "chữ hán",
@@ -4061,6 +4127,7 @@ export const lessonNine: Iword[] = [
 			kanji: "漢字",
 		},
 		sound: "kanji",
+		note: "Danh từ"
 	},
 	{
 		name: "chữ Hiragana",
@@ -4070,6 +4137,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "hiragana",
+		note: "Danh từ"
 	},
 	{
 		name: "Chữ Katakana",
@@ -4079,6 +4147,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "katakana",
+		note: "Danh từ"
 	},
 	{
 		name: "chữ La Mã",
@@ -4088,6 +4157,7 @@ export const lessonNine: Iword[] = [
 			kanji: "ローマ字",
 		},
 		sound: "roman_alphabet",
+		note: "Danh từ"
 	},
 	{
 		name: "tiền lẻ",
@@ -4097,6 +4167,7 @@ export const lessonNine: Iword[] = [
 			kanji: "細かいお金",
 		},
 		sound: "small_change",
+		note: "Danh từ"
 	},
 	{
 		name: "vé (xem hòa nhạc, xem phim)",
@@ -4106,6 +4177,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "ticket",
+		note: "Danh từ"
 	},
 	{
 		name: "thời gian",
@@ -4115,6 +4187,7 @@ export const lessonNine: Iword[] = [
 			kanji: "時間",
 		},
 		sound: "time",
+		note: "Danh từ"
 	},
 	{
 		name: "việc bận, công chuyện",
@@ -4124,6 +4197,7 @@ export const lessonNine: Iword[] = [
 			kanji: "用事",
 		},
 		sound: "errand",
+		note: "Danh từ"
 	},
 	{
 		name: "cuộc hẹn, lời hứa",
@@ -4133,6 +4207,7 @@ export const lessonNine: Iword[] = [
 			kanji: "約束",
 		},
 		sound: "appointment_promise",
+		note: "Danh từ"
 	},
 	{
 		name: "việc làm thêm",
@@ -4142,6 +4217,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "part_time_job",
+		note: "Danh từ"
 	},
 	{
 		name: "chồng (dùng khi nói về chồng người khác)",
@@ -4151,6 +4227,7 @@ export const lessonNine: Iword[] = [
 			kanji: "ご主人",
 		},
 		sound: "husband_other",
+		note: "Danh từ"
 	},
 	{
 		name: "chồng (dùng khi nói về chồng mình)",
@@ -4160,6 +4237,7 @@ export const lessonNine: Iword[] = [
 			kanji: "夫 /主人",
 		},
 		sound: "husband_my",
+		note: "Danh từ"
 	},
 	{
 		name: "vợ (dùng khi nói về vợ người khác)",
@@ -4169,6 +4247,7 @@ export const lessonNine: Iword[] = [
 			kanji: "奥さん",
 		},
 		sound: "wife_other",
+		note: "Danh từ"
 	},
 	{
 		name: "vợ (dùng khi nói về vợ mình)",
@@ -4178,6 +4257,7 @@ export const lessonNine: Iword[] = [
 			kanji: "妻/家内",
 		},
 		sound: "wife_my",
+		note: "Danh từ"
 	},
 	{
 		name: "con cái",
@@ -4187,6 +4267,7 @@ export const lessonNine: Iword[] = [
 			kanji: "子ども",
 		},
 		sound: "children",
+		note: "Danh từ"
 	},
 	{
 		name: "tốt, rõ (chỉ mức độ)",
@@ -4196,6 +4277,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "well",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "đại khái, đại thể",
@@ -4205,6 +4287,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "approximately",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "nhiều",
@@ -4214,6 +4297,7 @@ export const lessonNine: Iword[] = [
 			kanji: null,
 		},
 		sound: "many",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "ít, một ít",
@@ -4223,6 +4307,7 @@ export const lessonNine: Iword[] = [
 			kanji: "少し",
 		},
 		sound: "few",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "hoàn toàn  không",
@@ -4232,6 +4317,7 @@ export const lessonNine: Iword[] = [
 			kanji: "全然",
 		},
 		sound: "not_at_all",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "sớm, nhanh",
@@ -4241,6 +4327,7 @@ export const lessonNine: Iword[] = [
 			kanji: "早く, 速く",
 		},
 		sound: "early",
+		note: "Phó từ chỉ mức độ + số lượng tiếng Nhật"
 	},
 	{
 		name: "vì ",
