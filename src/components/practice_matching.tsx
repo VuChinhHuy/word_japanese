@@ -35,23 +35,28 @@ export default function PracticeMatching() {
   }, [selectedLesson]);
 
   useEffect(() => {
+    if(numGame > lessonWord.length / 10 + 1) return
     setWordsGame(generateMatchingWords(words, kanji));
   }, [words, kanji]);
 
   useEffect(() => {
-    if (indexCorrect.length === 20 || numGame === 0) {
+    if(endGame) return
+    if (indexCorrect.length === 20 || words.length == indexCorrect.length / 2 || numGame === 0) {
       setIndexCorrect([]);
       setWords(lessonWord.slice(numGame *10 , numGame * 10 + 10));
       setNumGame(numGame + 1);
     }
-  }, [indexCorrect, lessonWord, numGame]);
+  }, [indexCorrect, lessonWord, numGame,setIndexCorrect]);
 
   useEffect(() => {
-    if (numGame > Math.floor(lessonWord.length / 10) ) {
+    if (numGame > lessonWord.length / 10 + 1 ) {
       setEndGame(true);
-      playAudio('congratulations')
     }
   }, [numGame, lessonWord.length]);
+
+  useMemo(()=>{if(endGame)
+      playAudio('congratulations')
+  },[endGame])
 
   const clickWord = useCallback((index: number) => {
     if (index === stIndex) return;
@@ -104,7 +109,7 @@ export default function PracticeMatching() {
             >
               <p className={clsx(corrected && 'dark:text-gray-300 text-gray-300', "pb-2 ")}>{kanji ? wordKanji.word : word}</p>
               {kanji && wordKanji.kanji && wordKanji.kanji !== 'null' && (
-                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300/10", "text-gray-500 dark:text-lime-900")}>[ {wordKanji.kanji} ]</p>
+                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300/10", !corrected && "text-gray-500 dark:text-lime-900")}>[ {wordKanji.kanji} ]</p>
               )}
             </button>
           );
