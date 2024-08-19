@@ -41,14 +41,15 @@ export default function PracticeMatching() {
   useEffect(() => {
     if (indexCorrect.length === 20 || numGame === 0) {
       setIndexCorrect([]);
-      setWords(lessonWord.slice(numGame, numGame + 10));
+      setWords(lessonWord.slice(numGame *10 , numGame * 10 + 10));
       setNumGame(numGame + 1);
     }
   }, [indexCorrect, lessonWord, numGame]);
 
   useEffect(() => {
-    if (numGame > lessonWord.length / 10 + 1) {
+    if (numGame > Math.floor(lessonWord.length / 10) ) {
       setEndGame(true);
+      playAudio('congratulations')
     }
   }, [numGame, lessonWord.length]);
 
@@ -71,10 +72,10 @@ export default function PracticeMatching() {
 
   const checkWord = useCallback((word1: string, word2: string) => {
     if (!kanji) {
-      const findWord = words.find(word => word.name === word1 && (word.character.hiragana ?? word.character.katakana === word2) || word.name === word2 && (word.character.hiragana ?? word.character.katakana === word1));
+      const findWord = words.find(word => (word.name === word1 && (word.character.hiragana ?? word.character.katakana) === word2) || (word.name === word2 && (word.character.hiragana ?? word.character.katakana) === word1));
       return findWord ? true : false;
     }
-    const findWord = words.find(word => word.name === JSON.parse(word1).word && (word.character.hiragana ?? word.character.katakana === JSON.parse(word2).word) || word.name === JSON.parse(word2).word && (word.character.hiragana ?? word.character.katakana === JSON.parse(word1).word));
+    const findWord = words.find(word => (word.name === JSON.parse(word1).word && (word.character.hiragana ?? word.character.katakana) === JSON.parse(word2).word) || (word.name === JSON.parse(word2).word && (word.character.hiragana ?? word.character.katakana) === JSON.parse(word1).word));
     return findWord ? true : false;
   }, [words, kanji]);
 
@@ -103,7 +104,7 @@ export default function PracticeMatching() {
             >
               <p className={clsx(corrected && 'dark:text-gray-300 text-gray-300', "pb-2 ")}>{kanji ? wordKanji.word : word}</p>
               {kanji && wordKanji.kanji && wordKanji.kanji !== 'null' && (
-                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300", "text-gray-500 dark:text-lime-900")}>[ {wordKanji.kanji} ]</p>
+                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300/10", "text-gray-500 dark:text-lime-900")}>[ {wordKanji.kanji} ]</p>
               )}
             </button>
           );
