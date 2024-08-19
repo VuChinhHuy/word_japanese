@@ -12,8 +12,10 @@ export default function Header() {
         modeTheme: state.modeTheme,
         toggleModeTheme: state.toggleModeTheme
     }));
-    const { selectedLesson, setSelectedLesson } = useLesson((state) => ({
+    const { selectedLesson,isTest, isMatching, setSelectedLesson } = useLesson((state) => ({
         selectedLesson: state.selectedLesson,
+        isTest: state.isTest,
+        isMatching: state.isMatching,
         setSelectedLesson: state.setSelectedLesson
     }))
     const [opLesson, setOpLesson] = useState(false);
@@ -28,7 +30,7 @@ export default function Header() {
                     </div>
     
                     <div className="mx-auto ">
-                        <button onClick={() => setOpLesson(!opLesson)} type="button" className={clsx(
+                        <button disabled={isTest || isMatching} onClick={() => setOpLesson(!opLesson)} type="button" className={clsx(
                             opLesson && 'z-50'
                             ,'text-xs w-36 md:w-40 lg:w-48 justify-between leading-5 font-semibold bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5')}>
                             <p className='text-ellipsis overflow-hidden truncate'>{selectedLesson ? LessonList.get(selectedLesson) : 'Chọn bài'}</p>

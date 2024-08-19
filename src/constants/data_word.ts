@@ -126,7 +126,6 @@ export const alphabet = [
 			hiragana: "い",
 			katakana: "イ",
 		},
-
 	},
 	{
 		name: "u",
@@ -312,8 +311,9 @@ export const alphabet = [
 	},
 ];
 
-const lessonOne: Array<Iword> = [
+export const lessonOne: Iword[] = [
 	{
+		sound: "i",
 		name: "Tôi",
 		character: {
 			hiragana: "わたし",
@@ -322,6 +322,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "we",
 		name: "Chúng tôi",
 		character: {
 			hiragana: "わたしたち",
@@ -330,6 +331,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "you",
 		name: "Bạn",
 		character: {
 			hiragana: "あなた",
@@ -338,6 +340,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "that_person",
 		name: "Người kia",
 		character: {
 			hiragana: "あのひと",
@@ -346,6 +349,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "that_person_polite",
 		name: "Người kia (kính ngữ)",
 		character: {
 			hiragana: "あのかた",
@@ -354,6 +358,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "everyone_polite",
 		name: "Các anh, các chị, các ông, các bà (kính ngữ)",
 		character: {
 			hiragana: "みなさん",
@@ -362,6 +367,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "suffix_for_intimacy",
 		name: "Anh, chị, ông, bà (thêm vào sau tên người để thể hiện tính thân mật)",
 		character: {
 			hiragana: "～さん",
@@ -370,6 +376,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "suffix_for_boys",
 		name: "Bé (thêm vào sau tên trẻ em nam)",
 		character: {
 			hiragana: "～くん",
@@ -378,6 +385,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "nationality_suffix",
 		name: "Người (nước nào)",
 		character: {
 			hiragana: "～じん",
@@ -386,6 +394,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "teacher_title",
 		name: "Thầy, cô (giáo viên)",
 		character: {
 			hiragana: "せんせい",
@@ -394,6 +403,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "teacher_profession",
 		name: "Giáo viên",
 		character: {
 			hiragana: "きょうし",
@@ -402,6 +412,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "student",
 		name: "Học sinh, sinh viên",
 		character: {
 			hiragana: "がくせい",
@@ -410,6 +421,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "company_employee",
 		name: "Nhân viên công ty",
 		character: {
 			hiragana: "かいしゃいん",
@@ -418,6 +430,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "bank_employee",
 		name: "Nhân viên ngân hàng",
 		character: {
 			hiragana: "ぎんこういん",
@@ -426,6 +439,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "doctor",
 		name: "Bác sĩ",
 		character: {
 			hiragana: "いしゃ",
@@ -434,6 +448,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "researcher",
 		name: "Nhà nghiên cứu",
 		character: {
 			hiragana: "けんきゅうしゃ",
@@ -442,14 +457,16 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "engineer",
 		name: "Kỹ sư",
 		character: {
-			hiragana: "エンジニア",
+			hiragana: null,
 			katakana: "エンジニア",
 			kanji: null,
 		},
 	},
 	{
+		sound: "university",
 		name: "Đại học",
 		character: {
 			hiragana: "だいがく",
@@ -458,6 +475,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "hospital",
 		name: "Bệnh viện",
 		character: {
 			hiragana: "びょういん",
@@ -466,6 +484,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "who",
 		name: "Ai",
 		character: {
 			hiragana: "だれ",
@@ -474,6 +493,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "who_polite",
 		name: "Ai (kính ngữ)",
 		character: {
 			hiragana: "どなた",
@@ -482,6 +502,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "how_old",
 		name: "Mấy tuổi, bao nhiêu tuổi",
 		character: {
 			hiragana: "なんさい",
@@ -490,6 +511,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "how_old_polite",
 		name: "Mấy tuổi, bao nhiêu tuổi (kính ngữ)",
 		character: {
 			hiragana: "おいくつ",
@@ -498,6 +520,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "yes",
 		name: "Vâng, đúng vậy",
 		character: {
 			hiragana: "はい",
@@ -506,6 +529,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "no",
 		name: "Không",
 		character: {
 			hiragana: "いいえ",
@@ -514,6 +538,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "nice_to_meet_you",
 		name: "Xin chào (lần đầu gặp)",
 		character: {
 			hiragana: "はじめまして",
@@ -522,6 +547,7 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
+		sound: "pleased_to_meet_you",
 		name: "Rất hân hạnh được gặp bạn",
 		character: {
 			hiragana: "どうぞよろしくおねがいします",
@@ -530,7 +556,8 @@ const lessonOne: Array<Iword> = [
 		},
 	},
 	{
-		name: "Người đến từ ",
+		sound: "i_came_from",
+		name: "Người đến từ ~",
 		character: {
 			hiragana: "～からきました",
 			katakana: null,
@@ -539,8 +566,9 @@ const lessonOne: Array<Iword> = [
 	},
 ];
 
-const lessonTwo: Array<Iword> = [
+export const lessonTwo: Iword[] = [
 	{
+		sound: "book",
 		name: "Sách",
 		character: {
 			hiragana: "ほん",
@@ -549,6 +577,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "dictionary",
 		name: "Từ điển",
 		character: {
 			hiragana: "じしょ",
@@ -557,6 +586,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "magazine",
 		name: "Tạp chí",
 		character: {
 			hiragana: "ざっし",
@@ -565,6 +595,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "newspaper",
 		name: "Báo",
 		character: {
 			hiragana: "しんぶん",
@@ -573,6 +604,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "notebook",
 		name: "Vở",
 		character: {
 			hiragana: null,
@@ -581,6 +613,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "handbook",
 		name: "Sổ tay",
 		character: {
 			hiragana: "てちょう",
@@ -589,6 +622,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "business_card",
 		name: "Danh thiếp",
 		character: {
 			hiragana: "めいし",
@@ -597,6 +631,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "card",
 		name: "Thẻ",
 		character: {
 			hiragana: null,
@@ -605,6 +640,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "pencil",
 		name: "Bút chì",
 		character: {
 			hiragana: "えんぴつ",
@@ -613,6 +649,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "ballpoint_pen",
 		name: "Bút bi",
 		character: {
 			hiragana: null,
@@ -621,6 +658,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "mechanical_pencil",
 		name: "Bút máy",
 		character: {
 			hiragana: null,
@@ -629,6 +667,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "key",
 		name: "Chìa khóa",
 		character: {
 			hiragana: "かぎ",
@@ -637,6 +676,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "clock",
 		name: "Đồng hồ",
 		character: {
 			hiragana: "とけい",
@@ -645,6 +685,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "umbrella",
 		name: "Ô (dù)",
 		character: {
 			hiragana: "かさ",
@@ -653,6 +694,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "bag",
 		name: "Cặp sách",
 		character: {
 			hiragana: "かばん",
@@ -661,6 +703,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "cassette_tape",
 		name: "Băng [cát-xét]",
 		character: {
 			hiragana: null,
@@ -669,6 +712,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "tape_recorder",
 		name: "Máy ghi âm",
 		character: {
 			hiragana: null,
@@ -677,6 +721,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "television",
 		name: "Tivi",
 		character: {
 			hiragana: null,
@@ -685,6 +730,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "radio",
 		name: "Radio",
 		character: {
 			hiragana: null,
@@ -693,6 +739,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "computer",
 		name: "Máy tính",
 		character: {
 			hiragana: null,
@@ -701,6 +748,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "automobile",
 		name: "Ô tô, xe hơi",
 		character: {
 			hiragana: "じどうしゃ",
@@ -709,6 +757,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "desk",
 		name: "Bàn",
 		character: {
 			hiragana: "つくえ",
@@ -717,6 +766,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "chair",
 		name: "Ghế",
 		character: {
 			hiragana: "いす",
@@ -725,6 +775,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "chocolate",
 		name: "Sô cô la",
 		character: {
 			hiragana: null,
@@ -733,6 +784,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "coffee",
 		name: "Cà phê",
 		character: {
 			hiragana: null,
@@ -741,6 +793,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "souvenir",
 		name: "Kỷ niệm",
 		character: {
 			hiragana: "おみやげ",
@@ -749,6 +802,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "japanese_language",
 		name: "Tiếng Nhật",
 		character: {
 			hiragana: "にほんご",
@@ -757,7 +811,8 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
-		name: "Tiếng ",
+		sound: "language",
+		name: "Tiếng ~",
 		character: {
 			hiragana: "～ご",
 			katakana: null,
@@ -765,6 +820,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "what",
 		name: "Cái gì, gì",
 		character: {
 			hiragana: "なん",
@@ -773,6 +829,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "really",
 		name: "Thế à, vậy à",
 		character: {
 			hiragana: "そう",
@@ -781,6 +838,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "um",
 		name: "À, ờ (ngập ngừng)",
 		character: {
 			hiragana: "あのう",
@@ -789,6 +847,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "just_a_token",
 		name: "Chỉ là chút lòng thành",
 		character: {
 			hiragana: "ほんのきもちです",
@@ -797,6 +856,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "thank_you",
 		name: "Xin cảm ơn",
 		character: {
 			hiragana: "どうもありがとうございます",
@@ -805,6 +865,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "here_you_go",
 		name: "Xin tặng bạn",
 		character: {
 			hiragana: "どうぞ",
@@ -813,6 +874,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "is_that_so",
 		name: "Thế à? / vậy à? (bày tỏ sự ngạc nhiên)",
 		character: {
 			hiragana: "そうですか",
@@ -821,6 +883,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "oh",
 		name: "Ồ!",
 		character: {
 			hiragana: "あっ",
@@ -829,6 +892,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "thank_you_very_much",
 		name: "Cảm ơn rất nhiều",
 		character: {
 			hiragana: "どうもありがとうございます",
@@ -837,6 +901,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "just_a_token_of_appreciation",
 		name: "Đây là chút quà mọn",
 		character: {
 			hiragana: "ほんのきもちです",
@@ -845,6 +910,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "please_come_in",
 		name: "Mời vào",
 		character: {
 			hiragana: "どうぞおあがりください",
@@ -853,7 +919,8 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
-		name: "Mời bạn dùng []",
+		sound: "how_about",
+		name: "Mời bạn dùng [~]",
 		character: {
 			hiragana: "～はいかがですか",
 			katakana: null,
@@ -861,6 +928,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "lets_eat",
 		name: "Xin mời",
 		character: {
 			hiragana: "いただきます",
@@ -869,6 +937,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "please_enter",
 		name: "Xin mời vào",
 		character: {
 			hiragana: "どうぞおはいりください",
@@ -877,6 +946,7 @@ const lessonTwo: Array<Iword> = [
 		},
 	},
 	{
+		sound: "thank_you_",
 		name: "Cảm ơn bạn",
 		character: {
 			hiragana: "どうも",
@@ -886,8 +956,9 @@ const lessonTwo: Array<Iword> = [
 	},
 ];
 
-const lessonThree: Array<Iword> = [
+export const lessonThree: Iword[] = [
 	{
+		sound: "this",
 		name: "Ở đây, chỗ này",
 		character: {
 			hiragana: "ここ",
@@ -896,6 +967,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "there",
 		name: "Ở đó, chỗ đó",
 		character: {
 			hiragana: "そこ",
@@ -904,6 +976,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "over_there",
 		name: "Ở kia, chỗ kia",
 		character: {
 			hiragana: "あそこ",
@@ -912,6 +985,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "where",
 		name: "Ở đâu",
 		character: {
 			hiragana: "どこ",
@@ -920,6 +994,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "this_side",
 		name: "Phía này, chỗ này",
 		character: {
 			hiragana: "こちら",
@@ -928,6 +1003,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "that_side",
 		name: "Phía đó, chỗ đó",
 		character: {
 			hiragana: "そちら",
@@ -936,6 +1012,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "that_side_over_there",
 		name: "Phía kia, chỗ kia",
 		character: {
 			hiragana: "あちら",
@@ -944,6 +1021,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "which_side",
 		name: "Phía nào, chỗ nào",
 		character: {
 			hiragana: "どちら",
@@ -952,6 +1030,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "classroom",
 		name: "Lớp học, phòng học",
 		character: {
 			hiragana: "きょうしつ",
@@ -960,6 +1039,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "cafeteria",
 		name: "Nhà ăn",
 		character: {
 			hiragana: "しょくどう",
@@ -968,6 +1048,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "office",
 		name: "Văn phòng",
 		character: {
 			hiragana: "じむしょ",
@@ -976,6 +1057,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "meeting_room",
 		name: "Phòng họp, phòng hội nghị",
 		character: {
 			hiragana: "かいぎしつ",
@@ -984,6 +1066,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "reception",
 		name: "Bộ phận tiếp tân, phòng thường trực",
 		character: {
 			hiragana: "うけつけ",
@@ -992,6 +1075,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "lobby",
 		name: "Hành lang, đại sảnh",
 		character: {
 			hiragana: null,
@@ -1000,6 +1084,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "room",
 		name: "Phòng",
 		character: {
 			hiragana: "へや",
@@ -1008,6 +1093,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "toilet",
 		name: "Nhà vệ sinh, phòng vệ sinh, toa-lét",
 		character: {
 			hiragana: null,
@@ -1016,6 +1102,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "stairs",
 		name: "Cầu thang",
 		character: {
 			hiragana: "かいだん",
@@ -1024,6 +1111,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "elevator",
 		name: "Thang máy",
 		character: {
 			hiragana: null,
@@ -1032,6 +1120,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "escalator",
 		name: "Thang cuốn",
 		character: {
 			hiragana: null,
@@ -1040,7 +1129,8 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
-		name: "Nước ",
+		sound: "country",
+		name: "Nước ~",
 		character: {
 			hiragana: "～くに",
 			katakana: null,
@@ -1048,6 +1138,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "company",
 		name: "Công ty",
 		character: {
 			hiragana: "かいしゃ",
@@ -1056,6 +1147,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "home",
 		name: "Nhà",
 		character: {
 			hiragana: "うち",
@@ -1064,6 +1156,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "telephone",
 		name: "Điện thoại",
 		character: {
 			hiragana: "でんわ",
@@ -1072,6 +1165,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "shoes",
 		name: "Giầy",
 		character: {
 			hiragana: "くつ",
@@ -1080,6 +1174,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "necktie",
 		name: "Cà vạt",
 		character: {
 			hiragana: null,
@@ -1088,6 +1183,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "wine",
 		name: "Rượu vang",
 		character: {
 			hiragana: null,
@@ -1096,6 +1192,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "cigarette",
 		name: "Thuốc lá",
 		character: {
 			hiragana: "たばこ",
@@ -1104,6 +1201,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "counter",
 		name: "Quầy (trong cửa hàng, siêu thị)",
 		character: {
 			hiragana: "うりば",
@@ -1112,6 +1210,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "basement",
 		name: "Tầng hầm, dưới mặt đất",
 		character: {
 			hiragana: "ちか",
@@ -1120,7 +1219,8 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
-		name: "Tầng ",
+		sound: "floor",
+		name: "Tầng ~",
 		character: {
 			hiragana: "～かい",
 			katakana: null,
@@ -1128,6 +1228,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "which_floor",
 		name: "Mấy tầng",
 		character: {
 			hiragana: "なんがい",
@@ -1136,6 +1237,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "yen",
 		name: "Yên",
 		character: {
 			hiragana: "えん",
@@ -1144,6 +1246,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "how_much",
 		name: "Bao nhiêu tiền",
 		character: {
 			hiragana: "いくら",
@@ -1152,6 +1255,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "hundred",
 		name: "Trăm",
 		character: {
 			hiragana: "ひゃく",
@@ -1160,6 +1264,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "thousand",
 		name: "Nghìn",
 		character: {
 			hiragana: "せん",
@@ -1168,6 +1273,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "ten_thousand",
 		name: "Mười nghìn, vạn",
 		character: {
 			hiragana: "まん",
@@ -1176,6 +1282,7 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
+		sound: "welcome",
 		name: "Xin chào quý khách / Chào mừng quý khách",
 		character: {
 			hiragana: "いらっしゃいませ",
@@ -1184,7 +1291,8 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
-		name: "Cho tôi xem []",
+		sound: "show_me",
+		name: "Cho tôi xem [~]",
 		character: {
 			hiragana: "「～を」みせてください",
 			katakana: null,
@@ -1192,7 +1300,8 @@ const lessonThree: Array<Iword> = [
 		},
 	},
 	{
-		name: "Cho tôi []",
+		sound: "give_me",
+		name: "Cho tôi [~]",
 		character: {
 			hiragana: "「～を」ください",
 			katakana: null,
@@ -1201,7 +1310,7 @@ const lessonThree: Array<Iword> = [
 	},
 ];
 
-const lessonFour: Array<Iword> = [
+export const lessonFour: Iword[] = [
 	{
 		name: "dậy, thức dậy",
 		character: {
@@ -1209,6 +1318,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "起きます",
 		},
+		sound: "wake_up",
 	},
 	{
 		name: "ngủ, đi ngủ",
@@ -1217,6 +1327,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "寝ます",
 		},
+		sound: "sleep",
 	},
 	{
 		name: "làm việc",
@@ -1225,6 +1336,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "働きます",
 		},
+		sound: "work",
 	},
 	{
 		name: "nghỉ, nghỉ ngơi",
@@ -1233,6 +1345,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "休みます",
 		},
+		sound: "rest",
 	},
 	{
 		name: "học",
@@ -1241,6 +1354,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "勉強します",
 		},
+		sound: "study",
 	},
 	{
 		name: "hết, kết thúc, xong",
@@ -1249,6 +1363,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "終わります",
 		},
+		sound: "finish",
 	},
 	{
 		name: "bách hóa",
@@ -1257,6 +1372,7 @@ const lessonFour: Array<Iword> = [
 			katakana: "デパート",
 			kanji: null,
 		},
+		sound: "department_store",
 	},
 	{
 		name: "ngân hàng",
@@ -1265,6 +1381,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "銀行",
 		},
+		sound: "bank",
 	},
 	{
 		name: "bưu điện",
@@ -1273,6 +1390,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "郵便局",
 		},
+		sound: "post_office",
 	},
 	{
 		name: "thư viện",
@@ -1281,6 +1399,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "図書館",
 		},
+		sound: "library",
 	},
 	{
 		name: "bảo tàng mỹ thuật",
@@ -1289,6 +1408,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "美術館",
 		},
+		sound: "art_museum",
 	},
 	{
 		name: "bây giờ",
@@ -1297,6 +1417,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "今",
 		},
+		sound: "now",
 	},
 	{
 		name: "-giờ",
@@ -1305,6 +1426,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "－時",
 		},
+		sound: "hour",
 	},
 	{
 		name: "- phút",
@@ -1313,6 +1435,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "―分",
 		},
+		sound: "minute",
 	},
 	{
 		name: "rưỡi, nửa",
@@ -1321,6 +1444,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "半",
 		},
+		sound: "half",
 	},
 	{
 		name: "mấy giờ",
@@ -1329,6 +1453,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "何時",
 		},
+		sound: "what_time",
 	},
 	{
 		name: "mấy phút",
@@ -1337,6 +1462,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "何分",
 		},
+		sound: "what_minute",
 	},
 	{
 		name: "sáng, trước 12 giờ trưa",
@@ -1345,6 +1471,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "午前",
 		},
+		sound: "am",
 	},
 	{
 		name: "chiều, sau 12 giờ trưa",
@@ -1353,6 +1480,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "午後",
 		},
+		sound: "pm",
 	},
 	{
 		name: "buổi sáng, sáng",
@@ -1361,6 +1489,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "朝",
 		},
+		sound: "morning",
 	},
 	{
 		name: "buổi trưa, trưa",
@@ -1369,6 +1498,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "昼",
 		},
+		sound: "noon",
 	},
 	{
 		name: "buổi tối, tối",
@@ -1377,6 +1507,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "晩(夜)",
 		},
+		sound: "evening",
 	},
 	{
 		name: "hôm kia",
@@ -1385,6 +1516,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "the_day_before_yesterday",
 	},
 	{
 		name: "hôm qua",
@@ -1393,6 +1525,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "yesterday",
 	},
 	{
 		name: "hôm nay",
@@ -1401,6 +1534,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "today",
 	},
 	{
 		name: "ngày mai",
@@ -1409,6 +1543,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "tomorrow",
 	},
 	{
 		name: "ngày kia",
@@ -1417,6 +1552,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "the_day_after_tomorrow",
 	},
 	{
 		name: "sáng nay",
@@ -1425,6 +1561,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "this_morning",
 	},
 	{
 		name: "tối nay",
@@ -1433,6 +1570,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "今晩",
 		},
+		sound: "tonight",
 	},
 	{
 		name: "nghỉ, nghỉ phép, ngày nghỉ",
@@ -1441,6 +1579,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "休み",
 		},
+		sound: "holiday",
 	},
 	{
 		name: "nghỉ trưa",
@@ -1449,6 +1588,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "昼休み",
 		},
+		sound: "lunch_break",
 	},
 	{
 		name: "thi, kỳ thi, kiểm tra",
@@ -1457,6 +1597,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "試験",
 		},
+		sound: "exam",
 	},
 	{
 		name: "cuộc họp, hội nghị (～を　します： tổ chức cuộc họp, hội nghị)",
@@ -1465,6 +1606,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "会議",
 		},
+		sound: "meeting",
 	},
 	{
 		name: "phim, điện ảnh",
@@ -1473,6 +1615,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "映画",
 		},
+		sound: "movie",
 	},
 	{
 		name: "hàng sáng, mỗi sáng",
@@ -1481,6 +1624,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "毎朝",
 		},
+		sound: "every_morning",
 	},
 	{
 		name: "hàng tối, mỗi tối",
@@ -1489,6 +1633,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "毎晩",
 		},
+		sound: "every_evening",
 	},
 	{
 		name: "hàng ngày, mỗi ngày",
@@ -1497,6 +1642,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "毎日",
 		},
+		sound: "every_day",
 	},
 	{
 		name: "thứ hai",
@@ -1505,6 +1651,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "月曜日",
 		},
+		sound: "monday",
 	},
 	{
 		name: "thứ ba",
@@ -1513,6 +1660,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "火曜日",
 		},
+		sound: "tuesday",
 	},
 	{
 		name: "thứ tư",
@@ -1521,6 +1669,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "水曜日",
 		},
+		sound: "wednesday",
 	},
 	{
 		name: "thứ năm",
@@ -1529,6 +1678,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "木曜日",
 		},
+		sound: "thursday",
 	},
 	{
 		name: "thứ sáu",
@@ -1537,6 +1687,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "金曜日",
 		},
+		sound: "friday",
 	},
 	{
 		name: "thứ bảy",
@@ -1545,6 +1696,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "土曜日",
 		},
+		sound: "saturday",
 	},
 	{
 		name: "chủ nhật",
@@ -1553,6 +1705,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "日曜日",
 		},
+		sound: "sunday",
 	},
 	{
 		name: "thứ mấy",
@@ -1561,6 +1714,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "何曜日",
 		},
+		sound: "what_day",
 	},
 	{
 		name: " từ",
@@ -1569,6 +1723,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "from",
 	},
 	{
 		name: " đến",
@@ -1577,6 +1732,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "to",
 	},
 	{
 		name: " và (dùng để nối hai danh từ)",
@@ -1585,6 +1741,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "and",
 	},
 	{
 		name: "Anh/chị vất vả quá.",
@@ -1593,6 +1750,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "大変",
 		},
+		sound: "you_must_be_tired",
 	},
 	{
 		name: "số (số điện thoại, số phòng)",
@@ -1601,6 +1759,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "番号",
 		},
+		sound: "number",
 	},
 	{
 		name: "số bao nhiêu, số mấy",
@@ -1609,6 +1768,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "何番",
 		},
+		sound: "which_number",
 	},
 	{
 		name: "ông/bà, phía ông/ phía bà",
@@ -1617,6 +1777,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "there",
 	},
 	{
 		name: "New York",
@@ -1625,6 +1786,7 @@ const lessonFour: Array<Iword> = [
 			katakana: "ニューヨーク",
 			kanji: null,
 		},
+		sound: "new_york",
 	},
 	{
 		name: "Bắc Kinh",
@@ -1633,6 +1795,7 @@ const lessonFour: Array<Iword> = [
 			katakana: "ペキン",
 			kanji: null,
 		},
+		sound: "beijing",
 	},
 	{
 		name: "Los Angeles",
@@ -1641,6 +1804,7 @@ const lessonFour: Array<Iword> = [
 			katakana: "ロサンゼルス",
 			kanji: null,
 		},
+		sound: "los_angeles",
 	},
 	{
 		name: "Luân Đôn",
@@ -1649,6 +1813,7 @@ const lessonFour: Array<Iword> = [
 			katakana: "ロンドン",
 			kanji: null,
 		},
+		sound: "london",
 	},
 	{
 		name: "tên giả định của một nhà hàng Nhật",
@@ -1657,6 +1822,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "asuka",
 	},
 	{
 		name: "ngân hàng Apple (giả định)",
@@ -1665,6 +1831,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "アップル銀行",
 		},
+		sound: "apple_bank",
 	},
 	{
 		name: "thư viện Midori (giả định)",
@@ -1673,6 +1840,7 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "みどり図書館",
 		},
+		sound: "midori_library",
 	},
 	{
 		name: "bảo tàng mỹ thuật Yamato (giả định)",
@@ -1681,10 +1849,11 @@ const lessonFour: Array<Iword> = [
 			katakana: null,
 			kanji: "やまと美術館",
 		},
+		sound: "yamato_art_museum",
 	},
 ];
 
-const lessonFive: Array<Iword> = [
+export const lessonFive: Iword[] = [
 	{
 		name: "đi",
 		character: {
@@ -1692,6 +1861,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "行きます",
 		},
+		sound: "go",
 	},
 	{
 		name: "đến",
@@ -1700,6 +1870,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "来ます",
 		},
+		sound: "come",
 	},
 	{
 		name: "về",
@@ -1708,6 +1879,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "帰ります",
 		},
+		sound: "return",
 	},
 	{
 		name: "trường học",
@@ -1716,6 +1888,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "学校",
 		},
+		sound: "school",
 	},
 	{
 		name: "siêu thị",
@@ -1724,6 +1897,7 @@ const lessonFive: Array<Iword> = [
 			katakana: "スーパー",
 			kanji: null,
 		},
+		sound: "supermarket",
 	},
 	{
 		name: "ga, nhà ga",
@@ -1732,6 +1906,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "駅",
 		},
+		sound: "station",
 	},
 	{
 		name: "máy bay",
@@ -1740,6 +1915,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "飛行機",
 		},
+		sound: "airplane",
 	},
 	{
 		name: "thuyền, tàu thủy",
@@ -1748,6 +1924,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "船",
 		},
+		sound: "ship",
 	},
 	{
 		name: "tàu điện",
@@ -1756,6 +1933,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "電車",
 		},
+		sound: "train",
 	},
 	{
 		name: "tàu điện ngầm",
@@ -1764,6 +1942,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "地下鉄",
 		},
+		sound: "subway",
 	},
 	{
 		name: "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
@@ -1772,6 +1951,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "新幹線",
 		},
+		sound: "shinkansen",
 	},
 	{
 		name: "xe buýt",
@@ -1780,6 +1960,7 @@ const lessonFive: Array<Iword> = [
 			katakana: "バス",
 			kanji: null,
 		},
+		sound: "bus",
 	},
 	{
 		name: "tắc-xi",
@@ -1788,6 +1969,7 @@ const lessonFive: Array<Iword> = [
 			katakana: "タクシー",
 			kanji: null,
 		},
+		sound: "taxi",
 	},
 	{
 		name: "xe đạp",
@@ -1796,6 +1978,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "自転車",
 		},
+		sound: "bicycle",
 	},
 	{
 		name: "đi bộ",
@@ -1804,6 +1987,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "歩いて",
 		},
+		sound: "walk",
 	},
 	{
 		name: "người",
@@ -1812,6 +1996,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "人",
 		},
+		sound: "person",
 	},
 	{
 		name: "bạn, bạn bè",
@@ -1820,6 +2005,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "友達",
 		},
+		sound: "friend",
 	},
 	{
 		name: "anh ấy, bạn trai",
@@ -1828,6 +2014,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "彼",
 		},
+		sound: "he",
 	},
 	{
 		name: "chị ấy, bạn gái",
@@ -1836,6 +2023,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "彼女",
 		},
+		sound: "she",
 	},
 	{
 		name: "gia đình",
@@ -1844,6 +2032,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "家族",
 		},
+		sound: "family",
 	},
 	{
 		name: "một mình",
@@ -1852,6 +2041,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "一人で",
 		},
+		sound: "alone",
 	},
 	{
 		name: "tuần trước",
@@ -1860,6 +2050,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "先週",
 		},
+		sound: "last_week",
 	},
 	{
 		name: "tuần này",
@@ -1868,6 +2059,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "今週",
 		},
+		sound: "this_week",
 	},
 	{
 		name: "tuần sau",
@@ -1876,6 +2068,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "来週",
 		},
+		sound: "next_week",
 	},
 	{
 		name: "tháng trước",
@@ -1884,6 +2077,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "先月",
 		},
+		sound: "last_month",
 	},
 	{
 		name: "tháng này",
@@ -1892,6 +2086,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "今月",
 		},
+		sound: "this_month",
 	},
 	{
 		name: "tháng sau",
@@ -1900,6 +2095,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "来月",
 		},
+		sound: "next_month",
 	},
 	{
 		name: "năm ngoái",
@@ -1908,6 +2104,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "去年",
 		},
+		sound: "last_year",
 	},
 	{
 		name: "năm nay",
@@ -1916,6 +2113,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "this_year",
 	},
 	{
 		name: "năm sau",
@@ -1924,6 +2122,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "来年",
 		},
+		sound: "next_year",
 	},
 	{
 		name: "năm -",
@@ -1932,6 +2131,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "ー年",
 		},
+		sound: "year",
 	},
 	{
 		name: "mấy năm",
@@ -1940,6 +2140,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "何年",
 		},
+		sound: "how_many_years",
 	},
 	{
 		name: "tháng -",
@@ -1948,6 +2149,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "ー月",
 		},
+		sound: "month",
 	},
 	{
 		name: "tháng mấy",
@@ -1956,6 +2158,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "何月",
 		},
+		sound: "which_month",
 	},
 	{
 		name: "ngày mồng 1",
@@ -1964,6 +2167,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "１日",
 		},
+		sound: "first_day",
 	},
 	{
 		name: "ngày mồng 2, 2 ngày",
@@ -1972,6 +2176,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "２日",
 		},
+		sound: "second_day",
 	},
 	{
 		name: "ngày mồng 3, 3 ngày",
@@ -1980,6 +2185,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "３日",
 		},
+		sound: "third_day",
 	},
 	{
 		name: "ngày mồng 4, 4 ngày",
@@ -1988,6 +2194,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "４日",
 		},
+		sound: "fourth_day",
 	},
 	{
 		name: "ngày mồng 5, 5 ngày",
@@ -1996,6 +2203,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "５日",
 		},
+		sound: "fifth_day",
 	},
 	{
 		name: "ngày mồng 6, 6 ngày",
@@ -2004,6 +2212,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "６日",
 		},
+		sound: "sixth_day",
 	},
 	{
 		name: "ngày mồng 7, 7 ngày",
@@ -2012,6 +2221,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "７日",
 		},
+		sound: "seventh_day",
 	},
 	{
 		name: "ngày mồng 8, 8 ngày",
@@ -2020,6 +2230,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "８日",
 		},
+		sound: "eighth_day",
 	},
 	{
 		name: "ngày mồng 9, 9 ngày",
@@ -2028,6 +2239,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "９日",
 		},
+		sound: "ninth_day",
 	},
 	{
 		name: "ngày mồng 10, 10 ngày",
@@ -2036,6 +2248,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "１０日",
 		},
+		sound: "tenth_day",
 	},
 	{
 		name: "ngày 14, 14 ngày",
@@ -2044,6 +2257,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "１４日",
 		},
+		sound: "fourteenth_day",
 	},
 	{
 		name: "ngày 20, 20 ngày",
@@ -2052,6 +2266,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "２０日",
 		},
+		sound: "twentieth_day",
 	},
 	{
 		name: "ngày 24, 24 ngày",
@@ -2060,6 +2275,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "２４日",
 		},
+		sound: "twenty_fourth_day",
 	},
 	{
 		name: "ngày -, - ngày",
@@ -2068,6 +2284,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "―日",
 		},
+		sound: "day",
 	},
 	{
 		name: "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
@@ -2076,6 +2293,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "何日",
 		},
+		sound: "what_day",
 	},
 	{
 		name: "bao giờ, khi nào",
@@ -2084,6 +2302,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "when",
 	},
 	{
 		name: "sinh nhật",
@@ -2092,6 +2311,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "誕生日",
 		},
+		sound: "birthday",
 	},
 	{
 		name: "Ừ, nhỉ.",
@@ -2100,6 +2320,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "yes_indeed",
 	},
 	{
 		name: "Xin cám ơn anh/chị rất nhiều.",
@@ -2108,6 +2329,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thank_you_very_much",
 	},
 	{
 		name: "Không có gì.",
@@ -2116,6 +2338,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "you_re_welcome",
 	},
 	{
 		name: "sân ga số -",
@@ -2124,6 +2347,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "番線",
 		},
+		sound: "platform_number",
 	},
 	{
 		name: "tiếp theo",
@@ -2132,6 +2356,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "次の",
 		},
+		sound: "next",
 	},
 	{
 		name: "tàu thường (dừng cả ở các ga lẻ)",
@@ -2140,6 +2365,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "普通",
 		},
+		sound: "local_train",
 	},
 	{
 		name: "tàu tốc hành",
@@ -2148,6 +2374,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "急行",
 		},
+		sound: "express_train",
 	},
 	{
 		name: "tàu tốc hành đặc biệt",
@@ -2156,6 +2383,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "特急",
 		},
+		sound: "limited_express_train",
 	},
 	{
 		name: "tên một khu phố ở Osaka",
@@ -2164,6 +2392,7 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "甲子園",
 		},
+		sound: "koshien",
 	},
 	{
 		name: "Lâu đài Osaka, một lâu đài nổi tiếng ở Osaka",
@@ -2172,12 +2401,14 @@ const lessonFive: Array<Iword> = [
 			katakana: null,
 			kanji: "大阪城",
 		},
+		sound: "osaka_castle",
 	},
 ];
 
-const lessonSix: Array<Iword> = [
+export const lessonSix: Iword[] = [
 	{
 		name: "ăn",
+		sound: "eat",
 		character: {
 			hiragana: "たべます",
 			katakana: null,
@@ -2186,6 +2417,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "uống",
+		sound: "drink",
 		character: {
 			hiragana: "のみます",
 			katakana: null,
@@ -2194,6 +2426,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "hút [thuốc lá]",
+		sound: "smoke",
 		character: {
 			hiragana: "すいます",
 			katakana: null,
@@ -2202,6 +2435,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "xem, nhìn, trông",
+		sound: "see",
 		character: {
 			hiragana: "みます",
 			katakana: null,
@@ -2210,6 +2444,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "nghe",
+		sound: "hear",
 		character: {
 			hiragana: "ききます",
 			katakana: null,
@@ -2218,6 +2453,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "đọc",
+		sound: "read",
 		character: {
 			hiragana: "よみます",
 			katakana: null,
@@ -2226,6 +2462,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "viết, vẽ",
+		sound: "write",
 		character: {
 			hiragana: "かきます",
 			katakana: null,
@@ -2234,6 +2471,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "mua",
+		sound: "buy",
 		character: {
 			hiragana: "かいます",
 			katakana: null,
@@ -2242,6 +2480,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "chụp [ảnh]",
+		sound: "take_photo",
 		character: {
 			hiragana: "とります",
 			katakana: null,
@@ -2250,6 +2489,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "làm",
+		sound: "do",
 		character: {
 			hiragana: "します",
 			katakana: null,
@@ -2258,6 +2498,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "gặp [bạn]",
+		sound: "meet",
 		character: {
 			hiragana: "あいます",
 			katakana: null,
@@ -2266,6 +2507,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cơm, bữa ăn",
+		sound: "meal",
 		character: {
 			hiragana: "ごはん",
 			katakana: null,
@@ -2274,6 +2516,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cơm sáng",
+		sound: "breakfast",
 		character: {
 			hiragana: "あさごはん",
 			katakana: null,
@@ -2282,6 +2525,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cơm trưa",
+		sound: "lunch",
 		character: {
 			hiragana: "ひるごはん",
 			katakana: null,
@@ -2290,6 +2534,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cơm tối",
+		sound: "dinner",
 		character: {
 			hiragana: "ばんごはん",
 			katakana: null,
@@ -2298,6 +2543,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "bánh mì",
+		sound: "bread",
 		character: {
 			hiragana: "パン",
 			katakana: null,
@@ -2306,6 +2552,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "trứng",
+		sound: "egg",
 		character: {
 			hiragana: "たまご",
 			katakana: null,
@@ -2314,6 +2561,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "thịt",
+		sound: "meat",
 		character: {
 			hiragana: "にく",
 			katakana: null,
@@ -2322,6 +2570,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cá",
+		sound: "fish",
 		character: {
 			hiragana: "さかな",
 			katakana: null,
@@ -2330,6 +2579,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "rau",
+		sound: "vegetable",
 		character: {
 			hiragana: "やさい",
 			katakana: null,
@@ -2338,6 +2588,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "hoa quả, trái cây",
+		sound: "fruit",
 		character: {
 			hiragana: "くだもの",
 			katakana: null,
@@ -2346,6 +2597,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "nước",
+		sound: "water",
 		character: {
 			hiragana: "みず",
 			katakana: null,
@@ -2354,6 +2606,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "trà (nói chung)",
+		sound: "tea",
 		character: {
 			hiragana: "おちゃ",
 			katakana: null,
@@ -2362,6 +2615,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "trà đen",
+		sound: "black_tea",
 		character: {
 			hiragana: "こうちゃ",
 			katakana: null,
@@ -2370,6 +2624,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "sữa bò (sữa)",
+		sound: "milk",
 		character: {
 			hiragana: "ぎゅうにゅう(ミルク)",
 			katakana: null,
@@ -2378,6 +2633,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "nước hoa quả",
+		sound: "juice",
 		character: {
 			hiragana: null,
 			katakana: "ジュース",
@@ -2386,6 +2642,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "bia",
+		sound: "beer",
 		character: {
 			hiragana: null,
 			katakana: "ビール",
@@ -2394,6 +2651,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "rượu, rượu sake",
+		sound: "sake",
 		character: {
 			hiragana: "[お]さけ",
 			katakana: null,
@@ -2402,6 +2660,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "thuốc lá",
+		sound: "cigarette",
 		character: {
 			hiragana: "たばこ",
 			katakana: null,
@@ -2410,6 +2669,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "thư",
+		sound: "letter",
 		character: {
 			hiragana: "てがみ",
 			katakana: null,
@@ -2418,6 +2678,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "báo cáo",
+		sound: "report",
 		character: {
 			hiragana: null,
 			katakana: "レポート",
@@ -2426,6 +2687,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "ảnh",
+		sound: "photo",
 		character: {
 			hiragana: "しゃしん",
 			katakana: null,
@@ -2434,6 +2696,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "video, băng video, đầu video",
+		sound: "video",
 		character: {
 			hiragana: null,
 			katakana: "ビデオ",
@@ -2442,6 +2705,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cửa hàng, tiệm",
+		sound: "shop",
 		character: {
 			hiragana: "みせ",
 			katakana: null,
@@ -2450,6 +2714,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "vườn",
+		sound: "garden",
 		character: {
 			hiragana: "にわ",
 			katakana: null,
@@ -2458,6 +2723,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "bài tập về nhà (～をします: làm bài tập)",
+		sound: "homework",
 		character: {
 			hiragana: "しゅくだい",
 			katakana: null,
@@ -2466,6 +2732,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "quần vợt (～をします: đánh quần vợt)",
+		sound: "tennis",
 		character: {
 			hiragana: null,
 			katakana: "テニス",
@@ -2474,6 +2741,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "bóng đá (～をします: chơi bóng đá)",
+		sound: "soccer",
 		character: {
 			hiragana: null,
 			katakana: "サッカー",
@@ -2482,6 +2750,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "việc ngắm hoa anh đào (～をします: ngắm hoa anh đào)",
+		sound: "flower_viewing",
 		character: {
 			hiragana: "[お]はなみ",
 			katakana: null,
@@ -2490,6 +2759,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cái gì, gì",
+		sound: "what",
 		character: {
 			hiragana: "なに",
 			katakana: null,
@@ -2498,6 +2768,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "cùng, cùng nhau",
+		sound: "together",
 		character: {
 			hiragana: "いっしょに",
 			katakana: null,
@@ -2506,6 +2777,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "một chút",
+		sound: "a_little",
 		character: {
 			hiragana: "ちょっと",
 			katakana: null,
@@ -2514,6 +2786,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "luôn luôn, lúc nào cũng",
+		sound: "always",
 		character: {
 			hiragana: "いつも",
 			katakana: null,
@@ -2522,6 +2795,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "thỉnh thoảng",
+		sound: "sometimes",
 		character: {
 			hiragana: "ときどき",
 			katakana: null,
@@ -2530,6 +2804,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "sau đó, tiếp theo",
+		sound: "then",
 		character: {
 			hiragana: "それから",
 			katakana: null,
@@ -2538,6 +2813,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "vâng, được (cách nói thân mật của 「はい」)",
+		sound: "yes_informal",
 		character: {
 			hiragana: "ええ",
 			katakana: null,
@@ -2546,6 +2822,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "Được đấy nhỉ./ hay quá.",
+		sound: "sounds_good",
 		character: {
 			hiragana: "いいですね。",
 			katakana: null,
@@ -2554,6 +2831,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "Tôi hiểu rồi/ vâng ạ.",
+		sound: "understood",
 		character: {
 			hiragana: "わかりました。",
 			katakana: null,
@@ -2562,6 +2840,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "Có gì đấy ạ?/ cái gì vậy?",
+		sound: "what_is_it",
 		character: {
 			hiragana: "なんですか。",
 			katakana: null,
@@ -2570,6 +2849,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "Hẹn gặp lại [ngày mai].",
+		sound: "see_you_tomorrow",
 		character: {
 			hiragana: "じゃ、また[あした]",
 			katakana: null,
@@ -2578,6 +2858,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "Mexico",
+		sound: "mexico",
 		character: {
 			hiragana: null,
 			katakana: "メキシコ",
@@ -2586,6 +2867,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "bách hóa Osaka (giả định)",
+		sound: "osaka_department_store",
 		character: {
 			hiragana: "おおさかデパート",
 			katakana: null,
@@ -2594,6 +2876,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "tên nhà hàng (giả định)",
+		sound: "tsuruya_restaurant",
 		character: {
 			hiragana: "つるや",
 			katakana: null,
@@ -2602,6 +2885,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "tên siêu thị (giả định)",
+		sound: "france_supermarket",
 		character: {
 			hiragana: "フランスや",
 			katakana: null,
@@ -2610,6 +2894,7 @@ const lessonSix: Array<Iword> = [
 	},
 	{
 		name: "tên siêu thị (giả định)",
+		sound: "mainichi_supermarket",
 		character: {
 			hiragana: "まいにちや",
 			katakana: null,
@@ -2618,7 +2903,7 @@ const lessonSix: Array<Iword> = [
 	},
 ];
 
-const lessonSeven: Array<Iword> = [
+export const lessonSeven: Iword[] = [
 	{
 		name: "cắt",
 		character: {
@@ -2626,6 +2911,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "切ります",
 		},
+		sound: "cut",
 	},
 	{
 		name: "gửi",
@@ -2634,6 +2920,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "送ります",
 		},
+		sound: "send",
 	},
 	{
 		name: "cho, tặng",
@@ -2642,6 +2929,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "give",
 	},
 	{
 		name: "nhận",
@@ -2650,6 +2938,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "receive",
 	},
 	{
 		name: "cho mượn, cho vay",
@@ -2658,6 +2947,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "貸します",
 		},
+		sound: "lend",
 	},
 	{
 		name: "mượn, vay",
@@ -2666,6 +2956,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "借ります",
 		},
+		sound: "borrow",
 	},
 	{
 		name: "dạy",
@@ -2674,6 +2965,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "教えます",
 		},
+		sound: "teach",
 	},
 	{
 		name: "học, tập",
@@ -2682,6 +2974,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "習います",
 		},
+		sound: "learn",
 	},
 	{
 		name: "gọi [điện thoại]",
@@ -2690,6 +2983,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "かけます[電話を～]",
 		},
+		sound: "make_phone_call",
 	},
 	{
 		name: "tay",
@@ -2698,6 +2992,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "手",
 		},
+		sound: "hand",
 	},
 	{
 		name: "đũa",
@@ -2706,6 +3001,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "chopsticks",
 	},
 	{
 		name: "thìa",
@@ -2714,6 +3010,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "スプーン",
 			kanji: null,
 		},
+		sound: "spoon",
 	},
 	{
 		name: "dao",
@@ -2722,6 +3019,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "ナイフ",
 			kanji: null,
 		},
+		sound: "knife",
 	},
 	{
 		name: "nĩa",
@@ -2730,6 +3028,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "フォーク",
 			kanji: null,
 		},
+		sound: "fork",
 	},
 	{
 		name: "kéo",
@@ -2738,6 +3037,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "scissors",
 	},
 	{
 		name: "máy vi tính cá nhân",
@@ -2746,6 +3046,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "パソコン",
 			kanji: null,
 		},
+		sound: "personal_computer",
 	},
 	{
 		name: "điện thoại di động",
@@ -2754,6 +3055,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "ケータイ",
 			kanji: null,
 		},
+		sound: "mobile_phone",
 	},
 	{
 		name: "thư điện tử, email",
@@ -2762,6 +3064,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "メール",
 			kanji: null,
 		},
+		sound: "email",
 	},
 	{
 		name: "thiệp mừng năm mới",
@@ -2770,6 +3073,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "年賀状",
 		},
+		sound: "new_year_card",
 	},
 	{
 		name: "cái đục lỗ",
@@ -2778,6 +3082,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "パンチ",
 			kanji: null,
 		},
+		sound: "hole_punch",
 	},
 	{
 		name: "cái dập ghim",
@@ -2786,6 +3091,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "ホッチキス",
 			kanji: null,
 		},
+		sound: "stapler",
 	},
 	{
 		name: "băng dính",
@@ -2794,6 +3100,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "セロテープ",
 			kanji: null,
 		},
+		sound: "scotch_tape",
 	},
 	{
 		name: "cái tẩy",
@@ -2802,6 +3109,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "eraser",
 	},
 	{
 		name: "giấy",
@@ -2810,6 +3118,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "紙",
 		},
+		sound: "paper",
 	},
 	{
 		name: "hoa",
@@ -2818,6 +3127,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "花",
 		},
+		sound: "flower",
 	},
 	{
 		name: "áo sơ mi",
@@ -2826,6 +3136,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "シャツ",
 			kanji: null,
 		},
+		sound: "shirt",
 	},
 	{
 		name: "quà tặng, tặng phẩm",
@@ -2834,6 +3145,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "プレゼント",
 			kanji: null,
 		},
+		sound: "gift",
 	},
 	{
 		name: "đồ đạc, hành lý",
@@ -2842,6 +3154,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "荷物",
 		},
+		sound: "luggage",
 	},
 	{
 		name: "tiền",
@@ -2850,6 +3163,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "お金",
 		},
+		sound: "money",
 	},
 	{
 		name: "vé",
@@ -2858,6 +3172,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "切符",
 		},
+		sound: "ticket",
 	},
 	{
 		name: "Giáng sinh",
@@ -2866,6 +3181,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: "クリスマス",
 			kanji: null,
 		},
+		sound: "christmas",
 	},
 	{
 		name: "bố (dùng khi nói về bố mình)",
@@ -2874,6 +3190,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "父",
 		},
+		sound: "father_myself",
 	},
 	{
 		name: "mẹ (dùng khi nói về mẹ mình)",
@@ -2882,6 +3199,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "母",
 		},
+		sound: "mother_myself",
 	},
 	{
 		name: "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
@@ -2890,6 +3208,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "お父さん",
 		},
+		sound: "father_other",
 	},
 	{
 		name: "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
@@ -2898,6 +3217,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: "お母さん",
 		},
+		sound: "mother_other",
 	},
 	{
 		name: "đã, rồi",
@@ -2906,6 +3226,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "already",
 	},
 	{
 		name: "chưa",
@@ -2914,6 +3235,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_yet",
 	},
 	{
 		name: "từ bây giờ, sau đây",
@@ -2922,6 +3244,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "from_now_on",
 	},
 	{
 		name: "[] hay nhỉ./ đẹp nhỉ.",
@@ -2930,6 +3253,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "isnt_it_nice",
 	},
 	{
 		name: "Chào mừng anh/chị đã đến chơi.",
@@ -2938,6 +3262,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "welcome",
 	},
 	{
 		name: "Mời anh/chị vào.",
@@ -2946,6 +3271,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "please_come_in",
 	},
 	{
 		name: "Xin thất lễ",
@@ -2954,6 +3280,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "excuse_me",
 	},
 	{
 		name: "Anh/chị dùng [] có được không?",
@@ -2962,6 +3289,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "how_about",
 	},
 	{
 		name: "Xin nhận . (cách nói dùng trước khi ăn hoặc uống)",
@@ -2970,6 +3298,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thank_you_for_the_meal_before",
 	},
 	{
 		name: "Xin cám ơn anh/chị đã đãi tôi bữa ăn ngon (cách nói dùng sau khi ăn xong)",
@@ -2978,6 +3307,7 @@ const lessonSeven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thank_you_for_the_meal_after",
 	},
 	{
 		name: "Tây Ban Nha",
@@ -2986,10 +3316,11 @@ const lessonSeven: Array<Iword> = [
 			katakana: "スペイン",
 			kanji: null,
 		},
+		sound: "spain",
 	},
 ];
 
-const lessonEight: Array<Iword> = [
+export const lessonEight: Iword[] = [
 	{
 		name: "đẹp trai",
 		character: {
@@ -2997,6 +3328,7 @@ const lessonEight: Array<Iword> = [
 			katakana: "ハンサム",
 			kanji: null,
 		},
+		sound: "handsome",
 	},
 	{
 		name: "đẹp, sạch",
@@ -3005,6 +3337,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "beautiful_clean",
 	},
 	{
 		name: "yên tĩnh",
@@ -3013,6 +3346,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "静か",
 		},
+		sound: "quiet",
 	},
 	{
 		name: "náo nhiệt",
@@ -3021,6 +3355,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "lively",
 	},
 	{
 		name: "nổi tiếng",
@@ -3029,6 +3364,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "有名",
 		},
+		sound: "famous",
 	},
 	{
 		name: "tốt bụng, thân thiện",
@@ -3037,6 +3373,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "親切",
 		},
+		sound: "kind_friendly",
 	},
 	{
 		name: "khỏe",
@@ -3045,6 +3382,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "元気",
 		},
+		sound: "healthy",
 	},
 	{
 		name: "rảnh rỗi",
@@ -3053,6 +3391,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "暇",
 		},
+		sound: "free_time",
 	},
 	{
 		name: "tiện lợi",
@@ -3061,6 +3400,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "便利",
 		},
+		sound: "convenient",
 	},
 	{
 		name: "đẹp, hay",
@@ -3069,6 +3409,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "lovely",
 	},
 	{
 		name: "lớn, to",
@@ -3077,6 +3418,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "大きい",
 		},
+		sound: "big_large",
 	},
 	{
 		name: "bé, nhỏ",
@@ -3085,6 +3427,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "小さい",
 		},
+		sound: "small",
 	},
 	{
 		name: "mới",
@@ -3093,6 +3436,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "新しい",
 		},
+		sound: "new",
 	},
 	{
 		name: "cũ",
@@ -3101,6 +3445,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "古い",
 		},
+		sound: "old",
 	},
 	{
 		name: "tốt",
@@ -3109,6 +3454,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "good",
 	},
 	{
 		name: "xấu",
@@ -3117,6 +3463,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "悪い",
 		},
+		sound: "bad",
 	},
 	{
 		name: "nóng",
@@ -3125,6 +3472,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "暑い, 熱い",
 		},
+		sound: "hot",
 	},
 	{
 		name: "lạnh, rét (dùng cho thời tiết)",
@@ -3133,6 +3481,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "寒い",
 		},
+		sound: "cold_weather",
 	},
 	{
 		name: "lạnh, buốt (dùng cho cảm giác)",
@@ -3141,6 +3490,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "冷たい",
 		},
+		sound: "cold_feel",
 	},
 	{
 		name: "khó",
@@ -3149,6 +3499,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "難しい",
 		},
+		sound: "difficult",
 	},
 	{
 		name: "dễ",
@@ -3157,6 +3508,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "易しい",
 		},
+		sound: "easy",
 	},
 	{
 		name: "đắt, cao",
@@ -3165,6 +3517,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "高い",
 		},
+		sound: "expensive_high",
 	},
 	{
 		name: "rẻ",
@@ -3173,6 +3526,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "安い",
 		},
+		sound: "cheap",
 	},
 	{
 		name: "thấp",
@@ -3181,6 +3535,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "低い",
 		},
+		sound: "low",
 	},
 	{
 		name: "thú vị, hay",
@@ -3189,6 +3544,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "interesting",
 	},
 	{
 		name: "ngon",
@@ -3197,6 +3553,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "delicious",
 	},
 	{
 		name: "bận",
@@ -3205,6 +3562,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "忙しい",
 		},
+		sound: "busy",
 	},
 	{
 		name: "vui",
@@ -3213,6 +3571,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "楽しい",
 		},
+		sound: "fun",
 	},
 	{
 		name: "trắng",
@@ -3221,6 +3580,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "白い",
 		},
+		sound: "white",
 	},
 	{
 		name: "đen",
@@ -3229,6 +3589,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "黒い",
 		},
+		sound: "black",
 	},
 	{
 		name: "đỏ",
@@ -3237,6 +3598,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "赤い",
 		},
+		sound: "red",
 	},
 	{
 		name: "xanh da trời",
@@ -3245,6 +3607,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "青い",
 		},
+		sound: "blue",
 	},
 	{
 		name: "anh đào (hoa, cây)",
@@ -3253,6 +3616,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "桜",
 		},
+		sound: "cherry_blossom",
 	},
 	{
 		name: "núi",
@@ -3261,6 +3625,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "山",
 		},
+		sound: "mountain",
 	},
 	{
 		name: "thị trấn, thị xã, thành phố",
@@ -3269,6 +3634,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "町",
 		},
+		sound: "town_city",
 	},
 	{
 		name: "đồ ăn",
@@ -3277,6 +3643,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "食べ物",
 		},
+		sound: "food",
 	},
 	{
 		name: "nơi, chỗ",
@@ -3285,6 +3652,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "所",
 		},
+		sound: "place",
 	},
 	{
 		name: "kí túc xá",
@@ -3293,6 +3661,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "寮",
 		},
+		sound: "dormitory",
 	},
 	{
 		name: "nhà hàng",
@@ -3301,6 +3670,7 @@ const lessonEight: Array<Iword> = [
 			katakana: "レストラン",
 			kanji: null,
 		},
+		sound: "restaurant",
 	},
 	{
 		name: "cuộc sống, sinh hoạt",
@@ -3309,6 +3679,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "生活",
 		},
+		sound: "life",
 	},
 	{
 		name: "công việc (～をします：làm việc)",
@@ -3317,6 +3688,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "仕事",
 		},
+		sound: "work",
 	},
 	{
 		name: "thế nào",
@@ -3325,6 +3697,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "how",
 	},
 	{
 		name: " như thế nào",
@@ -3333,6 +3706,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "what_about",
 	},
 	{
 		name: "rất, lắm",
@@ -3341,6 +3715,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "very",
 	},
 	{
 		name: "không  lắm",
@@ -3349,6 +3724,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_much",
 	},
 	{
 		name: "và, thêm nữa (dùng để nối 2 câu)",
@@ -3357,6 +3733,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "and",
 	},
 	{
 		name: " , nhưng ",
@@ -3365,6 +3742,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "but",
 	},
 	{
 		name: "Anh/chị có khỏe không?",
@@ -3373,6 +3751,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "お元気ですか",
 		},
+		sound: "how_are_you",
 	},
 	{
 		name: "Thế à. Như vậy nhỉ",
@@ -3381,6 +3760,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "is_that_so",
 	},
 	{
 		name: "một chén/ly nữa được không ạ?",
@@ -3389,6 +3769,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "もう一杯いかがですか",
 		},
+		sound: "one_more_cup",
 	},
 	{
 		name: "Không, đủ rồi ạ.",
@@ -3397,14 +3778,16 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "no_thank_you",
 	},
 	{
-		name: "Đã  rồi nhỉ./ Đã  rồi, đúng không ạ?",
+		name: "Đã ~ rồi nhỉ./ Đã đến lúc tôi phải về.",
 		character: {
 			hiragana: "もう～です[ね]",
 			katakana: null,
 			kanji: null,
 		},
+		sound: "already",
 	},
 	{
 		name: "Sắp đến lúc tôi phải xin phép rồi./ Đã đến lúc tôi phải về.",
@@ -3413,6 +3796,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "そろそろ失礼します",
 		},
+		sound: "excuse_me_soon",
 	},
 	{
 		name: "Không có gì./ Không sao cả.",
@@ -3421,6 +3805,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "いいえ",
 		},
+		sound: "nothing",
 	},
 	{
 		name: "Lần sau anh/ chị lại đến chơi nhé.",
@@ -3429,6 +3814,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "please_visit_again",
 	},
 	{
 		name: "Thượng Hải",
@@ -3437,6 +3823,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "上海",
 		},
+		sound: "shanghai",
 	},
 	{
 		name: "Chùa Kinkaku-ji (chùa vàng)",
@@ -3445,6 +3832,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "金閣寺",
 		},
+		sound: "kinkaku_ji",
 	},
 	{
 		name: "Công viên Nara",
@@ -3453,6 +3841,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "奈良公園",
 		},
+		sound: "nara_park",
 	},
 	{
 		name: "Núi Phú Sĩ (ngọn núi cao nhất Nhật Bản)",
@@ -3461,6 +3850,7 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "富士山",
 		},
+		sound: "mt_fuji",
 	},
 	{
 		name: "bảy chàng võ sĩ Samurai (tên phim)",
@@ -3469,10 +3859,11 @@ const lessonEight: Array<Iword> = [
 			katakana: null,
 			kanji: "七人の侍",
 		},
+		sound: "seven_samurai",
 	},
 ];
 
-const lessonNine: Array<Iword> = [
+export const lessonNine: Iword[] = [
 	{
 		name: "hiểu, nắm được",
 		character: {
@@ -3480,6 +3871,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "understand",
 	},
 	{
 		name: "có (sở hữu)",
@@ -3488,6 +3880,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "have",
 	},
 	{
 		name: "thích",
@@ -3496,6 +3889,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "好き",
 		},
+		sound: "like",
 	},
 	{
 		name: "ghét, không thích",
@@ -3504,6 +3898,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "嫌い",
 		},
+		sound: "dislike",
 	},
 	{
 		name: "giỏi, khéo",
@@ -3512,6 +3907,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "上手",
 		},
+		sound: "skilled",
 	},
 	{
 		name: "kém",
@@ -3520,6 +3916,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "下手",
 		},
+		sound: "unskilled",
 	},
 	{
 		name: "đồ uống",
@@ -3528,6 +3925,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "飲み物",
 		},
+		sound: "beverage",
 	},
 	{
 		name: "món ăn, việc nấu ăn",
@@ -3536,6 +3934,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "料理",
 		},
+		sound: "cuisine",
 	},
 	{
 		name: "thể thao (～をします：chơi thể thao)",
@@ -3544,6 +3943,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "スポーツ",
 			kanji: null,
 		},
+		sound: "sports",
 	},
 	{
 		name: "bóng chày (～をします：chơi bóng chày)",
@@ -3552,6 +3952,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "野球",
 		},
+		sound: "baseball",
 	},
 	{
 		name: "nhảy, khiêu vũ(～をします：nhảy, khiêu vũ)",
@@ -3560,6 +3961,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "ダンス",
 			kanji: null,
 		},
+		sound: "dance",
 	},
 	{
 		name: "du lịch, chuyến du lịch",
@@ -3568,6 +3970,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "旅行",
 		},
+		sound: "travel",
 	},
 	{
 		name: "âm nhạc",
@@ -3576,6 +3979,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "音楽",
 		},
+		sound: "music",
 	},
 	{
 		name: "bài hát",
@@ -3584,6 +3988,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "歌",
 		},
+		sound: "song",
 	},
 	{
 		name: "nhạc cổ điển",
@@ -3592,6 +3997,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "クラシック",
 			kanji: null,
 		},
+		sound: "classical_music",
 	},
 	{
 		name: "nhạc jazz",
@@ -3600,6 +4006,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "ジャズ",
 			kanji: null,
 		},
+		sound: "jazz_music",
 	},
 	{
 		name: "buổi hòa nhạc",
@@ -3608,6 +4015,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "コンサート",
 			kanji: null,
 		},
+		sound: "concert",
 	},
 	{
 		name: "karaoke",
@@ -3616,6 +4024,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "カラオケ",
 			kanji: null,
 		},
+		sound: "karaoke",
 	},
 	{
 		name: "Kabuki (một loại ca kịch truyền thống của Nhật)",
@@ -3624,6 +4033,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "歌舞伎",
 		},
+		sound: "kabuki",
 	},
 	{
 		name: "tranh, hội họa",
@@ -3632,6 +4042,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "絵",
 		},
+		sound: "painting",
 	},
 	{
 		name: "chữ",
@@ -3640,6 +4051,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "字",
 		},
+		sound: "character",
 	},
 	{
 		name: "chữ hán",
@@ -3648,6 +4060,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "漢字",
 		},
+		sound: "kanji",
 	},
 	{
 		name: "chữ Hiragana",
@@ -3656,6 +4069,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "hiragana",
 	},
 	{
 		name: "Chữ Katakana",
@@ -3664,6 +4078,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "katakana",
 	},
 	{
 		name: "chữ La Mã",
@@ -3672,6 +4087,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "ローマ字",
 		},
+		sound: "roman_alphabet",
 	},
 	{
 		name: "tiền lẻ",
@@ -3680,6 +4096,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "細かいお金",
 		},
+		sound: "small_change",
 	},
 	{
 		name: "vé (xem hòa nhạc, xem phim)",
@@ -3688,6 +4105,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "チケット",
 			kanji: null,
 		},
+		sound: "ticket",
 	},
 	{
 		name: "thời gian",
@@ -3696,6 +4114,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "時間",
 		},
+		sound: "time",
 	},
 	{
 		name: "việc bận, công chuyện",
@@ -3704,6 +4123,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "用事",
 		},
+		sound: "errand",
 	},
 	{
 		name: "cuộc hẹn, lời hứa",
@@ -3712,6 +4132,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "約束",
 		},
+		sound: "appointment_promise",
 	},
 	{
 		name: "việc làm thêm",
@@ -3720,6 +4141,7 @@ const lessonNine: Array<Iword> = [
 			katakana: "アルバイト",
 			kanji: null,
 		},
+		sound: "part_time_job",
 	},
 	{
 		name: "chồng (dùng khi nói về chồng người khác)",
@@ -3728,6 +4150,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "ご主人",
 		},
+		sound: "husband_other",
 	},
 	{
 		name: "chồng (dùng khi nói về chồng mình)",
@@ -3736,6 +4159,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "夫 /主人",
 		},
+		sound: "husband_my",
 	},
 	{
 		name: "vợ (dùng khi nói về vợ người khác)",
@@ -3744,6 +4168,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "奥さん",
 		},
+		sound: "wife_other",
 	},
 	{
 		name: "vợ (dùng khi nói về vợ mình)",
@@ -3752,6 +4177,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "妻/家内",
 		},
+		sound: "wife_my",
 	},
 	{
 		name: "con cái",
@@ -3760,6 +4186,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "子ども",
 		},
+		sound: "children",
 	},
 	{
 		name: "tốt, rõ (chỉ mức độ)",
@@ -3768,6 +4195,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "well",
 	},
 	{
 		name: "đại khái, đại thể",
@@ -3776,6 +4204,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "approximately",
 	},
 	{
 		name: "nhiều",
@@ -3784,6 +4213,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "many",
 	},
 	{
 		name: "ít, một ít",
@@ -3792,6 +4222,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "少し",
 		},
+		sound: "few",
 	},
 	{
 		name: "hoàn toàn  không",
@@ -3800,6 +4231,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "全然",
 		},
+		sound: "not_at_all",
 	},
 	{
 		name: "sớm, nhanh",
@@ -3808,6 +4240,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "早く, 速く",
 		},
+		sound: "early",
 	},
 	{
 		name: "vì ",
@@ -3816,6 +4249,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "because_of",
 	},
 	{
 		name: "tại sao",
@@ -3824,6 +4258,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "why",
 	},
 	{
 		name: "Hãy cho tôi mượn.",
@@ -3832,6 +4267,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "貸してください",
 		},
+		sound: "please_borrow",
 	},
 	{
 		name: "Được chứ./ Được ạ.",
@@ -3840,6 +4276,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "いいですよ",
 		},
+		sound: "ok",
 	},
 	{
 		name: "Thật đáng tiếc nhỉ./ buồn nhỉ.",
@@ -3848,6 +4285,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "残念ですね",
 		},
+		sound: "shame",
 	},
 	{
 		name: "Ah",
@@ -3856,6 +4294,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "ah",
 	},
 	{
 		name: "Anh/chị cùng  (làm cái gì đó) với chúng tôi được không?",
@@ -3864,6 +4303,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "join_us",
 	},
 	{
 		name: "[ thì] có lẽ không được rồi.",
@@ -3872,6 +4312,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_possible",
 	},
 	{
 		name: "Không được à?",
@@ -3880,6 +4321,7 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_allowed",
 	},
 	{
 		name: "Hẹn Anh/Chị lần sau vậy.",
@@ -3888,10 +4330,11 @@ const lessonNine: Array<Iword> = [
 			katakana: null,
 			kanji: "また　今度　お願いします",
 		},
+		sound: "see_you_next_time",
 	},
 ];
 
-const lessonTen: Array<Iword> = [
+export const lessonTen: Iword[] = [
 	{
 		name: "có (tồn tại, dùng cho đồ vật)",
 		character: {
@@ -3899,6 +4342,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "exist_object",
 	},
 	{
 		name: "có, ở (tồn tại, dùng cho người và động vật)",
@@ -3907,6 +4351,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "exist_person_animal",
 	},
 	{
 		name: "nhiều, đa dạng",
@@ -3915,6 +4360,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "various",
 	},
 	{
 		name: "người đàn ông",
@@ -3923,6 +4369,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "男の人",
 		},
+		sound: "man",
 	},
 	{
 		name: "người đàn bà",
@@ -3931,6 +4378,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "女の人",
 		},
+		sound: "woman",
 	},
 	{
 		name: "cậu con trai",
@@ -3939,6 +4387,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "男の子",
 		},
+		sound: "boy",
 	},
 	{
 		name: "cô con gái",
@@ -3947,6 +4396,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "女の子",
 		},
+		sound: "girl",
 	},
 	{
 		name: "chó",
@@ -3955,6 +4405,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "犬",
 		},
+		sound: "dog",
 	},
 	{
 		name: "mèo",
@@ -3963,6 +4414,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "猫",
 		},
+		sound: "cat",
 	},
 	{
 		name: "gấu trúc",
@@ -3971,6 +4423,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "パンダ",
 			kanji: null,
 		},
+		sound: "panda",
 	},
 	{
 		name: "voi",
@@ -3979,6 +4432,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "象",
 		},
+		sound: "elephant",
 	},
 	{
 		name: "cây, gỗ",
@@ -3987,6 +4441,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "木",
 		},
+		sound: "tree_wood",
 	},
 	{
 		name: "vật, đồ vật",
@@ -3995,6 +4450,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "物",
 		},
+		sound: "thing",
 	},
 	{
 		name: "Pin",
@@ -4003,6 +4459,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "電池",
 		},
+		sound: "battery",
 	},
 	{
 		name: "hộp",
@@ -4011,6 +4468,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "箱",
 		},
+		sound: "box",
 	},
 	{
 		name: "công tắc",
@@ -4019,6 +4477,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "スイッチ",
 			kanji: null,
 		},
+		sound: "switch",
 	},
 	{
 		name: "tủ lạnh",
@@ -4027,6 +4486,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "冷蔵庫",
 		},
+		sound: "refrigerator",
 	},
 	{
 		name: "bàn",
@@ -4035,6 +4495,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "テーブル",
 			kanji: null,
 		},
+		sound: "table",
 	},
 	{
 		name: "giường",
@@ -4043,6 +4504,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "ベッド",
 			kanji: null,
 		},
+		sound: "bed",
 	},
 	{
 		name: "giá sách",
@@ -4051,6 +4513,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "棚",
 		},
+		sound: "shelf",
 	},
 	{
 		name: "cửa",
@@ -4059,6 +4522,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "ドア",
 			kanji: null,
 		},
+		sound: "door",
 	},
 	{
 		name: "cửa sổ",
@@ -4067,6 +4531,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "窓",
 		},
+		sound: "window",
 	},
 	{
 		name: "hộp thư, hòm thư",
@@ -4075,6 +4540,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "ポスト",
 			kanji: null,
 		},
+		sound: "mailbox",
 	},
 	{
 		name: "toà nhà",
@@ -4083,6 +4549,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "ビル",
 			kanji: null,
 		},
+		sound: "building",
 	},
 	{
 		name: "máy rút tiền tự động ATM",
@@ -4091,6 +4558,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "atm",
 	},
 	{
 		name: "cửa hàng tiện lợi (mở 24/24)",
@@ -4099,6 +4567,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "コンビニ",
 			kanji: null,
 		},
+		sound: "convenience_store",
 	},
 	{
 		name: "công viên",
@@ -4107,6 +4576,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "公園",
 		},
+		sound: "park",
 	},
 	{
 		name: "quán giải khát, quán cà-phê",
@@ -4115,6 +4585,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "喫茶店",
 		},
+		sound: "cafe",
 	},
 	{
 		name: "hiệu , cửa hàng ",
@@ -4123,6 +4594,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "～屋",
 		},
+		sound: "store",
 	},
 	{
 		name: "bến xe, điểm lên xuống xe",
@@ -4131,6 +4603,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "乗り場",
 		},
+		sound: "bus_stop",
 	},
 	{
 		name: "tỉnh",
@@ -4139,6 +4612,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "県",
 		},
+		sound: "prefecture",
 	},
 	{
 		name: "trên",
@@ -4147,6 +4621,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "上",
 		},
+		sound: "above",
 	},
 	{
 		name: "dưới",
@@ -4155,6 +4630,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "下",
 		},
+		sound: "below",
 	},
 	{
 		name: "trước",
@@ -4163,6 +4639,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "前",
 		},
+		sound: "front",
 	},
 	{
 		name: "sau",
@@ -4171,6 +4648,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "behind",
 	},
 	{
 		name: "phải",
@@ -4179,6 +4657,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "右",
 		},
+		sound: "right",
 	},
 	{
 		name: "trái",
@@ -4187,6 +4666,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "左",
 		},
+		sound: "left",
 	},
 	{
 		name: "trong, giữa",
@@ -4195,6 +4675,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "中",
 		},
+		sound: "inside",
 	},
 	{
 		name: "ngoài",
@@ -4203,6 +4684,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "外",
 		},
+		sound: "outside",
 	},
 	{
 		name: "bên cạnh",
@@ -4211,6 +4693,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "隣",
 		},
+		sound: "next_to",
 	},
 	{
 		name: "gần",
@@ -4219,6 +4702,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "近く",
 		},
+		sound: "near",
 	},
 	{
 		name: "giữa",
@@ -4227,6 +4711,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "間",
 		},
+		sound: "between",
 	},
 	{
 		name: "và , [v.v.]",
@@ -4235,14 +4720,16 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "and_other",
 	},
 	{
-		name: "Cám ơn",
+		name: "[Cảm ơn] Tôi xin lỗi.",
 		character: {
 			hiragana: "[どうも]すみません。",
 			katakana: null,
 			kanji: null,
 		},
+		sound: "sorry",
 	},
 	{
 		name: "nampla, nước mắn",
@@ -4251,6 +4738,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "ナンプラー",
 			kanji: null,
 		},
+		sound: "fish_sauce",
 	},
 	{
 		name: "góc, khu vực",
@@ -4259,6 +4747,7 @@ const lessonTen: Array<Iword> = [
 			katakana: "コーナー",
 			kanji: null,
 		},
+		sound: "corner",
 	},
 	{
 		name: "ở dưới cùng",
@@ -4267,6 +4756,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "bottom",
 	},
 	{
 		name: "Công viên Tokyo Disneyland",
@@ -4275,6 +4765,7 @@ const lessonTen: Array<Iword> = [
 			katakana: null,
 			kanji: "東京ディズニーランド",
 		},
+		sound: "tokyo_disneyland",
 	},
 	{
 		name: "tên một siêu thị (giả định)",
@@ -4283,10 +4774,11 @@ const lessonTen: Array<Iword> = [
 			katakana: "アジアストア",
 			kanji: null,
 		},
+		sound: "asia_store",
 	},
 ];
 
-const lessonEleven: Array<Iword> = [
+export const lessonEleven: Iword[] = [
 	{
 		name: "có [con]",
 		character: {
@@ -4294,6 +4786,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "子供が～います",
 		},
+		sound: "have_child",
 	},
 	{
 		name: "ở [Nhật]",
@@ -4302,6 +4795,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "日本に～います",
 		},
+		sound: "live_in_japan",
 	},
 	{
 		name: "mất, tốn (thời gian, tiền bạc)",
@@ -4310,6 +4804,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "cost",
 	},
 	{
 		name: "nghỉ [làm việc]",
@@ -4318,6 +4813,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "休みます",
 		},
+		sound: "take_a_break",
 	},
 	{
 		name: "một cái (dùng để đếm đồ vật)",
@@ -4326,6 +4822,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "one_item",
 	},
 	{
 		name: "hai cái",
@@ -4334,6 +4831,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "two_items",
 	},
 	{
 		name: "ba cái",
@@ -4342,6 +4840,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "three_items",
 	},
 	{
 		name: "bốn cái",
@@ -4350,6 +4849,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "four_items",
 	},
 	{
 		name: "năm cái",
@@ -4358,6 +4858,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "five_items",
 	},
 	{
 		name: "sáu cái",
@@ -4366,6 +4867,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "six_items",
 	},
 	{
 		name: "bảy cái",
@@ -4374,6 +4876,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "seven_items",
 	},
 	{
 		name: "tám cái",
@@ -4382,6 +4885,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "eight_items",
 	},
 	{
 		name: "chín cái",
@@ -4390,6 +4894,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "nine_items",
 	},
 	{
 		name: "mười cái",
@@ -4398,6 +4903,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "ten_items",
 	},
 	{
 		name: "mấy cái, bao nhiêu cái",
@@ -4406,6 +4912,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "how_many_items",
 	},
 	{
 		name: "một người",
@@ -4414,6 +4921,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "１人",
 		},
+		sound: "one_person",
 	},
 	{
 		name: "hai người",
@@ -4422,6 +4930,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "２人",
 		},
+		sound: "two_people",
 	},
 	{
 		name: "- người",
@@ -4430,6 +4939,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "－人",
 		},
+		sound: "count_people",
 	},
 	{
 		name: "- cái (dùng để đếm máy móc, xe cộ v.v.)",
@@ -4438,6 +4948,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "－台",
 		},
+		sound: "count_machinery_vehicles",
 	},
 	{
 		name: "tờ, tấm (dùng để đếm những vật mỏng như giấy, con tem v.v.)",
@@ -4446,6 +4957,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "－枚",
 		},
+		sound: "count_thin_items",
 	},
 	{
 		name: "- lần",
@@ -4454,6 +4966,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "―回",
 		},
+		sound: "number_of_times",
 	},
 	{
 		name: "táo",
@@ -4462,6 +4975,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "apple",
 	},
 	{
 		name: "quýt",
@@ -4470,6 +4984,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "mandarin_orange",
 	},
 	{
 		name: "bánh San Uých",
@@ -4478,6 +4993,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: "サンドイッチ",
 			kanji: null,
 		},
+		sound: "sandwich",
 	},
 	{
 		name: "món [cơm] ca-ri",
@@ -4486,6 +5002,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: "カレー[ライス]",
 			kanji: null,
 		},
+		sound: "curry_rice",
 	},
 	{
 		name: "kem",
@@ -4494,6 +5011,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: "アイスクリーム",
 			kanji: null,
 		},
+		sound: "ice_cream",
 	},
 	{
 		name: "tem",
@@ -4502,6 +5020,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "切手",
 		},
+		sound: "stamp",
 	},
 	{
 		name: "bưu thiếp",
@@ -4510,6 +5029,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "postcard",
 	},
 	{
 		name: "phong bì",
@@ -4518,6 +5038,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "封筒",
 		},
+		sound: "envelope",
 	},
 	{
 		name: "bố mẹ",
@@ -4526,6 +5047,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "両親",
 		},
+		sound: "parents",
 	},
 	{
 		name: "anh chị em",
@@ -4534,6 +5056,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "兄弟",
 		},
+		sound: "siblings",
 	},
 	{
 		name: "anh trai",
@@ -4542,6 +5065,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "兄",
 		},
+		sound: "older_brother",
 	},
 	{
 		name: "anh trai (dùng cho người khác)",
@@ -4550,6 +5074,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "お兄さん",
 		},
+		sound: "older_brother_other",
 	},
 	{
 		name: "chị gái",
@@ -4558,6 +5083,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "姉",
 		},
+		sound: "older_sister",
 	},
 	{
 		name: "chị gái (dùng cho người khác)",
@@ -4566,6 +5092,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "お姉さん",
 		},
+		sound: "older_sister_other",
 	},
 	{
 		name: "em trai",
@@ -4574,6 +5101,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "弟",
 		},
+		sound: "younger_brother",
 	},
 	{
 		name: "em trai (dùng cho người khác)",
@@ -4582,6 +5110,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "弟さん",
 		},
+		sound: "younger_brother_other",
 	},
 	{
 		name: "em gái",
@@ -4590,6 +5119,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "妹",
 		},
+		sound: "younger_sister",
 	},
 	{
 		name: "em gái (dùng cho người khác)",
@@ -4598,6 +5128,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "妹さん",
 		},
+		sound: "younger_sister_other",
 	},
 	{
 		name: "nước ngoài",
@@ -4606,6 +5137,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "外国",
 		},
+		sound: "foreign_country",
 	},
 	{
 		name: "lưu học sinh, sinh viên nước ngoài",
@@ -4614,6 +5146,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "留学生",
 		},
+		sound: "exchange_student",
 	},
 	{
 		name: "lớp học",
@@ -4622,6 +5155,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: "クラス",
 			kanji: null,
 		},
+		sound: "class",
 	},
 	{
 		name: "- tiếng",
@@ -4630,6 +5164,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "―時間",
 		},
+		sound: "hours",
 	},
 	{
 		name: "- tuần",
@@ -4638,6 +5173,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "―週間",
 		},
+		sound: "weeks",
 	},
 	{
 		name: "- tháng",
@@ -4646,6 +5182,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "－か月",
 		},
+		sound: "months",
 	},
 	{
 		name: "- năm",
@@ -4654,6 +5191,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "―年",
 		},
+		sound: "years",
 	},
 	{
 		name: "khoảng ",
@@ -4662,6 +5200,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "about",
 	},
 	{
 		name: "bao lâu",
@@ -4670,6 +5209,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "how_long",
 	},
 	{
 		name: "tổng cộng",
@@ -4678,6 +5218,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "全部で",
 		},
+		sound: "total",
 	},
 	{
 		name: "tất cả",
@@ -4686,6 +5227,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "everyone",
 	},
 	{
 		name: "chỉ ",
@@ -4694,6 +5236,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "only",
 	},
 	{
 		name: "Tôi đã rõ rồi ạ (thưa ông/bà)",
@@ -4702,6 +5245,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "understood",
 	},
 	{
 		name: "Trời đẹp nhỉ.",
@@ -4710,6 +5254,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "いい[お]天気",
 		},
+		sound: "nice_weather",
 	},
 	{
 		name: "Anh/ chị đi ra ngoài đấy à?",
@@ -4718,6 +5263,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "going_out",
 	},
 	{
 		name: "Tôi đi  một chút.",
@@ -4726,6 +5272,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "going_for_a_while",
 	},
 	{
 		name: "Anh/chị đi nhé.",
@@ -4734,6 +5281,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "take_care",
 	},
 	{
 		name: "Tôi đi đây.",
@@ -4742,6 +5290,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "leaving_now",
 	},
 	{
 		name: "gửi bằng đường biển",
@@ -4750,6 +5299,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "船便",
 		},
+		sound: "sea_mail",
 	},
 	{
 		name: "gửi bằng đường hàng không",
@@ -4758,6 +5308,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "航空便",
 		},
+		sound: "air_mail",
 	},
 	{
 		name: "Nhờ anh/chị.",
@@ -4766,6 +5317,7 @@ const lessonEleven: Array<Iword> = [
 			katakana: null,
 			kanji: "お願いします。",
 		},
+		sound: "please",
 	},
 	{
 		name: "Úc",
@@ -4774,10 +5326,11 @@ const lessonEleven: Array<Iword> = [
 			katakana: "オーストラリア",
 			kanji: null,
 		},
+		sound: "australia",
 	},
 ];
 
-const lessonTwelve: Array<Iword> = [
+export const lessonTwelve: Iword[] = [
 	{
 		name: "giản đơn",
 		character: {
@@ -4785,6 +5338,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "簡単",
 		},
+		sound: "simple",
 	},
 	{
 		name: "gần",
@@ -4793,6 +5347,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "近い",
 		},
+		sound: "near",
 	},
 	{
 		name: "xa",
@@ -4801,6 +5356,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "遠い",
 		},
+		sound: "far",
 	},
 	{
 		name: "nhanh, sớm",
@@ -4809,6 +5365,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "速い, 早い",
 		},
+		sound: "fast_early",
 	},
 	{
 		name: "chậm, muộn",
@@ -4817,6 +5374,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "遅い",
 		},
+		sound: "slow_late",
 	},
 	{
 		name: "nhiều [người]",
@@ -4825,6 +5383,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "[人が～]多い",
 		},
+		sound: "many_people",
 	},
 	{
 		name: "ít [người]",
@@ -4833,6 +5392,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "[人が～]少ない",
 		},
+		sound: "few_people",
 	},
 	{
 		name: "ấm",
@@ -4841,6 +5401,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "温かい, 暖かい",
 		},
+		sound: "warm",
 	},
 	{
 		name: "mát",
@@ -4849,6 +5410,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "涼しい",
 		},
+		sound: "cool",
 	},
 	{
 		name: "ngọt",
@@ -4857,6 +5419,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "甘い",
 		},
+		sound: "sweet",
 	},
 	{
 		name: "cay",
@@ -4865,6 +5428,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "辛い",
 		},
+		sound: "spicy",
 	},
 	{
 		name: "nặng",
@@ -4873,6 +5437,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "重い",
 		},
+		sound: "heavy",
 	},
 	{
 		name: "nhẹ",
@@ -4881,6 +5446,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "軽い",
 		},
+		sound: "light",
 	},
 	{
 		name: "thích, chọn, dùng [cafe]",
@@ -4889,6 +5455,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "prefer",
 	},
 	{
 		name: "mùa",
@@ -4897,6 +5464,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "季節",
 		},
+		sound: "season",
 	},
 	{
 		name: "mùa xuân",
@@ -4905,6 +5473,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "春",
 		},
+		sound: "spring",
 	},
 	{
 		name: "mùa hè",
@@ -4913,6 +5482,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "夏",
 		},
+		sound: "summer",
 	},
 	{
 		name: "mùa thu",
@@ -4921,6 +5491,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "秋",
 		},
+		sound: "autumn",
 	},
 	{
 		name: "mùa đông",
@@ -4929,6 +5500,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "冬",
 		},
+		sound: "winter",
 	},
 	{
 		name: "thời tiết",
@@ -4937,6 +5509,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "天気",
 		},
+		sound: "weather",
 	},
 	{
 		name: "mưa",
@@ -4945,6 +5518,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "雨",
 		},
+		sound: "rain",
 	},
 	{
 		name: "tuyết",
@@ -4953,6 +5527,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "雪",
 		},
+		sound: "snow",
 	},
 	{
 		name: "có mây",
@@ -4961,6 +5536,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "曇り",
 		},
+		sound: "cloudy",
 	},
 	{
 		name: "khách sạn",
@@ -4969,6 +5545,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "ホテル",
 			kanji: null,
 		},
+		sound: "hotel",
 	},
 	{
 		name: "sân bay",
@@ -4977,6 +5554,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "空港",
 		},
+		sound: "airport",
 	},
 	{
 		name: "biển, đại dương",
@@ -4985,6 +5563,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "海",
 		},
+		sound: "sea_ocean",
 	},
 	{
 		name: "thế giới",
@@ -4993,6 +5572,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "世界",
 		},
+		sound: "world",
 	},
 	{
 		name: "tiệc (をします：tổ chức tiệc)",
@@ -5001,6 +5581,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "パーティー",
 			kanji: null,
 		},
+		sound: "party",
 	},
 	{
 		name: "lễ hội",
@@ -5009,6 +5590,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "[お]祭り",
 		},
+		sound: "festival",
 	},
 	{
 		name: "Sukiyaki (món thịt bò nấu rau)",
@@ -5017,6 +5599,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "すき焼き",
 		},
+		sound: "sukiyaki",
 	},
 	{
 		name: "Sashimi (món gỏi cá sống)",
@@ -5025,6 +5608,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "刺身",
 		},
+		sound: "sashimi",
 	},
 	{
 		name: "Sushi",
@@ -5033,6 +5617,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "sushi",
 	},
 	{
 		name: "Tempura (món hải sản và rau chiên tẩm bột)",
@@ -5041,6 +5626,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "tempura",
 	},
 	{
 		name: "thịt heo, thịt lợn",
@@ -5049,6 +5635,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "豚肉",
 		},
+		sound: "pork",
 	},
 	{
 		name: "thịt gà",
@@ -5057,6 +5644,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "とり肉",
 		},
+		sound: "chicken",
 	},
 	{
 		name: "thịt bò",
@@ -5065,6 +5653,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "牛肉",
 		},
+		sound: "beef",
 	},
 	{
 		name: "chanh tây",
@@ -5073,6 +5662,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "レモン",
 			kanji: null,
 		},
+		sound: "lemon",
 	},
 	{
 		name: "Nghệ thuật cắm hoa (～をします：cắm hoa)",
@@ -5081,6 +5671,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "生け花",
 		},
+		sound: "flower_arrangement",
 	},
 	{
 		name: "lá đỏ",
@@ -5089,6 +5680,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "紅葉",
 		},
+		sound: "maple_leaf",
 	},
 	{
 		name: "cái nào",
@@ -5097,6 +5689,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "which",
 	},
 	{
 		name: "cả hai",
@@ -5105,6 +5698,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "both",
 	},
 	{
 		name: "nhất",
@@ -5113,6 +5707,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "best",
 	},
 	{
 		name: "suốt",
@@ -5121,6 +5716,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "continuously",
 	},
 	{
 		name: "lần đầu tiên",
@@ -5129,6 +5725,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "初めて",
 		},
+		sound: "first_time",
 	},
 	{
 		name: "Tôi đã về đây. (dùng nói khi về đến nhà)",
@@ -5137,6 +5734,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "I_am_home",
 	},
 	{
 		name: "Anh/Chị đã về đấy à. (dùng để nói với ai đó mới về đến nhà)",
@@ -5145,6 +5743,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "お帰りなさい",
 		},
+		sound: "welcome_home",
 	},
 	{
 		name: "Ôi, (người) đông quá nhỉ!",
@@ -5153,6 +5752,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "人",
 		},
+		sound: "crowded",
 	},
 	{
 		name: "Tôi mệt rồi",
@@ -5161,6 +5761,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "疲れました。",
 		},
+		sound: "tired",
 	},
 	{
 		name: "Lễ hội Gi-ôn (lễ hội nổi tiếng nhất ở Kyoto)",
@@ -5169,6 +5770,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: null,
 			kanji: "祇園祭",
 		},
+		sound: "gion_festival",
 	},
 	{
 		name: "Hồng Kông",
@@ -5177,6 +5779,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "ホンコン",
 			kanji: null,
 		},
+		sound: "hong_kong",
 	},
 	{
 		name: "Singapore",
@@ -5185,6 +5788,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "シンガポール",
 			kanji: null,
 		},
+		sound: "singapore",
 	},
 	{
 		name: "tên một siêu thị (giả định)",
@@ -5193,6 +5797,7 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "ＡＣＢストア",
 			kanji: null,
 		},
+		sound: "store_ABC",
 	},
 	{
 		name: "tên một siêu thị (giả định)",
@@ -5201,11 +5806,11 @@ const lessonTwelve: Array<Iword> = [
 			katakana: "ジャパン",
 			kanji: null,
 		},
+		sound: "store_japan",
 	},
-
 ];
 
-const lessonThirteen: Array<Iword> = [
+export const lessonThirteen: Iword[] = [
 	{
 		name: "chơi",
 		character: {
@@ -5213,6 +5818,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "遊びます",
 		},
+		sound: "play",
 	},
 	{
 		name: "bơi",
@@ -5221,6 +5827,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "泳ぎます",
 		},
+		sound: "swim",
 	},
 	{
 		name: "đón",
@@ -5229,6 +5836,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "迎えます",
 		},
+		sound: "greet",
 	},
 	{
 		name: "mệt",
@@ -5237,6 +5845,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "疲れます",
 		},
+		sound: "tired",
 	},
 	{
 		name: "kết hôn, lập gia đình, cưới",
@@ -5245,6 +5854,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "結婚します",
 		},
+		sound: "get_married",
 	},
 	{
 		name: "mua hàng",
@@ -5253,6 +5863,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "買い物します",
 		},
+		sound: "shop",
 	},
 	{
 		name: "ăn cơm",
@@ -5261,6 +5872,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "食事します",
 		},
+		sound: "have_meal",
 	},
 	{
 		name: "đi dạo [ở công viên]",
@@ -5269,6 +5881,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "散歩します [公園を～]",
 		},
+		sound: "take_a_walk",
 	},
 	{
 		name: "vất vả, khó khăn, khổ",
@@ -5277,6 +5890,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "大変「な」",
 		},
+		sound: "difficult",
 	},
 	{
 		name: "muốn có",
@@ -5285,6 +5899,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "欲しい",
 		},
+		sound: "want",
 	},
 	{
 		name: "rộng",
@@ -5293,6 +5908,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "広い",
 		},
+		sound: "spacious",
 	},
 	{
 		name: "chật, hẹp",
@@ -5301,6 +5917,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "狭い",
 		},
+		sound: "narrow",
 	},
 	{
 		name: "bể bơi",
@@ -5309,6 +5926,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: "プール",
 			kanji: null,
 		},
+		sound: "pool",
 	},
 	{
 		name: "sông",
@@ -5317,6 +5935,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "川",
 		},
+		sound: "river",
 	},
 	{
 		name: "mỹ thuật",
@@ -5325,6 +5944,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "美術",
 		},
+		sound: "art",
 	},
 	{
 		name: "việc câu cá (をします：câu cá)",
@@ -5333,6 +5953,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "釣り",
 		},
+		sound: "fishing",
 	},
 	{
 		name: "việc trượt tuyết (をします：trượt tuyết)",
@@ -5341,6 +5962,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: "スキー",
 			kanji: null,
 		},
+		sound: "skiing",
 	},
 	{
 		name: "cuối tuần",
@@ -5349,6 +5971,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "週末",
 		},
+		sound: "weekend",
 	},
 	{
 		name: "Tết",
@@ -5357,6 +5980,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "[お]正月",
 		},
+		sound: "new_year",
 	},
 	{
 		name: "khoảng  (dùng cho thời gian)",
@@ -5365,6 +5989,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "around",
 	},
 	{
 		name: "cái gì đó",
@@ -5373,6 +5998,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "何か",
 		},
+		sound: "something",
 	},
 	{
 		name: "đâu đó, chỗ nào đó",
@@ -5381,6 +6007,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "somewhere",
 	},
 	{
 		name: "(tôi) khát.",
@@ -5389,6 +6016,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thirsty",
 	},
 	{
 		name: "(tôi) đói rồi.",
@@ -5397,6 +6025,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "hungry",
 	},
 	{
 		name: "Nhất trí./ Chúng ta thống nhất như thế.",
@@ -5405,6 +6034,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "agreed",
 	},
 	{
 		name: "Anh/Chị dùng món gì ạ",
@@ -5413,6 +6043,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "ご注文は？",
 		},
+		sound: "what_would_you_like_to_order",
 	},
 	{
 		name: "cơm suất, cơm phần",
@@ -5421,6 +6052,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "定食",
 		},
+		sound: "set_meal",
 	},
 	{
 		name: "món cơm thịt bò",
@@ -5429,6 +6061,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "牛どん",
 		},
+		sound: "beef_bowl",
 	},
 	{
 		name: "Xin anh/chị vui lòng đợi [một chút].",
@@ -5437,6 +6070,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "[しょうしょう]お待ちください",
 		},
+		sound: "please_wait",
 	},
 	{
 		name: "(cách nói lịch sự của です)",
@@ -5445,6 +6079,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "polite_form_of_desu",
 	},
 	{
 		name: "riêng ra/ để riêng",
@@ -5453,6 +6088,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: "別々に",
 		},
+		sound: "separately",
 	},
 	{
 		name: "tên một công ty (giả định)",
@@ -5461,6 +6097,7 @@ const lessonThirteen: Array<Iword> = [
 			katakana: "アキックス",
 			kanji: null,
 		},
+		sound: "company_AKIX",
 	},
 	{
 		name: "tên một chương trình truyền hình (giả định)",
@@ -5469,10 +6106,11 @@ const lessonThirteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "good_morning_television",
 	},
 ];
 
-const lessonFourteen: Array<Iword> = [
+export const lessonFourteen: Iword[] = [
 	{
 		name: "bật (điện, máy điều hòa)",
 		character: {
@@ -5480,6 +6118,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "turn_on",
 	},
 	{
 		name: "tắt (điện, máy điều hòa)",
@@ -5488,6 +6127,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "消します",
 		},
+		sound: "turn_off",
 	},
 	{
 		name: "mở (cửa, cửa sổ)",
@@ -5496,6 +6136,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "開けます",
 		},
+		sound: "open",
 	},
 	{
 		name: "đóng (cửa, cửa sổ)",
@@ -5504,6 +6145,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "閉めます",
 		},
+		sound: "close",
 	},
 	{
 		name: "vội, gấp",
@@ -5512,6 +6154,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "急ぎます",
 		},
+		sound: "hurry",
 	},
 	{
 		name: "đợi, chờ",
@@ -5520,6 +6163,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "待ちます",
 		},
+		sound: "wait",
 	},
 	{
 		name: "mang, cầm",
@@ -5528,6 +6172,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "持ちます",
 		},
+		sound: "carry",
 	},
 	{
 		name: "lấy (muối)",
@@ -5536,6 +6181,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "取ります",
 		},
+		sound: "take",
 	},
 	{
 		name: "giúp (làm việc)",
@@ -5544,6 +6190,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "手伝います",
 		},
+		sound: "help",
 	},
 	{
 		name: "gọi (taxi, tên)",
@@ -5552,6 +6199,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "呼びます",
 		},
+		sound: "call",
 	},
 	{
 		name: "nói, nói chuyện",
@@ -5560,6 +6208,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "話します",
 		},
+		sound: "talk",
 	},
 	{
 		name: "dùng, sử dụng",
@@ -5568,6 +6217,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "使います",
 		},
+		sound: "use",
 	},
 	{
 		name: "dừng, đỗ",
@@ -5576,6 +6226,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "止めます",
 		},
+		sound: "stop",
 	},
 	{
 		name: "cho xem, trình",
@@ -5584,6 +6235,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "見せます",
 		},
+		sound: "show",
 	},
 	{
 		name: "nói, cho biết [địa chỉ]",
@@ -5592,6 +6244,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "教えます",
 		},
+		sound: "tell",
 	},
 	{
 		name: "ngồi",
@@ -5600,6 +6253,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "座ります",
 		},
+		sound: "sit",
 	},
 	{
 		name: "đứng",
@@ -5608,6 +6262,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "立ちます",
 		},
+		sound: "stand",
 	},
 	{
 		name: "vào [quán giải khát]",
@@ -5616,6 +6271,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "入ります",
 		},
+		sound: "enter",
 	},
 	{
 		name: "ra, ra khỏi [quán giải khát]",
@@ -5624,6 +6280,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "出ます",
 		},
+		sound: "exit",
 	},
 	{
 		name: "rơi [mưa]",
@@ -5632,6 +6289,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "降ります",
 		},
+		sound: "fall",
 	},
 	{
 		name: "copy",
@@ -5640,6 +6298,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "copy",
 	},
 	{
 		name: "điện, đèn điện",
@@ -5648,6 +6307,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "電気",
 		},
+		sound: "electricity",
 	},
 	{
 		name: "máy điều hòa",
@@ -5656,6 +6316,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "air_conditioner",
 	},
 	{
 		name: "hộ chiếu",
@@ -5664,6 +6325,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "passport",
 	},
 	{
 		name: "tên",
@@ -5672,6 +6334,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "名前",
 		},
+		sound: "name",
 	},
 	{
 		name: "địa chỉ",
@@ -5680,6 +6343,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "住所",
 		},
+		sound: "address",
 	},
 	{
 		name: "bản đồ",
@@ -5688,6 +6352,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "地図",
 		},
+		sound: "map",
 	},
 	{
 		name: "muối",
@@ -5696,6 +6361,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "塩",
 		},
+		sound: "salt",
 	},
 	{
 		name: "đường",
@@ -5704,6 +6370,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "砂糖",
 		},
+		sound: "sugar",
 	},
 	{
 		name: "câu hỏi, vấn đề",
@@ -5712,6 +6379,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "問題",
 		},
+		sound: "question",
 	},
 	{
 		name: "câu trả lời",
@@ -5720,6 +6388,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "答え",
 		},
+		sound: "answer",
 	},
 	{
 		name: "cách đọc",
@@ -5728,6 +6397,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "読み方",
 		},
+		sound: "reading",
 	},
 	{
 		name: "cách ",
@@ -5736,6 +6406,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "～方",
 		},
+		sound: "way_of",
 	},
 	{
 		name: "thẳng",
@@ -5744,6 +6415,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "straight",
 	},
 	{
 		name: "chậm, thong thả, thoải mái",
@@ -5752,6 +6424,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "slowly",
 	},
 	{
 		name: "ngay, lập tức",
@@ -5760,6 +6433,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "immediately",
 	},
 	{
 		name: "lại (đến)",
@@ -5768,6 +6442,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "again",
 	},
 	{
 		name: "sau",
@@ -5776,6 +6451,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "later",
 	},
 	{
 		name: "thêm một chút nữa thôi",
@@ -5784,6 +6460,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "もう少し",
 		},
+		sound: "a_little_more",
 	},
 	{
 		name: "thêm",
@@ -5792,6 +6469,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "more",
 	},
 	{
 		name: "thôi/nào (dùng để thúc giục hoặc khuyến khích ai làm gì)",
@@ -5800,6 +6478,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "come_on",
 	},
 	{
 		name: "Ô! (câu cảm thán khi phát hiện hoặc thấy cái gì đó lạ, hoặc bất ngờ)",
@@ -5808,14 +6487,16 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "oh",
 	},
 	{
-		name: "Anh/ Chị rẽ phải ở chổ đèn tín hiệu.",
+		name: "Anh/ Chị rẽ phải ở chỗ đèn tín hiệu.",
 		character: {
 			hiragana: null,
 			katakana: null,
 			kanji: "信号を右へ曲がってください",
 		},
+		sound: "turn_right_at_the_traffic_light",
 	},
 	{
 		name: "Gởi anh tiền này.",
@@ -5824,6 +6505,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "これでお願いします",
 		},
+		sound: "here_is_the_money",
 	},
 	{
 		name: "tiền lẻ",
@@ -5832,6 +6514,7 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "お釣り",
 		},
+		sound: "change",
 	},
 	{
 		name: "tên một thành phố (giả định)",
@@ -5840,10 +6523,11 @@ const lessonFourteen: Array<Iword> = [
 			katakana: null,
 			kanji: "みどり町",
 		},
+		sound: "Midori_town",
 	},
 ];
 
-const lessonFifteen: Array<Iword> = [
+export const lessonFifteen: Iword[] = [
 	{
 		name: "đặt, để",
 		character: {
@@ -5851,6 +6535,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "置きます",
 		},
+		sound: "place",
 	},
 	{
 		name: "làm, chế tạo, sản xuất",
@@ -5859,6 +6544,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "作ります, 造ります",
 		},
+		sound: "make",
 	},
 	{
 		name: "bán",
@@ -5867,6 +6553,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "売ります",
 		},
+		sound: "sell",
 	},
 	{
 		name: "biết",
@@ -5875,6 +6562,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "知ります",
 		},
+		sound: "know",
 	},
 	{
 		name: "sống, ở",
@@ -5883,6 +6571,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "住みます",
 		},
+		sound: "live",
 	},
 	{
 		name: "nghiên cứu",
@@ -5891,6 +6580,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "研究します",
 		},
+		sound: "research",
 	},
 	{
 		name: "tài liệu, tư liệu",
@@ -5899,6 +6589,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "資料",
 		},
+		sound: "materials",
 	},
 	{
 		name: "ca-ta-lô",
@@ -5907,6 +6598,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: "カタログ",
 			kanji: null,
 		},
+		sound: "catalog",
 	},
 	{
 		name: "bảng giờ tàu chạy",
@@ -5915,6 +6607,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "時刻表",
 		},
+		sound: "timetable",
 	},
 	{
 		name: "quần áo",
@@ -5923,6 +6616,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "服",
 		},
+		sound: "clothes",
 	},
 	{
 		name: "sản phẩm",
@@ -5931,6 +6625,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "製品",
 		},
+		sound: "product",
 	},
 	{
 		name: "phần mềm",
@@ -5939,6 +6634,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: "ソフト",
 			kanji: null,
 		},
+		sound: "software",
 	},
 	{
 		name: "kim từ điển",
@@ -5947,6 +6643,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "電子辞書",
 		},
+		sound: "electronic_dictionary",
 	},
 	{
 		name: "kinh tế",
@@ -5955,6 +6652,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "経済",
 		},
+		sound: "economics",
 	},
 	{
 		name: "tòa thị chính",
@@ -5963,6 +6661,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "市役所",
 		},
+		sound: "city_hall",
 	},
 	{
 		name: "trường trung học phổ thông, trường cấp 3",
@@ -5971,6 +6670,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "高校",
 		},
+		sound: "high_school",
 	},
 	{
 		name: "nha sĩ",
@@ -5979,6 +6679,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "歯医者",
 		},
+		sound: "dentist",
 	},
 	{
 		name: "độc thân",
@@ -5987,6 +6688,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "独身",
 		},
+		sound: "single",
 	},
 	{
 		name: "xin lỗi",
@@ -5995,6 +6697,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "sorry",
 	},
 	{
 		name: "các anh chị, các ông bà, các bạn, quý vị",
@@ -6003,6 +6706,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "皆さん",
 		},
+		sound: "everyone",
 	},
 	{
 		name: "nhớ lại, hồi tưởng",
@@ -6011,6 +6715,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "思い出します",
 		},
+		sound: "remember",
 	},
 	{
 		name: "kính ngữ của います",
@@ -6019,6 +6724,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "honorific_for_imasu",
 	},
 	{
 		name: "tên một khu phố buôn bán ở Osaka",
@@ -6027,6 +6733,7 @@ const lessonFifteen: Array<Iword> = [
 			katakana: null,
 			kanji: "日本橋",
 		},
+		sound: "Nipponbashi",
 	},
 	{
 		name: "tên chương trình truyền hình (giả định)",
@@ -6035,10 +6742,11 @@ const lessonFifteen: Array<Iword> = [
 			katakana: "みんなのインタビュー",
 			kanji: null,
 		},
+		sound: "Everyone's_Interview",
 	},
 ];
 
-const lessonSixteen: Array<Iword> = [
+export const lessonSixteen: Iword[] = [
 	{
 		name: "đi, lên [tàu]",
 		character: {
@@ -6046,6 +6754,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "乗ります",
 		},
+		sound: "ride",
 	},
 	{
 		name: "xuống [tàu]",
@@ -6054,6 +6763,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "降ります",
 		},
+		sound: "get_off",
 	},
 	{
 		name: "chuyển, đổi (tàu)",
@@ -6062,6 +6772,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "乗り換えます",
 		},
+		sound: "transfer",
 	},
 	{
 		name: "tắm [vòi hoa sen]",
@@ -6070,6 +6781,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "浴びます",
 		},
+		sound: "take_a_shower",
 	},
 	{
 		name: "cho vào, bỏ vào",
@@ -6078,6 +6790,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "入れます",
 		},
+		sound: "insert",
 	},
 	{
 		name: "lấy ra, đưa ra, gửi",
@@ -6086,6 +6799,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "出します",
 		},
+		sound: "take_out",
 	},
 	{
 		name: "rút [tiền]",
@@ -6094,6 +6808,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "下ろします",
 		},
+		sound: "withdraw",
 	},
 	{
 		name: "vào, nhập học [đại học]",
@@ -6102,6 +6817,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "入ります",
 		},
+		sound: "enter",
 	},
 	{
 		name: "ra, tốt nghiệp [đại học]",
@@ -6110,6 +6826,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "出ます",
 		},
+		sound: "graduate",
 	},
 	{
 		name: "bấm, ấn (nút)",
@@ -6118,6 +6835,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "押します",
 		},
+		sound: "press",
 	},
 	{
 		name: "uống (bia, rượu)",
@@ -6126,6 +6844,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "飲みます",
 		},
+		sound: "drink",
 	},
 	{
 		name: "bắt đầu",
@@ -6134,6 +6853,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "始めます",
 		},
+		sound: "start",
 	},
 	{
 		name: "tham quan kiến tập",
@@ -6142,6 +6862,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "見学します",
 		},
+		sound: "observe",
 	},
 	{
 		name: "gọi điện thoại",
@@ -6150,6 +6871,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "電話します",
 		},
+		sound: "make_a_phone_call",
 	},
 	{
 		name: "trẻ",
@@ -6158,6 +6880,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "若い",
 		},
+		sound: "young",
 	},
 	{
 		name: "dài",
@@ -6166,6 +6889,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "長い",
 		},
+		sound: "long",
 	},
 	{
 		name: "ngắn",
@@ -6174,6 +6898,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "短い",
 		},
+		sound: "short",
 	},
 	{
 		name: "sáng",
@@ -6182,6 +6907,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "明るい",
 		},
+		sound: "bright",
 	},
 	{
 		name: "tối",
@@ -6190,6 +6916,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "暗い",
 		},
+		sound: "dark",
 	},
 	{
 		name: "người, cơ thể",
@@ -6198,6 +6925,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "体",
 		},
+		sound: "body",
 	},
 	{
 		name: "đầu",
@@ -6206,6 +6934,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "頭",
 		},
+		sound: "head",
 	},
 	{
 		name: "tóc",
@@ -6214,6 +6943,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "髪",
 		},
+		sound: "hair",
 	},
 	{
 		name: "mặt",
@@ -6222,6 +6952,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "顔",
 		},
+		sound: "face",
 	},
 	{
 		name: "mắt",
@@ -6230,6 +6961,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "目",
 		},
+		sound: "eye",
 	},
 	{
 		name: "tai",
@@ -6238,6 +6970,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "耳",
 		},
+		sound: "ear",
 	},
 	{
 		name: "mũi",
@@ -6246,6 +6979,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "鼻",
 		},
+		sound: "nose",
 	},
 	{
 		name: "miệng",
@@ -6254,6 +6988,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "口",
 		},
+		sound: "mouth",
 	},
 	{
 		name: "răng",
@@ -6262,6 +6997,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "歯",
 		},
+		sound: "tooth",
 	},
 	{
 		name: "bụng",
@@ -6270,6 +7006,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "stomach",
 	},
 	{
 		name: "chân",
@@ -6278,6 +7015,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "足",
 		},
+		sound: "leg",
 	},
 	{
 		name: "chiều cao (cơ thể)",
@@ -6286,6 +7024,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "背",
 		},
+		sound: "height",
 	},
 	{
 		name: "dịch vụ",
@@ -6294,6 +7033,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "サービス",
 			kanji: null,
 		},
+		sound: "service",
 	},
 	{
 		name: "việc chạy bộ (をします: chạy bộ)",
@@ -6302,6 +7042,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "ジョギング",
 			kanji: null,
 		},
+		sound: "jogging",
 	},
 	{
 		name: "vòi hoa sen",
@@ -6310,6 +7051,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "シャワー",
 			kanji: null,
 		},
+		sound: "shower",
 	},
 	{
 		name: "màu xanh lá cây",
@@ -6318,6 +7060,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "緑",
 		},
+		sound: "green",
 	},
 	{
 		name: "chùa",
@@ -6326,6 +7069,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "寺",
 		},
+		sound: "temple",
 	},
 	{
 		name: "đền thờ đạo thần",
@@ -6334,6 +7078,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "神社",
 		},
+		sound: "shrine",
 	},
 	{
 		name: "số ―",
@@ -6342,6 +7087,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "一番",
 		},
+		sound: "number_―",
 	},
 	{
 		name: "làm thế nào",
@@ -6350,6 +7096,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "how_to",
 	},
 	{
 		name: "cái nào (dùng với trường hợp từ ba thứ trở lên)",
@@ -6358,6 +7105,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "which_~",
 	},
 	{
 		name: "cái nào (dùng với trường hợp ba cái hoặc nhiều hơn)",
@@ -6366,6 +7114,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "which_one",
 	},
 	{
 		name: "Thật là tuyệt vời. / Kinh quá nhỉ.",
@@ -6374,6 +7123,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "amazing",
 	},
 	{
 		name: "[không,] tôi còn kém lắm. (cách nói khiêm nhường khi ai đó khen)",
@@ -6382,6 +7132,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_yet",
 	},
 	{
 		name: "Anh/ chị rút tiền ạ?",
@@ -6390,6 +7141,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "お引き出しですか。",
 		},
+		sound: "withdraw_money",
 	},
 	{
 		name: "trước hết, đầu tiên",
@@ -6398,6 +7150,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "first",
 	},
 	{
 		name: "tiếp theo, sau đó",
@@ -6406,6 +7159,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "次に",
 		},
+		sound: "next",
 	},
 	{
 		name: "thẻ ngân hàng, thẻ ATM",
@@ -6414,6 +7168,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "キャッシュカード",
 			kanji: null,
 		},
+		sound: "cash_card",
 	},
 	{
 		name: "mã số bí mật (mật khẩu)",
@@ -6422,6 +7177,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "暗証番号",
 		},
+		sound: "pin_number",
 	},
 	{
 		name: "số tiền, khoản tiền",
@@ -6430,14 +7186,16 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "金額",
 		},
+		sound: "amount_of_money",
 	},
 	{
-		name: "sự xác nhận, sự kiểm tra (します：xác nhận)",
+		name: "sự xác nhận, sự kiểm tra (~します：xác nhận)",
 		character: {
 			hiragana: "かくにん",
 			katakana: null,
 			kanji: "確認",
 		},
+		sound: "confirmation",
 	},
 	{
 		name: "nút",
@@ -6446,6 +7204,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "ボタン",
 			kanji: null,
 		},
+		sound: "button",
 	},
 	{
 		name: "công ty đường sắt Nhật Bản",
@@ -6454,6 +7213,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "ＪＲ",
 			kanji: null,
 		},
+		sound: "JR",
 	},
 	{
 		name: "Lễ hội tuyết",
@@ -6462,6 +7222,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "雪祭り",
 		},
+		sound: "Snow_Festival",
 	},
 	{
 		name: "Bandung (ở Indonesia)",
@@ -6470,6 +7231,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "バンドン",
 			kanji: null,
 		},
+		sound: "Bandung",
 	},
 	{
 		name: "Franken (ở Đức)",
@@ -6478,6 +7240,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "フランケン",
 			kanji: null,
 		},
+		sound: "Franken",
 	},
 	{
 		name: "Veracruz (ở Mexico)",
@@ -6486,6 +7249,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: "ベラクルス",
 			kanji: null,
 		},
+		sound: "Veracruz",
 	},
 	{
 		name: "tên một quận ở Osaka",
@@ -6494,6 +7258,7 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "梅田",
 		},
+		sound: "Umeda",
 	},
 	{
 		name: "tên một điểm dừng xe buýt (giả tưởng)",
@@ -6502,10 +7267,11 @@ const lessonSixteen: Array<Iword> = [
 			katakana: null,
 			kanji: "大学前",
 		},
+		sound: "University_Entrance",
 	},
 ];
 
-const lessonSeventeen: Array<Iword> = [
+export const lessonSeventeen: Iword[] = [
 	{
 		name: "nhớ",
 		character: {
@@ -6513,6 +7279,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "覚えます",
 		},
+		sound: "remember",
 	},
 	{
 		name: "quên",
@@ -6521,6 +7288,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "忘れます",
 		},
+		sound: "forget",
 	},
 	{
 		name: "mất, đánh mất",
@@ -6529,6 +7297,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "lose",
 	},
 	{
 		name: "trả tiền",
@@ -6537,6 +7306,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "払います",
 		},
+		sound: "pay",
 	},
 	{
 		name: "trả lại",
@@ -6545,6 +7315,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "返します",
 		},
+		sound: "return",
 	},
 	{
 		name: "ra ngoài",
@@ -6553,6 +7324,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "出かけます",
 		},
+		sound: "go_out",
 	},
 	{
 		name: "cởi (quần áo, giầy)",
@@ -6561,6 +7333,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "脱ぎます",
 		},
+		sound: "take_off",
 	},
 	{
 		name: "mang đi, mang theo",
@@ -6569,6 +7342,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "持って行きます",
 		},
+		sound: "take_with",
 	},
 	{
 		name: "mang đến",
@@ -6577,6 +7351,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "持って来ます",
 		},
+		sound: "bring",
 	},
 	{
 		name: "lo lắng",
@@ -6585,6 +7360,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "心配します",
 		},
+		sound: "worry",
 	},
 	{
 		name: "làm thêm, làm quá giờ",
@@ -6593,6 +7369,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "残業します",
 		},
+		sound: "work_overtime",
 	},
 	{
 		name: "đi công tác",
@@ -6601,6 +7378,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "出張します",
 		},
+		sound: "business_trip",
 	},
 	{
 		name: "uống [thuốc]",
@@ -6609,6 +7387,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "飲みます",
 		},
+		sound: "take_medicine",
 	},
 	{
 		name: "tắm bồn [vào bồn tắm]",
@@ -6617,6 +7396,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "入ります",
 		},
+		sound: "take_a_bath",
 	},
 	{
 		name: "quan trọng, quý giá",
@@ -6625,6 +7405,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "大切",
 		},
+		sound: "important",
 	},
 	{
 		name: "không sao, không có vấn đề gì",
@@ -6633,6 +7414,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "大丈夫",
 		},
+		sound: "okay",
 	},
 	{
 		name: "nguy hiểm",
@@ -6641,6 +7423,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "危ない",
 		},
+		sound: "dangerous",
 	},
 	{
 		name: "cấm hút thuốc",
@@ -6649,6 +7432,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "禁煙",
 		},
+		sound: "no_smoking",
 	},
 	{
 		name: "thẻ bảo hiểm [y tế]",
@@ -6657,6 +7441,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "[健康]保険証",
 		},
+		sound: "insurance_card",
 	},
 	{
 		name: "sốt",
@@ -6665,6 +7450,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "熱",
 		},
+		sound: "fever",
 	},
 	{
 		name: "ốm, bệnh",
@@ -6673,6 +7459,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "病気",
 		},
+		sound: "illness",
 	},
 	{
 		name: "thuốc",
@@ -6681,6 +7468,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "薬",
 		},
+		sound: "medicine",
 	},
 	{
 		name: "bồn tắm",
@@ -6689,6 +7477,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "bath",
 	},
 	{
 		name: "áo khoác",
@@ -6697,6 +7486,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "上着",
 		},
+		sound: "coat",
 	},
 	{
 		name: "quần áo lót",
@@ -6705,6 +7495,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "下着",
 		},
+		sound: "underwear",
 	},
 	{
 		name: "2,3 ngày, vài ngày",
@@ -6713,6 +7504,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "２，３日",
 		},
+		sound: "two_or_three_days",
 	},
 	{
 		name: "vài (“” là hậu tố đếm)",
@@ -6721,6 +7513,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "several_~",
 	},
 	{
 		name: "trước  (chỉ thời hạn)",
@@ -6729,6 +7522,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "by_~",
 	},
 	{
 		name: "vì thế, vì vậy, do đó",
@@ -6737,6 +7531,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "so",
 	},
 	{
 		name: "Có vấn đề gì?<br>Anh/chị bị làm sao?",
@@ -6745,6 +7540,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "what_happened",
 	},
 	{
 		name: "họng",
@@ -6753,6 +7549,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "throat",
 	},
 	{
 		name: "Tôi bị đau [].",
@@ -6761,6 +7558,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: "痛い",
 		},
+		sound: "pain",
 	},
 	{
 		name: "cảm, cúm",
@@ -6769,6 +7567,7 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "cold",
 	},
 	{
 		name: "và, sau đó",
@@ -6777,18 +7576,20 @@ const lessonSeventeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "and_then",
 	},
 	{
-		name: "Anh/chị nhớ giữ gìn sức khỏe.<br> (câu nói với người ốm,bị bệnh)",
+		name: "Anh/chị nhớ giữ gìn sức khỏe. (câu nói với người ốm,bị bệnh)",
 		character: {
 			hiragana: "おだいじに",
 			katakana: null,
 			kanji: "お大事に",
 		},
+		sound: "take_care",
 	},
 ];
 
-const lessonEighteen: Array<Iword> = [
+export const lessonEighteen: Iword[] = [
 	{
 		name: "có thể",
 		character: {
@@ -6796,6 +7597,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "can",
 	},
 	{
 		name: "rửa",
@@ -6804,6 +7606,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "洗います",
 		},
+		sound: "wash",
 	},
 	{
 		name: "chơi (nhạc cụ)",
@@ -6812,6 +7615,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "弾きます",
 		},
+		sound: "play_instrument",
 	},
 	{
 		name: "hát",
@@ -6820,6 +7624,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "歌います",
 		},
+		sound: "sing",
 	},
 	{
 		name: "sưu tầm, thu thập",
@@ -6828,6 +7633,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "集めます",
 		},
+		sound: "collect",
 	},
 	{
 		name: "vứt, bỏ đi",
@@ -6836,6 +7642,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "捨てます",
 		},
+		sound: "discard",
 	},
 	{
 		name: "đổi",
@@ -6844,6 +7651,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "換えます",
 		},
+		sound: "exchange",
 	},
 	{
 		name: "lái",
@@ -6852,6 +7660,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "運転します",
 		},
+		sound: "drive",
 	},
 	{
 		name: "đặt chỗ, đặt trước",
@@ -6860,6 +7669,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "予約します",
 		},
+		sound: "reserve",
 	},
 	{
 		name: "đàn Piano",
@@ -6868,6 +7678,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: "ピアノ",
 			kanji: null,
 		},
+		sound: "piano",
 	},
 	{
 		name: "― mét",
@@ -6876,6 +7687,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: "―メートル",
 			kanji: null,
 		},
+		sound: "meter",
 	},
 	{
 		name: "tiền mặt",
@@ -6884,6 +7696,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "現金",
 		},
+		sound: "cash",
 	},
 	{
 		name: "sở thích, thú vui",
@@ -6892,6 +7705,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "趣味",
 		},
+		sound: "hobby",
 	},
 	{
 		name: "nhật ký",
@@ -6900,6 +7714,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "日記",
 		},
+		sound: "diary",
 	},
 	{
 		name: "việc cầu nguyện (～をします：cầu nguyện)",
@@ -6908,6 +7723,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "[お]祈り",
 		},
+		sound: "prayer",
 	},
 	{
 		name: "tổ trưởng",
@@ -6916,6 +7732,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "課長",
 		},
+		sound: "section_chief",
 	},
 	{
 		name: "trưởng phòng",
@@ -6924,6 +7741,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "部長",
 		},
+		sound: "department_manager",
 	},
 	{
 		name: "giám đốc",
@@ -6932,6 +7750,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "社長",
 		},
+		sound: "president",
 	},
 	{
 		name: "động vật",
@@ -6940,6 +7759,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "動物",
 		},
+		sound: "animal",
 	},
 	{
 		name: "ngựa",
@@ -6948,6 +7768,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "馬",
 		},
+		sound: "horse",
 	},
 	{
 		name: "internet",
@@ -6956,6 +7777,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: "インターネット",
 			kanji: null,
 		},
+		sound: "internet",
 	},
 	{
 		name: "đặt biệt là",
@@ -6964,6 +7786,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "特に",
 		},
+		sound: "especially",
 	},
 	{
 		name: "thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
@@ -6972,6 +7795,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "really",
 	},
 	{
 		name: "Hay thật nhỉ.",
@@ -6980,6 +7804,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "that_is_interesting",
 	},
 	{
 		name: "khó mà, mãi mà (dùng với thể phủ định)",
@@ -6988,6 +7813,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "difficult_to",
 	},
 	{
 		name: "Thật không ạ?",
@@ -6996,6 +7822,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "is_it_true",
 	},
 	{
 		name: "nhất định, rất",
@@ -7004,6 +7831,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "definitely",
 	},
 	{
 		name: 'Furusato(tên bài hát có nghĩa "quê nhà")',
@@ -7012,6 +7840,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "故郷",
 		},
+		sound: "hometown",
 	},
 	{
 		name: "Beatles, một băng nhạc nổi tiếng nước Anh",
@@ -7020,6 +7849,7 @@ const lessonEighteen: Array<Iword> = [
 			katakana: "ビートルズ",
 			kanji: null,
 		},
+		sound: "the_beatles",
 	},
 	{
 		name: "một quận ở Tokyo",
@@ -7028,10 +7858,11 @@ const lessonEighteen: Array<Iword> = [
 			katakana: null,
 			kanji: "秋葉原",
 		},
+		sound: "akihabara",
 	},
 ];
 
-const lessonNineTeen: Array<Iword> = [
+export const lessonNineteen: Iword[] = [
 	{
 		name: "leo [núi]",
 		character: {
@@ -7039,6 +7870,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "登ります",
 		},
+		sound: "climb_mountain",
 	},
 	{
 		name: "trọ [ở khách sạn]",
@@ -7047,6 +7879,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "泊まります",
 		},
+		sound: "stay_at_hotel",
 	},
 	{
 		name: "dọn vệ sinh",
@@ -7055,6 +7888,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "掃除します",
 		},
+		sound: "clean",
 	},
 	{
 		name: "giặt",
@@ -7063,6 +7897,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "洗濯します",
 		},
+		sound: "wash_clothes",
 	},
 	{
 		name: "trở thành, trở nên",
@@ -7071,6 +7906,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "become",
 	},
 	{
 		name: "buồn ngủ",
@@ -7079,6 +7915,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "眠い",
 		},
+		sound: "sleepy",
 	},
 	{
 		name: "mạnh",
@@ -7087,6 +7924,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "強い",
 		},
+		sound: "strong",
 	},
 	{
 		name: "yếu",
@@ -7095,6 +7933,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "弱い",
 		},
+		sound: "weak",
 	},
 	{
 		name: "gôn (～をします:chơi gôn)",
@@ -7103,6 +7942,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: "ゴルフ",
 			kanji: null,
 		},
+		sound: "golf",
 	},
 	{
 		name: "vật Sumo",
@@ -7111,6 +7951,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "相撲",
 		},
+		sound: "sumo",
 	},
 	{
 		name: "trà",
@@ -7119,6 +7960,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "お茶",
 		},
+		sound: "tea",
 	},
 	{
 		name: "ngày",
@@ -7127,6 +7969,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "日",
 		},
+		sound: "day",
 	},
 	{
 		name: "tình trạng, trạng thái",
@@ -7135,6 +7978,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "調子",
 		},
+		sound: "condition",
 	},
 	{
 		name: "một lần",
@@ -7143,6 +7987,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "一度",
 		},
+		sound: "once",
 	},
 	{
 		name: "chưa lần nào",
@@ -7151,6 +7996,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "一度も",
 		},
+		sound: "never",
 	},
 	{
 		name: "dần dần",
@@ -7159,6 +8005,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "gradually",
 	},
 	{
 		name: "sắp",
@@ -7167,6 +8014,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "soon",
 	},
 	{
 		name: "nhờ ơn anh/ chị mà  ; Nhờ trời ",
@@ -7175,6 +8023,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thanks_to",
 	},
 	{
 		name: "nhưng",
@@ -7183,6 +8032,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "but",
 	},
 	{
 		name: "nâng cốc!/cạn chén",
@@ -7191,6 +8041,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "乾杯",
 		},
+		sound: "cheers",
 	},
 	{
 		name: "việc ăn kiêng, chế độ giảm cân (～をします:ăn kiêng)",
@@ -7199,6 +8050,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: "ダイエット",
 			kanji: null,
 		},
+		sound: "diet",
 	},
 	{
 		name: "không thể, quá sức",
@@ -7207,6 +8059,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "無理",
 		},
+		sound: "impossible",
 	},
 	{
 		name: "tốt cho sức khỏe",
@@ -7215,6 +8068,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "体にいい",
 		},
+		sound: "healthy",
 	},
 	{
 		name: "Tokyo Sky Tree (tháp truyền hình có đài ngắm)",
@@ -7223,6 +8077,7 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "tokyo_sky_tree",
 	},
 	{
 		name: "Katsushika Hokusai (1760-1849), một họa sĩ nổi tiếng thời Edo",
@@ -7231,10 +8086,11 @@ const lessonNineTeen: Array<Iword> = [
 			katakana: null,
 			kanji: "葛飾北斎",
 		},
+		sound: "katsushika_hokusai",
 	},
 ];
 
-const lessonTwenty: Array<Iword> = [
+export const lessonTwenty: Iword[] = [
 	{
 		name: "cần [thị thực (visa)]",
 		character: {
@@ -7242,6 +8098,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "要ります",
 		},
+		sound: "need_visa",
 	},
 	{
 		name: "tìm hiểu, điều tra, xem",
@@ -7250,6 +8107,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "調べます",
 		},
+		sound: "investigate",
 	},
 	{
 		name: "sửa chữa, tu sửa",
@@ -7258,6 +8116,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "修理します",
 		},
+		sound: "repair",
 	},
 	{
 		name: "tớ (cách xưng thân mật của わたし  được dùng bởi nam giới)",
@@ -7266,6 +8125,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "僕",
 		},
+		sound: "boku",
 	},
 	{
 		name: "cậu, bạn (cách gọi thân mật của あなた dùng cho người ngang hàng hoặc ít tuổi hơn.)",
@@ -7274,6 +8134,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "君",
 		},
+		sound: "kimi",
 	},
 	{
 		name: "anh, cậu (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)",
@@ -7282,6 +8143,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "～君",
 		},
+		sound: "kun",
 	},
 	{
 		name: "ừ (cách nói thân mật của 「はい」)",
@@ -7290,6 +8152,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "uhn",
 	},
 	{
 		name: "không (cách nói thân mật của 「いいえ」)",
@@ -7298,6 +8161,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "no",
 	},
 	{
 		name: "từ, tiếng",
@@ -7306,6 +8170,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "word",
 	},
 	{
 		name: "Kimono (trang phục truyền thống của Nhật Bản)",
@@ -7314,6 +8179,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "着物",
 		},
+		sound: "kimono",
 	},
 	{
 		name: "thị thực, Visa",
@@ -7322,6 +8188,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: "ビザ",
 			kanji: null,
 		},
+		sound: "visa",
 	},
 	{
 		name: "ban đầu, đầu tiên",
@@ -7330,6 +8197,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "始め",
 		},
+		sound: "beginning",
 	},
 	{
 		name: "kết thúc",
@@ -7338,6 +8206,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: "終わり",
 		},
+		sound: "end",
 	},
 	{
 		name: "phía này, chỗ này (cách nói thân mật của 「こちら」)",
@@ -7346,6 +8215,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "this_side",
 	},
 	{
 		name: "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
@@ -7354,6 +8224,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "that_side",
 	},
 	{
 		name: "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
@@ -7362,6 +8233,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "that_side_over_there",
 	},
 	{
 		name: "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
@@ -7370,6 +8242,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "which_side",
 	},
 	{
 		name: "mọi người cùng",
@@ -7378,6 +8251,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "everyone_together",
 	},
 	{
 		name: "nhưng (cách nói thân mật của 「が」)",
@@ -7386,6 +8260,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "but",
 	},
 	{
 		name: "(Tôi) no rồi",
@@ -7394,6 +8269,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "full",
 	},
 	{
 		name: "Nếu anh/chị thích thì",
@@ -7402,6 +8278,7 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "if_you_like",
 	},
 	{
 		name: "nhiều thứ",
@@ -7410,10 +8287,11 @@ const lessonTwenty: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "various_things",
 	},
 ];
 
-const lessonTwentyOne: Array<Iword> = [
+export const lessonTwentyOne: Iword[] = [
 	{
 		name: "nghĩ",
 		character: {
@@ -7421,6 +8299,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "思います",
 		},
+		sound: "think",
 	},
 	{
 		name: "nói",
@@ -7429,6 +8308,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "言います",
 		},
+		sound: "say",
 	},
 	{
 		name: "thắng",
@@ -7437,6 +8317,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "勝ちます",
 		},
+		sound: "win",
 	},
 	{
 		name: "thua",
@@ -7445,6 +8326,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "負けます",
 		},
+		sound: "lose",
 	},
 	{
 		name: "được tổ chức, diễn ra, có [lễ hội]",
@@ -7453,6 +8335,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "あります",
 		},
+		sound: "take_place",
 	},
 	{
 		name: "giúp ích",
@@ -7461,6 +8344,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "役に立ちます",
 		},
+		sound: "helpful",
 	},
 	{
 		name: "chuyển động, chạy",
@@ -7469,6 +8353,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "動きます",
 		},
+		sound: "move",
 	},
 	{
 		name: "bỏ, thôi [việc công ty]",
@@ -7477,6 +8362,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "会社を～",
 		},
+		sound: "quit",
 	},
 	{
 		name: "chú ý, bảo trọng",
@@ -7485,6 +8371,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "気をつけます",
 		},
+		sound: "be_careful",
 	},
 	{
 		name: "du học",
@@ -7493,6 +8380,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "留学します",
 		},
+		sound: "study_abroad",
 	},
 	{
 		name: "lãng phí, vô ích",
@@ -7501,6 +8389,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "wasteful",
 	},
 	{
 		name: "bất tiện",
@@ -7509,6 +8398,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "不便",
 		},
+		sound: "inconvenient",
 	},
 	{
 		name: "ghê quá, giỏi quá",
@@ -7517,6 +8407,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "amazing",
 	},
 	{
 		name: "sự thật",
@@ -7525,6 +8416,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "truth",
 	},
 	{
 		name: "giả dối, nói dối",
@@ -7533,6 +8425,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "lie",
 	},
 	{
 		name: "ô tô, xe hơi",
@@ -7541,6 +8434,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "自動車",
 		},
+		sound: "car",
 	},
 	{
 		name: "giao thông",
@@ -7549,6 +8443,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "交通",
 		},
+		sound: "traffic",
 	},
 	{
 		name: "giá cả, mức giá, vật giá",
@@ -7557,6 +8452,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "物価",
 		},
+		sound: "prices",
 	},
 	{
 		name: "phát, phát thanh",
@@ -7565,6 +8461,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "放送",
 		},
+		sound: "broadcast",
 	},
 	{
 		name: "tin tức, bản tin",
@@ -7573,6 +8470,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "ニュース",
 			kanji: null,
 		},
+		sound: "news",
 	},
 	{
 		name: "phim hoạt hình (Nhật Bản)",
@@ -7581,6 +8479,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "アニメ",
 			kanji: null,
 		},
+		sound: "anime",
 	},
 	{
 		name: "truyện tranh",
@@ -7589,6 +8488,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "マンガ",
 			kanji: null,
 		},
+		sound: "manga",
 	},
 	{
 		name: "thiết kế",
@@ -7597,6 +8497,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "デザイン",
 			kanji: null,
 		},
+		sound: "design",
 	},
 	{
 		name: "giấc mơ",
@@ -7605,6 +8506,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "夢",
 		},
+		sound: "dream",
 	},
 	{
 		name: "thiên tài",
@@ -7613,6 +8515,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "天才",
 		},
+		sound: "genius",
 	},
 	{
 		name: "trận đấu",
@@ -7621,6 +8524,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "試合",
 		},
+		sound: "match",
 	},
 	{
 		name: "ý kiến",
@@ -7629,6 +8533,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "意見",
 		},
+		sound: "opinion",
 	},
 	{
 		name: "câu chuyện, bài nói chuyện",
@@ -7637,6 +8542,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "話",
 		},
+		sound: "story",
 	},
 	{
 		name: "trái đất",
@@ -7645,6 +8551,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "地球",
 		},
+		sound: "earth",
 	},
 	{
 		name: "mặt trăng",
@@ -7653,6 +8560,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "月",
 		},
+		sound: "moon",
 	},
 	{
 		name: "gần đây",
@@ -7661,6 +8569,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "最近",
 		},
+		sound: "recently",
 	},
 	{
 		name: "chắc, có thể",
@@ -7669,6 +8578,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "probably",
 	},
 	{
 		name: "chắc chắn, nhất định",
@@ -7677,6 +8587,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "certainly",
 	},
 	{
 		name: "thật sự",
@@ -7685,6 +8596,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "really",
 	},
 	{
 		name: "(không) lắm",
@@ -7693,6 +8605,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "not_really",
 	},
 	{
 		name: "về",
@@ -7701,6 +8614,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "about",
 	},
 	{
 		name: "Đã lâu không gặp nhỉ.",
@@ -7709,6 +8623,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "long_time_no_see",
 	},
 	{
 		name: "Anh/chị uống (cà-phê, rượu hay cái gì đó) nhé.",
@@ -7717,6 +8632,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "would_you_like_to_drink",
 	},
 	{
 		name: "tất nhiên",
@@ -7725,6 +8641,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "of_course",
 	},
 	{
 		name: "Tôi phải về bây giờ không thì …",
@@ -7733,6 +8650,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "I_have_to_go_home_now",
 	},
 	{
 		name: "Albert Einstein (1879-1955)",
@@ -7741,6 +8659,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "アインシュタイン",
 			kanji: null,
 		},
+		sound: "Albert_Einstein",
 	},
 	{
 		name: "Yuri Alekseyevich Gagarin (1934-1968)",
@@ -7749,6 +8668,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "ガガーリン",
 			kanji: null,
 		},
+		sound: "Yuri_Gagarin",
 	},
 	{
 		name: "Galileo Galilei (1564-1642)",
@@ -7757,6 +8677,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "ガリレオ",
 			kanji: null,
 		},
+		sound: "Galileo_Galilei",
 	},
 	{
 		name: "Mục sư Martin Luther King, JR. (1929-1968)",
@@ -7765,6 +8686,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "キング牧師",
 		},
+		sound: "Martin_Luther_King",
 	},
 	{
 		name: "Benjamin Franklin (1706-1790)",
@@ -7773,6 +8695,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "フランクリン",
 			kanji: null,
 		},
+		sound: "Benjamin_Franklin",
 	},
 	{
 		name: "công chúa Kaguya",
@@ -7781,6 +8704,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "かぐや姫",
 		},
+		sound: "princess_kaguya",
 	},
 	{
 		name: "Lễ hội Tenjin (ở Osaka)",
@@ -7789,6 +8713,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "天神祭",
 		},
+		sound: "tenjin_festival",
 	},
 	{
 		name: "núi Yoshino (ở tỉnh Nara)",
@@ -7797,6 +8722,7 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: null,
 			kanji: "吉野山",
 		},
+		sound: "yoshino_mountain",
 	},
 	{
 		name: "con kăng-gu-ru, chuột túi",
@@ -7805,14 +8731,16 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "カンガルー",
 			kanji: null,
 		},
+		sound: "kangaroo",
 	},
 	{
-		name: "thuyền trưởng Cook (James Cook 1728 – 79)",
+		name: "thuyền trưởng Cook (James Cook 1728 - 79)",
 		character: {
 			hiragana: null,
 			katakana: "キャプテン・クック",
 			kanji: null,
 		},
+		sound: "captain_cook",
 	},
 	{
 		name: "tên công ty (giả định)",
@@ -7821,10 +8749,11 @@ const lessonTwentyOne: Array<Iword> = [
 			katakana: "ヨーネン",
 			kanji: null,
 		},
+		sound: "company_name",
 	},
 ];
 
-const lessonTwentyTwo: Array<Iword> = [
+export const lessonTwentyTwo: Iword[] = [
 	{
 		name: "mặc [áo sơ mi, v.v.]",
 		character: {
@@ -7832,6 +8761,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "着ます",
 		},
+		sound: "wear_shirt",
 	},
 	{
 		name: "đi, mặc [giầy, quần âu, v.v.]",
@@ -7840,6 +8770,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "wear_shoes",
 	},
 	{
 		name: "đội [mũ, v.v.]",
@@ -7848,6 +8779,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "wear_hat",
 	},
 	{
 		name: "đeo [kính]",
@@ -7856,6 +8788,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "眼鏡を～",
 		},
+		sound: "wear_glasses",
 	},
 	{
 		name: "đeo [cà vạt]",
@@ -7864,6 +8797,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "wear_tie",
 	},
 	{
 		name: "sinh ra",
@@ -7872,6 +8806,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "生まれます",
 		},
+		sound: "be_born",
 	},
 	{
 		name: "chúng tôi, chúng ta",
@@ -7880,6 +8815,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "we",
 	},
 	{
 		name: "áo khoác",
@@ -7888,6 +8824,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "コート",
 			kanji: null,
 		},
+		sound: "coat",
 	},
 	{
 		name: "áo len",
@@ -7896,6 +8833,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "セーター",
 			kanji: null,
 		},
+		sound: "sweater",
 	},
 	{
 		name: "com-lê",
@@ -7904,6 +8842,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "スーツ",
 			kanji: null,
 		},
+		sound: "suit",
 	},
 	{
 		name: "mũ",
@@ -7912,6 +8851,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "帽子",
 		},
+		sound: "hat",
 	},
 	{
 		name: "kính",
@@ -7920,6 +8860,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "眼鏡",
 		},
+		sound: "glasses",
 	},
 	{
 		name: "bánh ngọt",
@@ -7928,6 +8869,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "ケーキ",
 			kanji: null,
 		},
+		sound: "cake",
 	},
 	{
 		name: "cơm hộp",
@@ -7936,6 +8878,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "お弁当",
 		},
+		sound: "bento",
 	},
 	{
 		name: "ro bốt",
@@ -7944,6 +8887,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "ロボット",
 			kanji: null,
 		},
+		sound: "robot",
 	},
 	{
 		name: "sự hài hước",
@@ -7952,6 +8896,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "ユーモア",
 			kanji: null,
 		},
+		sound: "humor",
 	},
 	{
 		name: "(sự) thích hợp",
@@ -7960,6 +8905,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "都合",
 		},
+		sound: "convenience",
 	},
 	{
 		name: "thường, hay",
@@ -7968,6 +8914,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "often",
 	},
 	{
 		name: "ừ, à",
@@ -7976,6 +8923,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "um",
 	},
 	{
 		name: "Chúc mừng.",
@@ -7984,6 +8932,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "congratulations",
 	},
 	{
 		name: "Anh/chị tìm  à?",
@@ -7992,6 +8941,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "are_you_looking_for",
 	},
 	{
 		name: "Thế/Vậy (nhé)",
@@ -8000,6 +8950,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "then",
 	},
 	{
 		name: "cái này (cách nói lịch sự của [これ])",
@@ -8008,6 +8959,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "this_way",
 	},
 	{
 		name: "tiền thuê nhà",
@@ -8016,6 +8968,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "やちん",
 		},
+		sound: "rent",
 	},
 	{
 		name: "bếp kèm phòng ăn",
@@ -8024,6 +8977,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "ダイニングキチン",
 			kanji: null,
 		},
+		sound: "dining_kitchen",
 	},
 	{
 		name: "phòng kiểu Nhật",
@@ -8032,6 +8986,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "わしつ",
 		},
+		sound: "japanese_room",
 	},
 	{
 		name: "Chổ để chăn gối trong một căn phòng kiểu Nhật",
@@ -8040,6 +8995,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "おいれ",
 		},
+		sound: "closet",
 	},
 	{
 		name: "chăn, đệm",
@@ -8048,6 +9004,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "ふとん",
 		},
+		sound: "futon",
 	},
 	{
 		name: "Pari",
@@ -8056,6 +9013,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "パリ",
 			kanji: null,
 		},
+		sound: "paris",
 	},
 	{
 		name: "Vạn Lý Trường Thành",
@@ -8064,6 +9022,7 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: null,
 			kanji: "ばんりのちょうじょう",
 		},
+		sound: "great_wall_of_china",
 	},
 	{
 		name: "tiêu đề bài điều tra (giả định)",
@@ -8072,10 +9031,11 @@ const lessonTwentyTwo: Array<Iword> = [
 			katakana: "みんなのアンケート",
 			kanji: null,
 		},
+		sound: "survey_title",
 	},
 ];
 
-const lessonTwentyThree: Array<Iword> = [
+export const lessonTwentyThree: Iword[] = [
 	{
 		name: "hỏi [giáo viên]",
 		character: {
@@ -8083,6 +9043,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "聞きます",
 		},
+		sound: "ask_teacher",
 	},
 	{
 		name: "vặn (núm)",
@@ -8091,6 +9052,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "回します",
 		},
+		sound: "turn_knob",
 	},
 	{
 		name: "kéo",
@@ -8099,6 +9061,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "引きます",
 		},
+		sound: "pull",
 	},
 	{
 		name: "đổi",
@@ -8107,6 +9070,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "変えます",
 		},
+		sound: "change",
 	},
 	{
 		name: "sờ, chạm vào [cửa]",
@@ -8115,6 +9079,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "触ります",
 		},
+		sound: "touch_door",
 	},
 	{
 		name: "[tiền thừa] ra, chạy ra",
@@ -8123,6 +9088,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "出ます",
 		},
+		sound: "come_out",
 	},
 	{
 		name: "đi bộ",
@@ -8131,6 +9097,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "歩きます",
 		},
+		sound: "walk",
 	},
 	{
 		name: "qua, đi qua [cầu]",
@@ -8139,6 +9106,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "渡ります",
 		},
+		sound: "cross_bridge",
 	},
 	{
 		name: "rẽ, quẹo [phải]",
@@ -8147,6 +9115,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "曲がります",
 		},
+		sound: "turn_right",
 	},
 	{
 		name: "buồn, cô đơn",
@@ -8155,6 +9124,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "寂しい",
 		},
+		sound: "lonely",
 	},
 	{
 		name: "nước nóng",
@@ -8163,6 +9133,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "お湯",
 		},
+		sound: "hot_water",
 	},
 	{
 		name: "âm thanh",
@@ -8171,6 +9142,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "音",
 		},
+		sound: "sound",
 	},
 	{
 		name: "cỡ, kích thước",
@@ -8179,6 +9151,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: "サイズ",
 			kanji: null,
 		},
+		sound: "size",
 	},
 	{
 		name: "hỏng (します：bị hỏng)",
@@ -8187,6 +9160,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "故障",
 		},
+		sound: "breakdown",
 	},
 	{
 		name: "đường",
@@ -8195,6 +9169,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "道",
 		},
+		sound: "road",
 	},
 	{
 		name: "ngã tư",
@@ -8203,6 +9178,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "交差点",
 		},
+		sound: "intersection",
 	},
 	{
 		name: "đèn tín hiệu",
@@ -8211,6 +9187,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "信号",
 		},
+		sound: "traffic_light",
 	},
 	{
 		name: "góc",
@@ -8219,6 +9196,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "角",
 		},
+		sound: "corner",
 	},
 	{
 		name: "cầu",
@@ -8227,6 +9205,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "橋",
 		},
+		sound: "bridge",
 	},
 	{
 		name: "bãi đỗ xe",
@@ -8235,6 +9214,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "駐車場",
 		},
+		sound: "parking_lot",
 	},
 	{
 		name: "tòa nhà",
@@ -8243,6 +9223,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "建物",
 		},
+		sound: "building",
 	},
 	{
 		name: "nhiều lần",
@@ -8251,6 +9232,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: "何回も",
 		},
+		sound: "many_times",
 	},
 	{
 		name: "thứ - , số - (biểu thị thứ tự)",
@@ -8259,6 +9241,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: "―目",
 			kanji: null,
 		},
+		sound: "ordinal_number",
 	},
 	{
 		name: "Thái tử Shotoku (574 – 622)",
@@ -8267,6 +9250,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "prince_shotoku",
 	},
 	{
 		name: "Chùa Horyu-ji (một ngôi chùa ở Nara do hoàng tử Shotoku xây vào thế kỷ thứ 7)",
@@ -8275,6 +9259,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "horyu_ji_temple",
 	},
 	{
 		name: "tên một loại trà (giả tưởng)",
@@ -8283,6 +9268,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "imaginary_tea",
 	},
 	{
 		name: "tên một nhà ga (giả tưởng)",
@@ -8291,6 +9277,7 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "imaginary_station",
 	},
 	{
 		name: "tên một bến xe buýt (giả tưởng)",
@@ -8299,10 +9286,11 @@ const lessonTwentyThree: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "imaginary_bus_stop",
 	},
 ];
 
-const lessonTwentyFour: Array<Iword> = [
+export const lessonTwentyFour: Iword[] = [
 	{
 		name: "cho, tặng (tôi)",
 		character: {
@@ -8310,6 +9298,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "give_to_me",
 	},
 	{
 		name: "chữa, sửa",
@@ -8318,6 +9307,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "直します",
 		},
+		sound: "repair_fix",
 	},
 	{
 		name: "dẫn đi",
@@ -8326,6 +9316,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "連れて行きます",
 		},
+		sound: "take_along",
 	},
 	{
 		name: "dẫn đến",
@@ -8334,6 +9325,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "連れて来ます",
 		},
+		sound: "bring_along",
 	},
 	{
 		name: "đưa đi, đưa đến, tiễn [một ai đó]",
@@ -8342,6 +9334,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "送ります",
 		},
+		sound: "see_off_send",
 	},
 	{
 		name: "giới thiệu",
@@ -8350,6 +9343,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "紹介します",
 		},
+		sound: "introduce",
 	},
 	{
 		name: "hướng dẫn, giới thiệu, dẫn đường",
@@ -8358,6 +9352,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "案内します",
 		},
+		sound: "guide_show_around",
 	},
 	{
 		name: "giải thích, trình bày",
@@ -8366,6 +9361,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "説明します",
 		},
+		sound: "explain",
 	},
 	{
 		name: "ông nội, ông ngoại, ông",
@@ -8374,6 +9370,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "grandfather",
 	},
 	{
 		name: "bà nội, bà ngoại, bà",
@@ -8382,6 +9379,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "grandmother",
 	},
 	{
 		name: "chuẩn bị",
@@ -8390,6 +9388,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "準備",
 		},
+		sound: "preparation",
 	},
 	{
 		name: "sự chuyển nhà",
@@ -8398,6 +9397,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "引っ越し",
 		},
+		sound: "moving_house",
 	},
 	{
 		name: "bánh kẹo",
@@ -8406,6 +9406,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "菓子",
 		},
+		sound: "sweets_candy",
 	},
 	{
 		name: "homestay",
@@ -8414,6 +9415,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: "ホームステイ",
 			kanji: null,
 		},
+		sound: "homestay",
 	},
 	{
 		name: "toàn bộ, tất cả",
@@ -8422,6 +9424,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "全部",
 		},
+		sound: "all_entire",
 	},
 	{
 		name: "tự (mình)",
@@ -8430,6 +9433,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "自分で",
 		},
+		sound: "by_myself",
 	},
 	{
 		name: "ngoài ra, bên cạnh đó",
@@ -8438,6 +9442,7 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "besides",
 	},
 	{
 		name: "Ngày của Mẹ",
@@ -8446,10 +9451,11 @@ const lessonTwentyFour: Array<Iword> = [
 			katakana: null,
 			kanji: "母の日",
 		},
+		sound: "mothers_day",
 	},
 ];
 
-const lessonTwentyFive: Array<Iword> = [
+export const lessonTwentyFive: Iword[] = [
 	{
 		name: "nghĩ, suy nghĩ",
 		character: {
@@ -8457,6 +9463,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "考えます",
 		},
+		sound: "think",
 	},
 	{
 		name: "đến",
@@ -8465,6 +9472,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "着きます",
 		},
+		sound: "arrive",
 	},
 	{
 		name: "thêm [tuổi]",
@@ -8473,6 +9481,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "取ります",
 		},
+		sound: "grow_older",
 	},
 	{
 		name: "đủ",
@@ -8481,6 +9490,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "足ります",
 		},
+		sound: "enough",
 	},
 	{
 		name: "quê, nông thôn",
@@ -8489,6 +9499,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "田舎",
 		},
+		sound: "countryside",
 	},
 	{
 		name: "cơ hội",
@@ -8497,6 +9508,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: "チャンス",
 			kanji: null,
 		},
+		sound: "chance",
 	},
 	{
 		name: "một trăm triệu",
@@ -8505,6 +9517,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "億",
 		},
+		sound: "hundred_million",
 	},
 	{
 		name: "nếu [ thì]",
@@ -8513,6 +9526,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "if",
 	},
 	{
 		name: "nghĩa, ý nghĩa",
@@ -8521,6 +9535,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "意味",
 		},
+		sound: "meaning",
 	},
 	{
 		name: "A-lô",
@@ -8529,6 +9544,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "hello",
 	},
 	{
 		name: "việc chuyển địa điểm làm việc (～します: chuyển địa điểm làm việc)",
@@ -8537,6 +9553,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "転勤",
 		},
+		sound: "job_transfer",
 	},
 	{
 		name: "việc , chuyện (の　こと: việc )",
@@ -8545,6 +9562,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "matter",
 	},
 	{
 		name: "thời gian rảnh",
@@ -8553,6 +9571,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "暇",
 		},
+		sound: "free_time",
 	},
 	{
 		name: "Anh/chị đã giúp tôi (nhiều).",
@@ -8561,6 +9580,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: null,
 		},
+		sound: "thank_you_for_your_help",
 	},
 	{
 		name: "cố, cố gắng",
@@ -8569,6 +9589,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "頑張ります",
 		},
+		sound: "do_my_best",
 	},
 	{
 		name: "Chúc anh/chị mạnh khỏe.",
@@ -8577,6 +9598,7 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: null,
 			kanji: "どうぞお元気で。",
 		},
+		sound: "best_wishes",
 	},
 	{
 		name: "Việt Nam",
@@ -8585,9 +9607,9 @@ const lessonTwentyFive: Array<Iword> = [
 			katakana: "ベトナム",
 			kanji: null,
 		},
+		sound: "vietnam",
 	},
 ];
-
 export const LessonCollection = new Map<string, Array<Iword>>([
 	["lesson_1", lessonOne],
 	["lesson_2", lessonTwo],
@@ -8607,7 +9629,7 @@ export const LessonCollection = new Map<string, Array<Iword>>([
 	["lesson_16", lessonSixteen],
 	["lesson_17", lessonSeventeen],
 	["lesson_18", lessonEighteen],
-	["lesson_19", lessonNineTeen],
+	["lesson_19", lessonNineteen],
 	["lesson_20", lessonTwenty],
 	["lesson_21", lessonTwentyOne],
 	["lesson_22", lessonTwentyTwo],
@@ -8617,29 +9639,29 @@ export const LessonCollection = new Map<string, Array<Iword>>([
 ]);
 
 export const LessonList = new Map([
-	["lesson_1", 'Bài 1'],
-	["lesson_2", 'Bài 2'],
-	["lesson_3", 'Bài 3'],
-	["lesson_4", 'Bài 4'],
-	["lesson_5", 'Bài 5'],
-	["lesson_6", 'Bài 6'],
-	["lesson_7", 'Bài 7'],
-	["lesson_8", 'Bài 8'],
-	["lesson_9", 'Bài 9'],
-	["lesson_10", 'Bài 10'],
-	["lesson_11", 'Bài 11'],
-	["lesson_12", 'Bài 12'],
-	["lesson_13", 'Bài 13'],
-	["lesson_14", 'Bài 14'],
-	["lesson_15", 'Bài 15'],
-	["lesson_16", 'Bài 16'],
-	["lesson_17", 'Bài 17'],
-	["lesson_18", 'Bài 18'],
-	["lesson_19", 'Bài 19'],
-	["lesson_20", 'Bài 20'],
-	["lesson_21", 'Bài 21'],
-	["lesson_22", 'Bài 22'],
-	["lesson_23", 'Bài 23'],
-	["lesson_24", 'Bài 24'],
-	["lesson_25", 'Bài 25'],
-])
+	["lesson_1", "Bài 1"],
+	["lesson_2", "Bài 2"],
+	["lesson_3", "Bài 3"],
+	["lesson_4", "Bài 4"],
+	["lesson_5", "Bài 5"],
+	["lesson_6", "Bài 6"],
+	["lesson_7", "Bài 7"],
+	["lesson_8", "Bài 8"],
+	["lesson_9", "Bài 9"],
+	["lesson_10", "Bài 10"],
+	["lesson_11", "Bài 11"],
+	["lesson_12", "Bài 12"],
+	["lesson_13", "Bài 13"],
+	["lesson_14", "Bài 14"],
+	["lesson_15", "Bài 15"],
+	["lesson_16", "Bài 16"],
+	["lesson_17", "Bài 17"],
+	["lesson_18", "Bài 18"],
+	["lesson_19", "Bài 19"],
+	["lesson_20", "Bài 20"],
+	["lesson_21", "Bài 21"],
+	["lesson_22", "Bài 22"],
+	["lesson_23", "Bài 23"],
+	["lesson_24", "Bài 24"],
+	["lesson_25", "Bài 25"],
+]);

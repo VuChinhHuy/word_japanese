@@ -7,12 +7,14 @@ interface SettingState {
 	beforeVi: boolean;
 	isLikeList: boolean;
 	isLearnedList: boolean;
+	isFlipCard: boolean;
 	getSetting: () => void;
 	toggleModeTheme: (mode: "light" | "dark") => void;
 	setKanji: (isKanji: boolean) => void;
 	setBeforeVi: (before: boolean) => void;
 	setIsLikeList: (like: boolean) => void;
 	setIsLearnedList: (learned: boolean) => void;
+	setIsFlipCard: (flip: boolean) =>void;
 }
 export const useSetting = createWithEqualityFn<SettingState>((set, get) => ({
 	modeTheme: "light",
@@ -20,6 +22,7 @@ export const useSetting = createWithEqualityFn<SettingState>((set, get) => ({
 	beforeVi: true,
 	isLearnedList: false,
 	isLikeList: false,
+	isFlipCard: false,
 	getSetting: () => {
 		const mode = localStorage.getItem("modeTheme");
 		get().toggleModeTheme(!mode || mode == "dark" ? "dark" : "light");
@@ -31,6 +34,8 @@ export const useSetting = createWithEqualityFn<SettingState>((set, get) => ({
 		get().setIsLikeList(like || like === "like" ? true : false);
 		const learned = localStorage.getItem("learned");
 		get().setIsLearnedList(learned || learned === "learned" ? true : false);
+		const flip = localStorage.getItem("flip");
+		get().setIsFlipCard(flip || flip === "flip" ? true : false);
 	},
 	toggleModeTheme: (mode: "light" | "dark") => {
 		set({ modeTheme: mode });
@@ -68,5 +73,13 @@ export const useSetting = createWithEqualityFn<SettingState>((set, get) => ({
 			localStorage.removeItem("like");
 		}
 	},
+	setIsFlipCard: (flip:boolean)=>{
+		set({ isFlipCard: flip });
+		if (flip) {
+			localStorage.setItem("flip", "flip");
+		} else {
+			localStorage.removeItem("flip");
+		}
+	}
 	
 }),shallow);
