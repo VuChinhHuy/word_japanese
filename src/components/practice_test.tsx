@@ -59,12 +59,13 @@ export default function PracticeTest() {
     }
     if (jp) {
       setAnswer(answer.map(an => (an.name)))
+      playAudio(selectedLesson+'/'+currentWord?.sound)
     } else {
       setAnswer(answer.map(an => an.character.hiragana ?? an.character.katakana ?? ''))
+
     }
 
   }, [currentWord, setAnswer, setIsJp])
-
   function chooseAnswer(answer: string) {
     const correct = isJp ? currentWord?.name : (currentWord?.character.hiragana ?? currentWord?.character.katakana)
     if (correct === answer) {
