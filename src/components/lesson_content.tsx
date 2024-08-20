@@ -38,6 +38,9 @@ export function LessonContent() {
       } else if (e.key === 'ArrowRight') {
         changeWord(true);
       }
+      else if (e.key === ' ') {
+        playAudio(selectedLesson + '/'+lessonWord[indexWord]?.sound)
+      }
     }
 
     window.addEventListener('keydown', handleKeyDown);
