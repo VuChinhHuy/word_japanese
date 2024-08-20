@@ -35,28 +35,29 @@ export default function PracticeMatching() {
   }, [selectedLesson]);
 
   useEffect(() => {
-    if(numGame > lessonWord.length / 10 + 1) return
+    if (numGame > lessonWord.length / 10 + 1) return
     setWordsGame(generateMatchingWords(words, kanji));
   }, [words, kanji]);
 
   useEffect(() => {
-    if(endGame) return
+    if (endGame) return
     if (indexCorrect.length === 20 || words.length == indexCorrect.length / 2 || numGame === 0) {
       setIndexCorrect([]);
-      setWords(lessonWord.slice(numGame *10 , numGame * 10 + 10));
+      setWords(lessonWord.slice(numGame * 10, numGame * 10 + 10));
       setNumGame(numGame + 1);
     }
-  }, [indexCorrect, lessonWord, numGame,setIndexCorrect]);
+  }, [indexCorrect, lessonWord, numGame, setIndexCorrect]);
 
   useEffect(() => {
-    if (numGame > lessonWord.length / 10 + 1 ) {
+    if (numGame > lessonWord.length / 10 + 1) {
       setEndGame(true);
     }
   }, [numGame, lessonWord.length]);
 
-  useMemo(()=>{if(endGame)
+  useMemo(() => {
+    if (endGame)
       playAudio('congratulations')
-  },[endGame])
+  }, [endGame])
 
   const clickWord = useCallback((index: number) => {
     if (index === stIndex) return;

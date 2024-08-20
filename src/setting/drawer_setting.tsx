@@ -2,13 +2,14 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import clsx from 'clsx'
 import { useSetting } from '../store/setting_store';
 import BackgroundDialog from '../components/background_dialog';
+import { useLesson } from '../store/setting_lesson';
 interface IDrawerSetting {
   open: boolean,
   onClose: () => void
 }
 export default function DrawerSetting(props: IDrawerSetting) {
   const { open, onClose } = props;
-  const { isFlipCard, setIsFlipCard,beforeVi, setBeforeVi, kanji, setKanji, isLikeList, setIsLikeList, isLearnedList, setIsLearnedList } = useSetting(
+  const { isFlipCard, setIsFlipCard, beforeVi, setBeforeVi, kanji, setKanji, isLikeList, setIsLikeList, isLearnedList, setIsLearnedList } = useSetting(
     (state) => ({
       isFlipCard: state.isFlipCard,
       kanji: state.kanji,
@@ -22,6 +23,9 @@ export default function DrawerSetting(props: IDrawerSetting) {
       setIsLearnedList: state.setIsLearnedList,
     })
   )
+  const { isMatching } = useLesson(state => ({
+    isMatching: state.isMatching,
+  }))
   return (<>
     {open && <BackgroundDialog />}
     <div className={clsx(!open && "-z-50 transition-all duration-300 ", "relative z-[100] ")} role="dialog">
@@ -40,7 +44,7 @@ export default function DrawerSetting(props: IDrawerSetting) {
                   <h2 className="text-base font-semibold leading-6 " id="slide-over-title">Cài đặt</h2>
                 </div>
                 <div className="relative mt-6 flex-1 px-4 sm:px-6 flex-col gap-2">
-                <div className='flex flex-row justify-between'>
+                  <div className='flex flex-row justify-between'>
                     <p className='text-ellipsis'>Hiển thị dạng flip card</p>
                     <label className="inline-flex items-center mb-5 cursor-pointer">
                       <input type="checkbox" checked={isFlipCard} onChange={() => setIsFlipCard(!isFlipCard)} className="sr-only peer" />
@@ -50,7 +54,7 @@ export default function DrawerSetting(props: IDrawerSetting) {
                   <div className='flex flex-row justify-between'>
                     <p className='text-ellipsis'>Hiển thị Kanji</p>
                     <label className="inline-flex items-center mb-5 cursor-pointer">
-                      <input type="checkbox" checked={kanji} onChange={() => setKanji(!kanji)} className="sr-only peer" />
+                      <input disabled={isMatching} type="checkbox" checked={kanji} onChange={() => setKanji(!kanji)} className="sr-only peer" />
                       <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
                     </label>
                   </div>
@@ -67,15 +71,17 @@ export default function DrawerSetting(props: IDrawerSetting) {
                   <div className='flex flex-row mt-2 justify-between'>
                     <p className='text-ellipsis'>Từ đã thuộc</p>
                     <label className="inline-flex items-center mb-5 cursor-pointer">
-                      <input type="checkbox" checked={isLearnedList} onChange={() => { setIsLearnedList(!isLearnedList) 
-                       if(isLikeList) setIsLikeList(false)}} className="sr-only peer" />
+                      <input type="checkbox" checked={isLearnedList} onChange={() => {
+                        setIsLearnedList(!isLearnedList)
+                        if (isLikeList) setIsLikeList(false)
+                      }} className="sr-only peer" />
                       <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
                     </label>
                   </div>
                   <div className='flex flex-row justify-between'>
                     <p className='text-ellipsis'>Từ yêu thích</p>
                     <label className="inline-flex items-center mb-5 cursor-pointer">
-                      <input type="checkbox" checked={isLikeList} onChange={() => { setIsLikeList(!isLikeList); if(isLearnedList) setIsLearnedList(false) }} className="sr-only peer" />
+                      <input type="checkbox" checked={isLikeList} onChange={() => { setIsLikeList(!isLikeList); if (isLearnedList) setIsLearnedList(false) }} className="sr-only peer" />
                       <div className="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-teal-300 dark:peer-focus:ring-teal-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-teal-600 dark:peer-checked:bg-teal-300"></div>
                     </label>
                   </div>
