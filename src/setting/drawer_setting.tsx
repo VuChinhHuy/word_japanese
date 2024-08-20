@@ -31,7 +31,7 @@ export default function DrawerSetting(props: IDrawerSetting) {
     <div className={clsx(!open && "-z-50 transition-all duration-300 ", "relative z-[100] ")} role="dialog">
       <div className={clsx(!open && 'translate-x-full duration-300 transition-transform', "fixed inset-0 overflow-hidden")}>
         <div className="absolute inset-0 overflow-hidden">
-          <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+          <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
             <div className="pointer-events-auto relative w-screen max-w-md">
               <div className="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                 <button type="button" className="relative rounded-md dark:text-gray-300 text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-white" onClick={onClose}>
@@ -94,4 +94,3 @@ export default function DrawerSetting(props: IDrawerSetting) {
     </div>
   </>)
 }
-
