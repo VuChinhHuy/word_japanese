@@ -40,6 +40,10 @@ export function LessonContent() {
       }
       else if (e.key === ' ') {
         playAudio(selectedLesson + '/'+lessonWord[indexWord]?.sound)
+      }else if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        if(isFlipCard){
+          setIsVi(!isVi)
+        }
       }
     }
 
@@ -48,7 +52,7 @@ export function LessonContent() {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [indexWord, lessonWord.length]);
+  }, [indexWord, lessonWord.length, isVi]);
   function changeWord(plus: boolean) {
     setIsVi(beforeVi)
     if (plus) {
@@ -178,7 +182,7 @@ export function LessonContent() {
                     {kanji && <div className='m-6'>
                       <p className='font-[Kamikaze] md:text-[42px] text-[32px]'>{lessonWord[indexWord]?.character.kanji}</p>
                     </div>}
-                  </div>) : <div className='m-1 md:m-6 transition '>
+                  </div>) : <div className='m-1 md:m-6  md:text-[42px] text-[32px] transition '>
                     {lessonWord[indexWord]?.name}
                   </div>}
                 </div>
