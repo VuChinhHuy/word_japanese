@@ -74,15 +74,15 @@ export default function PracticeTest() {
     }else playAudio('wrong')
   }
 
-  return <div className="h-full w-full  flex justify-center items-center">
+  return <div className="h-full w-full flex justify-center items-center">
     <div className="flex flex-col h-full md:h-3/4 w-full lg:w-2/3 xl:w-1/2 mx-2 md:mx-0 justify-around items-center">
-      <div className='flex flex-row w-full justify-start items-start'>
-        <button onClick={() => { setIsTest(false) }} type="button" className='h-12 w-12 justify-between leading-5 font-semibold bg-teal-900/20  dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
-          <ArrowUturnLeftIcon className='size-9' />
+      <div className='flex flex-row w-full justify-start items-start mb-4 md:mb-0'>
+        <button onClick={() => { setIsTest(false) }} type="button" className='h-10 w-10 md:h-12 md:w-12 justify-between leading-5 font-semibold bg-teal-900/20 dark:bg-slate-400/10 text-teal-950 dark:text-teal-200 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:hover:bg-slate-200/20 dark:highlight-white/5'>
+          <ArrowUturnLeftIcon className='size-7 md:size-9' />
         </button>
       </div>
-      <div className="w-full h-1/2 md:h-3/5 flex justify-center items-center">
-        <div className="md:text-[42px] text-[32px]  text-teal-950 dark:text-teal-200">
+      <div className="w-full h-1/3 md:h-3/5 flex justify-center items-center">
+        <div className="text-[28px] md:text-[42px] text-teal-950 dark:text-teal-200">
           {isJp ? <>
             <p className=" font-[Kamikaze]">{currentWord?.character.hiragana ?? currentWord?.character.katakana}</p>
 
@@ -92,10 +92,10 @@ export default function PracticeTest() {
             <p className=" font-semibold">{currentWord?.name}</p>}
         </div>
       </div>
-      <div className="w-full h-1/2 my-5 md:my-0 ">
-        <div className="grid md:grid-rows-2 md:grid-flow-col gap-4 h-full w-full">
+      <div className="w-full h-1/2 my-2 md:my-0">
+        <div className="grid grid-cols-2 md:grid-rows-2 md:grid-flow-col gap-2 md:gap-4 h-full w-full">
           {answers.map((answer, index) => (
-            <button onClick={() => chooseAnswer(answer)} key={index} className="p-1  rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-[28px] leading-6 font-semibold bg-teal-900/20   dark:bg-slate-400/10  dark:highlight-white/5 text-gray-500 dark:text-gray-50">
+            <button onClick={() => chooseAnswer(answer)} key={index} className="p-1 rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-[20px] md:text-[28px] leading-6 font-semibold bg-teal-900/20 dark:bg-slate-400/10 dark:highlight-white/5 text-gray-500 dark:text-gray-50">
               {answer}
             </button>
           ))}

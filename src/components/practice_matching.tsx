@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Iword } from "../interface/Iword";
 import { useLesson } from "../store/setting_lesson";
@@ -104,13 +105,13 @@ export default function PracticeMatching() {
               onClick={() => clickWord(index)}
               className={clsx(
                 stIndex === index && 'shadow-lg shadow-teal-950 dark:shadow-teal-200 scale-105 transition-all duration-100',
-                'p-1 hover:text-clip truncate rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-[28px] leading-6 font-semibold dark:highlight-white/5 bg-teal-900/20 dark:bg-slate-400/10  text-gray-700 dark:text-green-300'
+                'p-1 hover:text-clip truncate rounded-lg overflow-auto shadow ring-1 ring-slate-900/5 text-base md:text-[28px] leading-6 font-semibold dark:highlight-white/5 bg-teal-900/20 dark:bg-slate-400/10  text-gray-700 dark:text-green-300'
                 , corrected && 'bg-gray-100/10 dark:bg-gray-100/10 transition-all duration-300',
               )}
             >
               <p className={clsx(corrected && 'dark:text-gray-300 text-gray-300', "pb-2 ")}>{kanji ? wordKanji.word : word}</p>
               {kanji && wordKanji.kanji && wordKanji.kanji !== 'null' && (
-                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300/10", !corrected && "text-gray-500 dark:text-lime-900")}>[ {wordKanji.kanji} ]</p>
+                <p className={clsx(corrected && "dark:text-gray-300 text-gray-300/10", !corrected && "text-gray-500 dark:text-lime-900", "text-sm md:text-base")}>[ {wordKanji.kanji} ]</p>
               )}
             </button>
           );
