@@ -3412,6 +3412,16 @@ export const lessonEight: Iword[] = [
 		note: "Tính từ đuôi な"
 	},
 	{
+		name: "Bất tiện",
+		character: {
+			hiragana: "ふべん",
+			katakana: null,
+			kanji: "不便",
+		},
+		sound: "",
+		note: "Tính từ đuôi な"
+	},
+	{
 		name: "đẹp, hay, tuyệt vời",
 		character: {
 			hiragana: "すてき",
@@ -3562,9 +3572,19 @@ export const lessonEight: Iword[] = [
 		note: "Tính từ đuôi い"
 	},
 	{
-		name: "thú vị, hay",
+		name: "thú vị",
 		character: {
 			hiragana: "おもしろい",
+			katakana: null,
+			kanji: null,
+		},
+		sound: "interesting",
+		note: "Tính từ đuôi い"
+	},
+	{
+		name: "nhàm chán",
+		character: {
+			hiragana: "つまらない",
 			katakana: null,
 			kanji: null,
 		},
@@ -3579,6 +3599,16 @@ export const lessonEight: Iword[] = [
 			kanji: null,
 		},
 		sound: "delicious",
+		note: "Tính từ đuôi い"
+	},
+	{
+		name: "dở",
+		character: {
+			hiragana: "まずい",
+			katakana: null,
+			kanji: null,
+		},
+		sound: "",
 		note: "Tính từ đuôi い"
 	},
 	{
@@ -3600,6 +3630,16 @@ export const lessonEight: Iword[] = [
 		},
 		sound: "fun",
 		note: "Tính từ đuôi い"
+	},
+	{
+		name: "vất vả",
+		character: {
+			hiragana: "たいへん",
+			katakana: null,
+			kanji: "大変",
+		},
+		sound: "",
+		note: "Tính từ đuôi　な"
 	},
 	{
 		name: "trắng",
@@ -3629,6 +3669,26 @@ export const lessonEight: Iword[] = [
 			kanji: "赤い",
 		},
 		sound: "red",
+		note: "Tính từ đuôi い"
+	},
+	{
+		name: "vàng",
+		character: {
+			hiragana: "きいろい",
+			katakana: null,
+			kanji: "黄色",
+		},
+		sound: "",
+		note: "Tính từ đuôi い"
+	},
+	{
+		name: "nâu",
+		character: {
+			hiragana: "ちゃいろい",
+			katakana: null,
+			kanji: "茶色",
+		},
+		sound: "",
 		note: "Tính từ đuôi い"
 	},
 	{
